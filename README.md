@@ -36,6 +36,25 @@ Para cambiarlos más adelante: subí `infra/conectar_secretos.sh` a [Cloud Shell
 **4. Volver a desplegar:** en GitHub → **Actions** → *deploy* → **Run workflow**.
 Al terminar, el resumen muestra la URL. Entrás con cualquier usuario y la contraseña del paso 3.
 
+## Qué tiene la app
+
+| Página | Quién la ve | Para qué |
+|---|---|---|
+| `/` | Ustedes (con clave) | Subir la foto de una prenda y obtener la ficha |
+| `/marca` | Ustedes (con clave) | Identidad de la marca: tono, colores, tipografías |
+| `/probador/prendas` | Ustedes (con clave) | Subir y borrar las prendas del probador |
+| `/probador` | Las clientas (sin clave) | Verse con las prendas puestas: sobre la modelo o sobre su propia foto |
+
+El probador genera con IA una foto de la persona con la prenda puesta (FLUX.2 [pro] en Azure, pagado con el
+crédito de Azure). Tarda unos 20 segundos por prenda.
+
+- **Modelo de ejemplo:** sus resultados se guardan, así que cada combinación se paga una sola vez.
+- **Foto de la clienta:** se envía a Azure solo si acepta el aviso; la app no guarda ni la foto ni el resultado.
+- **Topes de gasto:** 40 fotos generadas por día en total y 8 por persona (`PROBADOR_TOPE_DIA`, `PROBADOR_TOPE_IP`).
+- **Apagarlo ya, sin desplegar:**
+  `az containerapp update -n ca-indigo -g rg-indigo --set-env-vars PROBADOR_IA=0`
+- Las prendas y la modelo de ejemplo se cambian desde `/probador/prendas`.
+
 ## El día a día: cambiar la app con prompts
 
 ```bash
