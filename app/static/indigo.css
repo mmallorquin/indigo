@@ -78,21 +78,59 @@ dd ul, .lista { margin: 4px 0 0; padding-left: 20px; }
 /* Probador */
 [hidden] { display: none !important; }
 .centrado { text-align: center; }
+.chica { font-size: .75rem; margin: 4px 0; }
+.solo-lectores { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .secundario { background: transparent; color: var(--acento); border: 1px solid var(--acento); }
 .chico { padding: 8px 12px; font-size: .72rem; margin-top: 8px; }
 button:disabled { opacity: .55; cursor: wait; }
-.escenario { position: relative; width: 100%; max-width: 420px; aspect-ratio: 3 / 4; margin: 16px auto 10px; background: var(--panel); border: 1px solid var(--linea); overflow: hidden; }
-.escenario img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.velo { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-align: center; padding: 16px; background: color-mix(in srgb, var(--olivo-profundo) 78%, transparent); color: var(--marfil); }
-.velo b { font-family: var(--editorial); font-weight: 600; font-size: 1.7rem; animation: latir 1.4s ease-in-out infinite; }
+/* La parte principal ocupa justo una pantalla: persona, lo puesto, la rueda y el botón, sin tener que bajar */
+.probador { display: flex; flex-direction: column; max-width: 440px; margin: 0 auto; padding-top: 8px; height: calc(100vh - 66px); height: calc(100dvh - 66px); min-height: 540px; }
+.probador > * { flex: none; }
+.extras { max-width: 440px; margin: 0 auto; padding-top: 6px; }
+
+/* La persona, siempre arriba y al centro */
+.escenario { position: relative; flex: 1 1 auto; min-height: 0; width: 100%; margin: 0 auto 6px; background: #c9c3b9; border: 1px solid var(--linea); overflow: hidden; }
+.escenario img { width: 100%; height: calc(100% - 24px); object-fit: contain; display: block; }  /* contain: cuerpo entero; los 24px son para la leyenda */
+.girar { position: absolute; top: 10px; right: 10px; padding: 8px 9px; font-size: .64rem; background: var(--marfil); color: var(--olivo); border: 1px solid var(--olivo); }
+.vistas { position: absolute; left: 10px; top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.vistas button { padding: 7px 9px; font-size: .64rem; text-align: left; background: var(--marfil); color: var(--olivo); border: 1px solid var(--olivo); }
+.vistas button[aria-pressed="true"] { background: var(--olivo); color: var(--marfil); }
+.leyenda { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 4px 8px; font-size: .68rem; line-height: 1.3; text-align: center; background: color-mix(in srgb, var(--marfil) 88%, transparent); color: var(--tinta); }
+.velo { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-align: center; padding: 16px; background: color-mix(in srgb, var(--olivo-profundo) 78%, transparent); color: var(--marfil); font-size: .9rem; }
+.velo b { font-family: var(--editorial); font-weight: 600; font-size: 1.8rem; animation: latir 1.4s ease-in-out infinite; }
 @keyframes latir { 50% { opacity: .45; } }
-@media (prefers-reduced-motion: reduce) { .velo b { animation: none; } }
+
+/* Lo que ya está puesto */
+.puesto { display: flex; align-items: center; gap: 6px; min-height: 34px; font-size: .8rem; overflow-x: auto; white-space: nowrap; }
+.puesto b { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); }
+.puesto .vacio { border: 1px dashed var(--suave); padding: 4px 9px; color: var(--suave); }
+.puesto button { padding: 5px 9px; font-size: .8rem; letter-spacing: 0; text-transform: none; background: var(--panel); color: var(--texto); border: 1px solid var(--acento); }
+
+/* Categorías */
+.pestanas { display: flex; gap: 18px; overflow-x: auto; margin-top: 2px; border-bottom: 1px solid var(--linea); }
+.pestanas button { flex: none; padding: 10px 0 8px; background: none; color: var(--suave); border: 0; border-bottom: 2px solid transparent; border-radius: 0; font-size: .72rem; opacity: .8; }
+.pestanas button[aria-selected="true"] { color: var(--texto); border-bottom-color: var(--arena); opacity: 1; }
+.pestanas button.con-prenda::after { content: " ●"; color: var(--acento); font-size: .6em; vertical-align: middle; }
+
+/* La rueda: cartas en abanico que giran alrededor de un punto que queda debajo de la pantalla */
+.rueda { position: relative; height: 158px; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-select: none; outline-offset: -2px; }
+.carta { position: absolute; left: 50%; bottom: 8px; width: 93px; height: 124px; margin-left: -46.5px; padding: 0; background: #fff; border: 1px solid var(--arena); border-radius: 6px; overflow: hidden; transform-origin: 50% 260%; transition: transform .28s ease, opacity .28s ease; box-shadow: 0 4px 10px rgb(0 0 0 / .14); cursor: grab; }
+.carta img { width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; }
+.carta.centro { border: 2px solid var(--olivo); box-shadow: 0 8px 18px rgb(0 0 0 / .26); }
+.rueda.arrastrando .carta { transition: none; cursor: grabbing; }
+.flecha { position: absolute; top: 50%; z-index: 20; width: 34px; height: 44px; margin-top: -22px; padding: 0; background: color-mix(in srgb, var(--fondo) 80%, transparent); color: var(--acento); border: 0; font-size: 1.5rem; letter-spacing: 0; }
+.flecha.izquierda { left: 0; }
+.flecha.derecha { right: 0; }
+.nombre-prenda { margin: 6px 0; text-align: center; font-weight: 700; min-height: 1.5em; }
+.ancho { display: block; width: 100%; }
+.ancho.quitar { background: var(--olivo-profundo); color: var(--marfil); }
 .controles { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
-.percha { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 0 12px; margin-top: 12px; }
-.prenda { flex: 0 0 132px; scroll-snap-align: start; background: transparent; color: inherit; border: 1px solid var(--linea); padding: 8px; text-align: left; text-transform: none; letter-spacing: 0; font-size: .9rem; font-weight: 500; }
-.prenda[aria-pressed="true"] { border-color: var(--acento); background: var(--panel); box-shadow: inset 0 -4px 0 var(--acento); }
-.prenda img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; margin-bottom: 8px; background: #fff; }
-.prenda b { display: block; font-weight: 700; line-height: 1.25; }
+.controles > * { flex: 1 1 auto; text-align: center; }
+
+@media (prefers-reduced-motion: reduce) { .velo b { animation: none; } .carta { transition: none; } }
+@media (prefers-color-scheme: dark) { .ancho.quitar { background: var(--marfil); color: var(--tinta); } }
+
+/* Parte privada del probador */
 .recorte { background: #fff !important; }
 .foto-modelo { display: block; width: 160px; margin: 10px 0; border: 1px solid var(--linea); }
 dialog { max-width: min(92vw, 460px); padding: 22px; border: 1px solid var(--linea); border-radius: 2px; background: var(--fondo); color: var(--texto); }
@@ -103,3 +141,7 @@ dialog li { margin-bottom: 8px; }
 .formulario input[type=file] { margin: 6px 0 0; text-transform: none; letter-spacing: 0; font-weight: 500; }
 .formulario button { margin-top: 8px; }
 code { word-break: break-all; }
+
+/* En el probador el encabezado es más bajo: cada píxel va para la persona */
+.cabecera.baja div { padding-top: 5px; padding-bottom: 5px; }
+.cabecera.baja .logo img { width: 34px; height: 34px; }
