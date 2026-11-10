@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block contenido %}
+<form class="tarjeta" action="/fichar" method="post" enctype="multipart/form-data"
+      onsubmit="this.querySelector('button').disabled=true; this.querySelector('button').textContent='Armando la ficha…'">
+  <strong>Nueva prenda</strong>
+  <p class="suave">Sacá o elegí una foto. En unos segundos tenés la ficha.</p>
+  <input type="file" name="foto" accept="image/*" required>
+  <button type="submit">Armar ficha</button>
+  {% if error %}<p class="error">No se pudo armar la ficha: {{ error }}</p>{% endif %}
+</form>
+
+{% if recientes %}
+<section class="tarjeta">
+  <strong>Últimas fichas</strong>
+  <div class="grilla" style="margin-top:12px">
+    {% for r in recientes %}
+    <a href="/ficha/{{ r.id }}">
+      <img src="/foto/{{ r.id }}" alt="{{ r.ficha.nombre_sugerido }}" loading="lazy">
+      <div>{{ r.ficha.nombre_sugerido }}</div>
+      <div class="suave">{{ r.ficha.categoria }}</div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

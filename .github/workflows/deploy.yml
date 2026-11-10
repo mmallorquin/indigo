@@ -1,0 +1,86 @@
+# Cada push a main: prueba → arma la imagen Docker → la sube a ghcr.io → la despliega en Azure.
+# No hay contraseñas guardadas: GitHub se presenta ante Azure con un token de un solo uso (OIDC)
+# y Azure confía en él porque la identidad id-indigo-github tiene una "credencial federada"
+# para este repo y esta rama.
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # botón "Run workflow" para desplegar a mano
+
+permissions:
+  contents: read
+  packages: write # subir la imagen a ghcr.io
+  id-token: write # pedir el token OIDC para Azure
+
+env:
+  IMAGEN: ghcr.io/mmallorquin/indigo
+  AZURE_CLIENT_ID: 9144fa74-7c9f-4165-bfaf-735d2b2bc2b6 # identidad id-indigo-github (no es un secreto)
+  AZURE_TENANT_ID: fa9ff835-1d15-4b70-97be-ccb9691110e4
+  AZURE_SUBSCRIPTION_ID: fcbcdd9b-0601-4100-81be-515a342776d9
+  RESOURCE_GROUP: rg-indigo
+  CONTAINER_APP: ca-indigo
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: pytest -q
+
+  desplegar:
+    needs: probar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Entrar a ghcr.io
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Armar y subir la imagen
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ env.IMAGEN }}:${{ github.sha }}
+            ${{ env.IMAGEN }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Entrar a Azure (OIDC, sin contraseña)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Desplegar la nueva imagen
+        run: |
+          az config set extension.use_dynamic_install=yes_without_prompt
+          az containerapp update -n $CONTAINER_APP -g $RESOURCE_GROUP \
+            --image $IMAGEN:${{ github.sha }} \
+            --set-env-vars APP_VERSION=${{ github.sha }} -o none
+          URL=https://$(az containerapp show -n $CONTAINER_APP -g $RESOURCE_GROUP --query properties.configuration.ingress.fqdn -o tsv)
+          echo "Desplegado en $URL" >> $GITHUB_STEP_SUMMARY
+
+      - name: Comprobar que responde
+        run: |
+          URL=https://$(az containerapp show -n $CONTAINER_APP -g $RESOURCE_GROUP --query properties.configuration.ingress.fqdn -o tsv)
+          for i in $(seq 1 20); do
+            if curl -fsS "$URL/salud" | grep -q ${{ github.sha }}; then echo "OK: responde la versión nueva"; exit 0; fi
+            sleep 10
+          done
+          echo "La app no respondió con la versión nueva en 200 s"; exit 1

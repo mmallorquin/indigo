@@ -1,0 +1,21 @@
+# Datos de la marca. Completalo con tu pareja: todos los agentes lo leen.
+# Lo que dejes vacío, el agente no lo inventa.
+
+nombre = "Indigo"
+rubro = "tienda de ropa"
+ciudad = "Ciudad del Este, Paraguay"
+
+# A quién le venden (edad, estilo de vida, qué buscan)
+publico = ""
+
+# Cómo habla la marca. Ej.: "cercana, alegre, con voseo, sin exagerar"
+tono = ""
+
+# Estilos que más venden o que definen la tienda
+estilos_principales = []
+
+# Palabras o frases que la marca NO usa
+evitar = []
+
+# Cualquier otra cosa útil (promos fijas, envíos, horarios...)
+notas = ""

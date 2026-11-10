@@ -1,0 +1,13 @@
+agent-framework-core==1.25.0
+agent-framework-anthropic==1.0.0b261106
+agent-framework-openai==1.18.1
+azure-identity>=1.19
+azure-storage-blob>=12.24
+azure-keyvault-secrets>=4.9
+fastapi==0.162.2
+uvicorn[standard]>=0.32
+python-multipart>=0.0.18
+jinja2>=3.1
+pillow>=11
+pillow-heif>=1.0
+python-dotenv>=1.0

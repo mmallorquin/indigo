@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block contenido %}
+{% set f = r.ficha %}
+<article class="tarjeta">
+  <img class="foto-ficha" src="/foto/{{ r.id }}" alt="{{ f.nombre_sugerido }}">
+  <h2 style="margin:14px 0 2px">{{ f.nombre_sugerido }}</h2>
+  <div class="suave">{{ f.categoria }} · {{ f.temporada | replace('_', ' ') }} · confianza {{ f.confianza }}</div>
+  <p>{{ f.descripcion }}</p>
+
+  <dl>
+    <dt>Colores</dt><dd class="chips">{% for x in f.colores %}<span>{{ x }}</span>{% endfor %}</dd>
+    {% if f.material_aparente %}<dt>Material aparente</dt><dd>{{ f.material_aparente }}</dd>{% endif %}
+    <dt>Detalles</dt><dd class="chips">{% for x in f.detalles %}<span>{{ x }}</span>{% endfor %}</dd>
+    <dt>Estilo</dt><dd class="chips">{% for x in f.estilo %}<span>{{ x }}</span>{% endfor %}</dd>
+    <dt>Ocasiones</dt><dd class="chips">{% for x in f.ocasiones %}<span>{{ x }}</span>{% endfor %}</dd>
+    <dt>Combina con</dt><dd class="chips">{% for x in f.combina_con %}<span>{{ x }}</span>{% endfor %}</dd>
+    <dt>Palabras clave</dt><dd class="chips">{% for x in f.palabras_clave %}<span>#{{ x | replace(' ', '') }}</span>{% endfor %}</dd>
+    <dt>Para completar en la tienda</dt>
+    <dd><ul>{% for x in f.preguntas_para_la_tienda %}<li>{{ x }}</li>{% endfor %}</ul></dd>
+    {% if f.problemas_foto %}
+    <dt>Para mejorar la foto ({{ f.calidad_foto }})</dt>
+    <dd><ul>{% for x in f.problemas_foto %}<li>{{ x }}</li>{% endfor %}</ul></dd>
+    {% endif %}
+  </dl>
+  <p class="suave">{{ r.creado }} · {{ r.tokens.get('input_token_count', 0) }} + {{ r.tokens.get('output_token_count', 0) }} tokens ·
+    <a href="/ficha/{{ r.id }}/json">ver JSON</a></p>
+</article>
+<a class="boton" href="/">Otra prenda</a>
+{% endblock %}
