@@ -1,9 +1,10 @@
 {% extends "base.html" %}
+{% block titulo %}{{ r.ficha.nombre_sugerido }}{% endblock %}
 {% block contenido %}
 {% set f = r.ficha %}
 <article class="tarjeta">
   <img class="foto-ficha" src="/foto/{{ r.id }}" alt="{{ f.nombre_sugerido }}">
-  <h2 style="margin:14px 0 2px">{{ f.nombre_sugerido }}</h2>
+  <h1>{{ f.nombre_sugerido }}</h1>
   <div class="suave">{{ f.categoria }} · {{ f.temporada | replace('_', ' ') }} · confianza {{ f.confianza }}</div>
   <p>{{ f.descripcion }}</p>
 

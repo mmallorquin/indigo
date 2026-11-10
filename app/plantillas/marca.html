@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block titulo %}Marca{% endblock %}
+{% block contenido %}
+{% set i = marca.identidad %}
+<section class="tarjeta">
+  <img class="logo-grande" src="/static/{{ i.logo }}" alt="Logo de {{ marca.nombre }}" width="148" height="148">
+  <p class="etiqueta">{{ marca.rubro }} · {{ marca.ciudad }}</p>
+  <h1>{{ marca.nombre }}</h1>
+  <p class="suave">Esto es lo que leen los agentes antes de escribir. Sale de <code>marca.toml</code>: si algo está mal, se corrige ahí.</p>
+</section>
+
+<section class="tarjeta">
+  <h2>Cómo hablamos</h2>
+  <dl>
+    <dt>A quién le hablamos</dt><dd>{{ marca.publico }}</dd>
+    <dt>Tono</dt><dd>{{ marca.tono }}</dd>
+    <dt>Lo que más mostramos</dt>
+    <dd class="chips">{% for x in marca.estilos_principales %}<span>{{ x }}</span>{% endfor %}</dd>
+    <dt>Lo que no decimos</dt>
+    <dd><ul>{% for x in marca.evitar %}<li>{{ x }}</li>{% endfor %}</ul></dd>
+    <dt>Cómo vendemos</dt><dd>{{ marca.notas }}</dd>
+  </dl>
+</section>
+
+<section class="tarjeta">
+  <h2>Colores</h2>
+  <p class="suave">{{ i.origen }}</p>
+  <div class="colores">
+    {% for c in i.colores %}
+    <div>
+      <i style="background:{{ c.hex }}"></i>
+      <b>{{ c.nombre }}</b>
+      <code>{{ c.hex }}</code>
+      <span class="suave">{{ c.uso }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="tarjeta">
+  <h2>Tipografías</h2>
+  <dl>
+    {% for t in i.tipografias %}
+    <dt>{{ t.nombre }} · {{ t.pesos }}</dt>
+    <dd>
+      <p class="{{ 'muestra-inter' if t.nombre == 'Inter' else 'muestra-editorial' }}">Jeans para combinar a tu manera</p>
+      <span class="suave">{{ t.uso }}</span>
+    </dd>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="tarjeta">
+  <h2>Reglas de uso</h2>
+  <ul class="lista">{% for x in i.reglas %}<li>{{ x }}</li>{% endfor %}</ul>
+</section>
+
+<section class="tarjeta">
+  <h2>Contacto</h2>
+  <p>
+    <a href="{{ marca.contacto.whatsapp_url }}">WhatsApp {{ marca.contacto.whatsapp }}</a><br>
+    <a href="{{ marca.contacto.instagram }}">Instagram</a> · <a href="{{ marca.contacto.tiktok }}">TikTok</a>
+  </p>
+</section>
+{% endblock %}
