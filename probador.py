@@ -20,8 +20,14 @@ from PIL import Image, ImageOps
 
 log = logging.getLogger("indigo.probador")
 
-TIPOS = {"arriba": "Parte de arriba", "abajo": "Parte de abajo", "entera": "Prenda entera"}
-EN_INGLES = {"arriba": "a top", "abajo": "bottoms", "entera": "a full outfit"}
+# Nombre largo (para cargar la prenda) y pestaña corta (para la clienta). El orden es el de las pestañas.
+TIPOS = {"arriba": "Parte de arriba", "abajo": "Parte de abajo", "entera": "Prenda entera (vestido, enterito)",
+         "cinto": "Cinto", "accesorio": "Accesorio"}
+PESTANAS = {"arriba": "Arriba", "abajo": "Abajo", "entera": "Enteras", "cinto": "Cintos", "accesorio": "Accesorios"}
+EN_INGLES = {"arriba": "a top", "abajo": "bottoms", "entera": "a full outfit", "cinto": "a belt",
+             "accesorio": "an accessory"}
+ORDEN = {"arriba": 0, "entera": 1, "abajo": 2, "cinto": 3, "accesorio": 4}  # orden fijo en el pedido a la IA
+VISTAS = ("frente", "perfil", "espalda")
 CARPETA = "probador/"
 LADO_PERSONA = 1024  # px del lado más largo de la foto que se manda a la IA
 LADO_PRENDA = 768
@@ -56,20 +62,41 @@ def preparar_imagen(datos: bytes, lado: int, multiplo: int = 1) -> bytes:
         raise ValueError("El archivo no es una imagen que se pueda leer") from e
 
 
-def instruccion(tipos: list[str]) -> str:
+def conjunto_valido(tipos: list[str]) -> bool:
+    """Una prenda por categoría; una prenda entera no va junto con una de arriba o una de abajo."""
+    return (0 < len(tipos) == len(set(tipos))
+            and not ("entera" in tipos and {"arriba", "abajo"} & set(tipos)))
+
+
+def instruccion(tipos: list[str], vista: str = "frente", espaldas: list[bool] | None = None) -> str:
     """El pedido al modelo. En inglés porque así sigue mejor las instrucciones."""
-    refs = " and ".join(f"the garment from image {i} ({EN_INGLES[t]})" for i, t in enumerate(tipos, start=2))
-    return (
-        f"Virtual clothing try-on. Show the same person from image 1 now wearing {refs}, fitted naturally to "
-        "their body. Keep the person's face, hair, skin tone, body shape, pose, framing and the background "
-        "exactly the same as in image 1. Change only the clothes that the new garments replace; keep every "
-        "other piece of clothing as it is. Reproduce the garment's real color, fabric and details. "
-        "Photorealistic, natural fabric folds and lighting. Fully clothed."
+    espaldas = espaldas or [False] * len(tipos)
+    refs = " and ".join(
+        f"the garment from image {i} ({EN_INGLES[t]}{', photographed from the back' if atras else ''})"
+        for i, (t, atras) in enumerate(zip(tipos, espaldas), start=2)
     )
+    comun = (
+        f"Virtual clothing try-on. Show the same person from image 1 now wearing {refs}, fitted naturally to "
+        "their body. Keep the person's face, hair, skin tone and body shape, and the same background and "
+        "lighting as in image 1. Change only the clothes that the new garments replace; keep every other piece "
+        "of clothing as it is. Reproduce each garment's real color, fabric and details. Photorealistic, natural "
+        "fabric folds. Fully clothed."
+    )
+    encuadre = {
+        "frente": " Keep the pose and framing exactly as in image 1.",
+        "perfil": " Show the person turned 90 degrees in a full-body side profile view, standing straight, "
+                  "head to feet visible, at the same distance from the camera.",
+        "espalda": " Show the person from behind in a full-body back view, standing straight, head to feet "
+                   "visible, at the same distance from the camera.",
+    }
+    return comun + encuadre[vista]
 
 
 class ProbadorFlux:
-    """FLUX.2 [pro] en Microsoft Foundry: una foto de la persona + hasta dos prendas -> una foto nueva."""
+    """FLUX.2 [pro] en Microsoft Foundry: la foto de la persona + las prendas del conjunto -> una foto nueva.
+
+    Acepta hasta 8 imágenes por pedido; acá van como mucho 5 (la persona y 4 prendas).
+    """
 
     def __init__(self, endpoint: str):
         from azure.identity import DefaultAzureCredential
@@ -77,10 +104,11 @@ class ProbadorFlux:
         self._url = endpoint.rstrip("/") + "/providers/blackforestlabs/v1/flux-2-pro?api-version=preview"
         self._credencial = DefaultAzureCredential()
 
-    def generar(self, persona: bytes, prendas: list[bytes], tipos: list[str]) -> tuple[bytes, dict]:
+    def generar(self, persona: bytes, prendas: list[bytes], tipos: list[str], vista: str = "frente",
+                espaldas: list[bool] | None = None) -> tuple[bytes, dict]:
         with Image.open(io.BytesIO(persona)) as img:
             ancho, alto = img.size
-        pedido = {"model": "FLUX.2-pro", "prompt": instruccion(tipos), "output_format": "jpeg",
+        pedido = {"model": "FLUX.2-pro", "prompt": instruccion(tipos, vista, espaldas), "output_format": "jpeg",
                   "width": ancho, "height": alto, "input_image": base64.b64encode(persona).decode()}
         for i, prenda in enumerate(prendas, start=2):
             pedido[f"input_image_{i}"] = base64.b64encode(prenda).decode()
@@ -129,19 +157,24 @@ def prendas_visibles(almacen) -> list[dict]:
     return [p for p in todas if not p.get("ejemplo")] or todas
 
 
-def guardar_prenda(almacen, prenda: dict, foto: bytes) -> None:
-    almacen.escribir(f"{CARPETA}prendas/{prenda['id']}.jpg", preparar_imagen(foto, LADO_PRENDA), "image/jpeg")
-    almacen.escribir(f"{CARPETA}prendas/{prenda['id']}.json", json.dumps(prenda, ensure_ascii=False).encode(),
-                     "application/json")
+def guardar_prenda(almacen, prenda: dict, foto: bytes, espalda: bytes | None = None) -> None:
+    base = f"{CARPETA}prendas/{prenda['id']}"
+    almacen.escribir(f"{base}.jpg", preparar_imagen(foto, LADO_PRENDA), "image/jpeg")
+    if espalda:  # foto de atrás de la prenda: se usa solo para la vista "Espalda"
+        almacen.escribir(f"{base}_espalda.jpg", preparar_imagen(espalda, LADO_PRENDA), "image/jpeg")
+        prenda = {**prenda, "espalda": True}
+    almacen.escribir(f"{base}.json", json.dumps(prenda, ensure_ascii=False).encode(), "application/json")
 
 
 def borrar_prenda(almacen, id_: str) -> None:
-    for extension in (".jpg", ".json"):
-        almacen.borrar(f"{CARPETA}prendas/{id_}{extension}")
+    for final in (".jpg", "_espalda.jpg", ".json"):
+        almacen.borrar(f"{CARPETA}prendas/{id_}{final}")
 
 
-def foto_prenda(almacen, id_: str) -> bytes | None:
-    return almacen.leer(f"{CARPETA}prendas/{id_}.jpg") if id_.isalnum() else None
+def foto_prenda(almacen, id_: str, espalda: bool = False) -> bytes | None:
+    if not id_.isalnum():
+        return None
+    return almacen.leer(f"{CARPETA}prendas/{id_}{'_espalda' if espalda else ''}.jpg")
 
 
 # --- Topes de uso: cada imagen generada cuesta plata y la página es pública ---

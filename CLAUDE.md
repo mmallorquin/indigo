@@ -13,7 +13,7 @@ un cambio, explicá en 2–3 líneas qué concepto aplica (sin tutoriales largos
 - `secretos.py` — en Azure trae ANTHROPIC_API_KEY y APP_PASSWORD de Key Vault al arrancar (el entorno es *express*: no soporta Key Vault references).
 - `almacen.py` — Blob Storage (Azure) o memoria (local). Las fichas van en la raíz del contenedor; todo lo del probador, bajo `probador/`.
 - `probador.py` — probador virtual con IA: llama a FLUX.2 [pro] en el recurso de IA de Azure (`FLUX_ENDPOINT`) con la identidad administrada, sin API key. También el catálogo de prendas y los topes de gasto.
-- `app/static/probador.js` — la página del probador. La foto de la clienta se envía solo si acepta el aviso.
+- `app/static/probador.js` — la página del probador: persona al centro, rueda de prendas que gira al deslizar, Fijar/Quitar, fila "Puesto" y Girar (frente, perfil, espalda). Ojear la rueda no llama al servidor. Boceto aprobado en `docs/boceto-probador.jpg`.
 - `app/plantillas/` — HTML con Jinja2. Tiene que verse bien en el celular.
 - `app/static/` — `indigo.css`, logo y tipografías (Inter y Cormorant Garamond, licencia OFL). Se sirve sin contraseña.
 - `catalogo.py` — versión de línea de comandos para procesar una carpeta de fotos.
@@ -24,6 +24,8 @@ un cambio, explicá en 2–3 líneas qué concepto aplica (sin tutoriales largos
 - La foto de una clienta y su resultado no se guardan nunca: ni en Blob, ni en disco, ni en logs. Hay un test que lo comprueba.
 - Cada imagen generada cuesta plata y la página es pública: todo camino que genere tiene que pasar por `Topes.reservar`.
 - Los resultados de la modelo de ejemplo sí se guardan (`probador/cache/`) para no pagarlos dos veces.
+- Cada foto sale de UN pedido: la foto original de la persona + todas las prendas fijadas (hasta 4, una por categoría). No encadenar ediciones.
+- Perfil y Espalda son fotos aparte: cada una cuenta para el tope. La de espalda usa la foto de atrás de la prenda si la tienda la cargó.
 - Apagarlo sin desplegar: `PROBADOR_IA=0` en la Container App.
 
 ## Reglas

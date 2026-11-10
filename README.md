@@ -45,8 +45,12 @@ Al terminar, el resumen muestra la URL. Entrás con cualquier usuario y la contr
 | `/probador/prendas` | Ustedes (con clave) | Subir y borrar las prendas del probador |
 | `/probador` | Las clientas (sin clave) | Verse con las prendas puestas: sobre la modelo o sobre su propia foto |
 
-El probador genera con IA una foto de la persona con la prenda puesta (FLUX.2 [pro] en Azure, pagado con el
-crédito de Azure). Tarda unos 20 segundos por prenda.
+El probador genera con IA una foto de la persona con las prendas puestas (FLUX.2 [pro] en Azure, pagado con el
+crédito de Azure). Tarda unos 20 segundos por foto.
+
+Cómo se usa: la persona queda arriba, al centro. Debajo hay una rueda de prendas por categoría (Arriba, Abajo,
+Enteras, Cintos, Accesorios) que gira al deslizar. **Fijar** suma la prenda del centro al conjunto; **Girar** muestra
+el conjunto de frente, de perfil y de espalda. Ojear la rueda es gratis; solo Fijar y Girar generan una foto.
 
 - **Modelo de ejemplo:** sus resultados se guardan, así que cada combinación se paga una sola vez.
 - **Foto de la clienta:** se envía a Azure solo si acepta el aviso; la app no guarda ni la foto ni el resultado.
