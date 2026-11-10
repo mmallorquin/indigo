@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/static/indigo.css?v={{ version }}">
 </head>
 <body>
-<header class="cabecera">
+<header class="cabecera{% block cabecera %}{% endblock %}">
   <div>
     <a class="logo" href="{% block inicio %}/{% endblock %}" aria-label="{{ marca.nombre }}: inicio">
       <img src="/static/{{ marca.identidad.logo }}" alt="" width="44" height="44">

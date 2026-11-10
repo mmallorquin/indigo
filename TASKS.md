@@ -26,6 +26,26 @@ No se copió al repo: videos y colecciones de la carpeta de marketing (8,1 GB).
 - [ ] Revisar el costo real por foto en Cost Management después de unos días de uso
 - [ ] Probar con fotos reales de clientas y de prendas de la tienda, y ajustar la instrucción si hace falta
 
+## Parte 3 — Rediseño del probador (rueda de prendas)
+- [x] Persona al centro y rueda de prendas en abanico que gira al deslizar (dedo, flechas o teclado)
+- [x] Pestañas por categoría; se muestran solo las que tienen prendas. Categorías nuevas: cinto y accesorio
+- [x] Fijar / Quitar, fila "Puesto" con ✕, una prenda por categoría; la entera reemplaza arriba y abajo
+- [x] Conjunto de hasta 4 prendas en un solo pedido, desde la foto original
+- [x] Girar: frente, perfil y espalda; cada vista se genera al pedirla, cuenta para el tope y se guarda (solo con la modelo)
+- [x] Foto opcional de la espalda al cargar una prenda
+- [x] La parte principal entra en una pantalla de celular sin bajar
+- [x] Tests: 42 pasan. Revisado en celular simulado (iPhone 13 y SE), modo oscuro y escritorio
+- [ ] Cargar ejemplos de cintos y accesorios en Azure (después del deploy)
+- [ ] Ver en vivo cómo salen Perfil y Espalda con FLUX: hasta ahora solo se probaron con el proveedor falso
+
+Diferencias con el boceto:
+- Los botones Frente/Perfil/Espalda van a la izquierda de la persona, no abajo: abajo tapaban los pies.
+- La foto se ve entera (cabeza a pies) y más chica, en vez de recortada y grande.
+- La leyenda "Imagen generada con IA" va en una franja al pie de la foto.
+- La rueda no repite prendas para rellenar: con 2 prendas se ven 2 cartas.
+- "Usar mi foto" y WhatsApp quedan debajo, al bajar un poco.
+
 Decisiones:
+- Perfil y Espalda se generan desde la foto original + las prendas (no desde la foto de frente), para no guardar ni reenviar resultados de clientas. Puede haber pequeñas diferencias entre vistas.
 - Se descartó la primera versión (prenda dibujada encima de la foto) por poco realista.
 - No hay tope "por sesión": se controla por persona (IP) y por día, que es lo que protege el gasto.

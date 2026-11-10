@@ -26,8 +26,8 @@ class ProbadorFalso:
     def __init__(self, error=None):
         self.pedidos, self.error = [], error
 
-    def generar(self, persona, prendas, tipos):
-        self.pedidos.append(SimpleNamespace(persona=persona, prendas=prendas, tipos=tipos))
+    def generar(self, persona, prendas, tipos, vista="frente", espaldas=None):
+        self.pedidos.append(SimpleNamespace(persona=persona, prendas=prendas, tipos=tipos, vista=vista, espaldas=espaldas))
         if self.error:
             raise self.error
         return imagen("pink"), {"cost": 4.5}
@@ -35,7 +35,7 @@ class ProbadorFalso:
 
 @pytest.fixture
 def app_limpia(cliente, monkeypatch):  # noqa: F811
-    """Almacén vacío, probador falso, y dos prendas cargadas + modelo de ejemplo."""
+    """Almacén vacío, probador falso, una prenda de cada categoría + modelo de ejemplo."""
     from almacen import AlmacenMemoria
     from app import main
 
@@ -44,7 +44,8 @@ def app_limpia(cliente, monkeypatch):  # noqa: F811
     monkeypatch.setattr(main, "probador_ia", falso)
     monkeypatch.delenv("PROBADOR_TOPE_DIA", raising=False)
     monkeypatch.delenv("PROBADOR_TOPE_IP", raising=False)
-    for nombre, tipo in (("Blusa lino", "arriba"), ("Jean recto", "abajo"), ("Vestido largo", "entera")):
+    for nombre, tipo in (("Blusa lino", "arriba"), ("Jean recto", "abajo"), ("Vestido largo", "entera"),
+                         ("Cinto negro", "cinto"), ("Cartera chica", "accesorio")):
         r = cliente.post("/probador/prendas", auth=AUTH, data={"nombre": nombre, "tipo": tipo},
                          files={"foto": ("p.jpg", imagen("navy"), "image/jpeg")}, follow_redirects=False)
         assert r.status_code == 303
@@ -54,9 +55,9 @@ def app_limpia(cliente, monkeypatch):  # noqa: F811
     return SimpleNamespace(cliente=cliente, main=main, falso=falso, ids=ids)
 
 
-def probar(a, prendas, foto=None, acepto="si", ip=None):
+def probar(a, prendas, foto=None, acepto="si", ip=None, vista=None):
     archivos = {"foto": ("yo.jpg", foto, "image/jpeg")} if foto else None
-    datos = {"prendas": prendas, **({"acepto": acepto} if foto else {})}
+    datos = {"prendas": prendas, **({"acepto": acepto} if foto else {}), **({"vista": vista} if vista else {})}
     return a.cliente.post("/probador/probar", data=datos, files=archivos,
                           headers={"x-forwarded-for": ip} if ip else {})
 
@@ -100,19 +101,95 @@ def test_con_la_modelo_genera_una_vez_y_despues_reutiliza(app_limpia):
     assert uso["total"] == 1 and uso["costo"] == 4.5
 
 
-def test_combina_arriba_y_abajo_en_orden(app_limpia):
+def test_un_conjunto_de_varias_prendas_va_en_un_solo_pedido(app_limpia):
     a = app_limpia
-    assert probar(a, f"{a.ids['abajo']},{a.ids['arriba']}").status_code == 200
-    assert a.falso.pedidos[0].tipos == ["arriba", "abajo"]
+    ids = a.ids
+    r = probar(a, f"{ids['cinto']},{ids['abajo']},{ids['accesorio']},{ids['arriba']}")
+    assert r.status_code == 200
+    assert len(a.falso.pedidos) == 1  # una sola generación, no una por prenda
+    pedido = a.falso.pedidos[0]
+    assert pedido.tipos == ["arriba", "abajo", "cinto", "accesorio"] and len(pedido.prendas) == 4
+    with Image.open(io.BytesIO(pedido.persona)) as persona:  # parte de la foto original de la modelo
+        assert persona.getpixel((10, 10))[0] > 200  # beige, no el rosa que devuelve la IA de mentira
 
 
-@pytest.mark.parametrize("prendas", ["", "noexiste", "ARRIBA,ENTERA", "ARRIBA,ARRIBA2"])
+@pytest.mark.parametrize("prendas", ["", "noexiste", "ARRIBA,ENTERA", "ABAJO,ENTERA", "ARRIBA,ARRIBA2"])
 def test_rechaza_combinaciones_que_no_tienen_sentido(app_limpia, prendas):
     a = app_limpia
-    prendas = prendas.replace("ARRIBA2", "otra").replace("ARRIBA", a.ids["arriba"]).replace("ENTERA", a.ids["entera"])
+    for clave, id_ in a.ids.items():
+        prendas = prendas.replace(clave.upper() + "2", "otra").replace(clave.upper(), id_)
     r = probar(a, prendas or ",")
     assert r.status_code == 400 and r.json()["tipo"] == "pedido"
     assert a.falso.pedidos == []
+
+
+def test_una_prenda_por_categoria():
+    assert pb.conjunto_valido(["arriba", "abajo", "cinto", "accesorio"])
+    assert pb.conjunto_valido(["entera", "cinto"])
+    assert not pb.conjunto_valido(["arriba", "arriba"])
+    assert not pb.conjunto_valido(["cinto", "cinto"])
+    assert not pb.conjunto_valido(["entera", "abajo"])
+    assert not pb.conjunto_valido([])
+
+
+# --- Girar: frente, perfil y espalda ---
+
+def test_girar_genera_cada_vista_una_vez_y_cuenta_para_el_tope(app_limpia):
+    a = app_limpia
+    conjunto = f"{a.ids['arriba']},{a.ids['abajo']}"
+    for vista in ("frente", "perfil", "espalda"):
+        assert probar(a, conjunto, vista=vista).status_code == 200
+    assert [p.vista for p in a.falso.pedidos] == ["frente", "perfil", "espalda"]
+    assert pb.Topes(a.main.almacen).leer(a.main._hoy())["total"] == 3  # cada vista es una foto que se paga
+    assert len(a.main.almacen.listar("probador/cache/")) == 3
+
+    for vista in ("frente", "perfil", "espalda"):  # con la modelo quedan guardadas: no se pagan de nuevo
+        assert probar(a, conjunto, vista=vista).status_code == 200
+    assert len(a.falso.pedidos) == 3
+
+    assert probar(a, conjunto, vista="desde-arriba").status_code == 400
+
+
+def test_girar_respeta_el_tope_del_dia(app_limpia, monkeypatch):
+    a = app_limpia
+    monkeypatch.setenv("PROBADOR_TOPE_DIA", "2")
+    assert probar(a, a.ids["arriba"]).status_code == 200
+    assert probar(a, a.ids["arriba"], vista="perfil").status_code == 200
+    r = probar(a, a.ids["arriba"], vista="espalda")
+    assert r.status_code == 429 and r.json()["tipo"] == "limite"
+
+
+def test_la_vista_de_espalda_usa_la_foto_de_atras_de_la_prenda(app_limpia):
+    a = app_limpia
+    r = a.cliente.post("/probador/prendas", auth=AUTH, data={"nombre": "Campera", "tipo": "arriba"}, follow_redirects=False,
+                       files={"foto": ("f.jpg", imagen("red"), "image/jpeg"), "espalda": ("e.jpg", imagen("green"), "image/jpeg")})
+    assert r.status_code == 303
+    campera = next(p for p in pb.prendas(a.main.almacen) if p["nombre"] == "Campera")
+    assert campera["espalda"] is True
+    conjunto = f"{campera['id']},{a.ids['abajo']}"
+
+    def color_de_la_primera_prenda(pedido):
+        with Image.open(io.BytesIO(pedido.prendas[0])) as img:
+            r, g, _ = img.getpixel((5, 5))
+            return "rojo" if r > g else "verde"
+
+    assert probar(a, conjunto, vista="espalda").status_code == 200
+    assert probar(a, conjunto, vista="perfil").status_code == 200
+    atras, perfil = a.falso.pedidos
+    assert color_de_la_primera_prenda(atras) == "verde" and atras.espaldas == [True, False]  # el jean no tiene foto de atrás
+    assert color_de_la_primera_prenda(perfil) == "rojo" and perfil.espaldas == [False, False]
+    assert "photographed from the back" in pb.instruccion(atras.tipos, "espalda", atras.espaldas)
+
+    a.cliente.post(f"/probador/prendas/{campera['id']}/borrar", auth=AUTH)
+    assert not any(campera["id"] in n for n in a.main.almacen.listar("probador/prendas/"))  # se borran las tres piezas
+
+
+def test_la_instruccion_cambia_con_la_vista():
+    frente, perfil, espalda = (pb.instruccion(["entera", "cinto"], v) for v in pb.VISTAS)
+    assert "image 2 (a full outfit)" in frente and "image 3 (a belt)" in frente
+    assert "exactly as in image 1" in frente
+    assert "side profile view" in perfil and "exactly as in image 1" not in perfil
+    assert "from behind" in espalda
 
 
 # --- La foto de la clienta ---
@@ -132,6 +209,10 @@ def test_la_foto_de_la_clienta_exige_aceptar_y_no_se_guarda(app_limpia):
 
     assert probar(a, a.ids["abajo"], foto=foto).status_code == 200  # tampoco se reutiliza: se genera de nuevo
     assert len(a.falso.pedidos) == 2
+
+    for vista in ("perfil", "espalda"):  # al girar tampoco se guarda nada
+        assert probar(a, f"{a.ids['arriba']},{a.ids['abajo']},{a.ids['cinto']}", foto=foto, vista=vista).status_code == 200
+    assert set(a.main.almacen.listar("")) - antes == {f"probador/uso/{a.main._hoy()}.json"}
 
 
 def test_a_la_ia_no_le_llegan_los_metadatos_de_la_foto():
@@ -218,7 +299,7 @@ def test_los_ejemplos_se_ocultan_cuando_la_tienda_carga_prendas(app_limpia):
 
 @pytest.mark.parametrize("datos, archivo, mensaje", [
     ({"nombre": "Jean", "tipo": "abajo"}, b"no es una foto", "no es una imagen"),
-    ({"nombre": "Jean", "tipo": "sombrero"}, None, "parte de arriba"),
+    ({"nombre": "Jean", "tipo": "sombrero"}, None, "Elegí la categoría"),
     ({"nombre": "   ", "tipo": "abajo"}, None, "Falta el nombre"),
 ])
 def test_rechaza_prendas_mal_cargadas(app_limpia, datos, archivo, mensaje):
@@ -243,7 +324,8 @@ def test_el_pedido_a_flux_tiene_la_forma_que_espera_azure(monkeypatch):
         return SimpleNamespace(status_code=200, text="", json=lambda: cuerpo)
 
     monkeypatch.setattr(pb.httpx, "post", post_falso)
-    resultado, meta = flux.generar(imagen(tamano=(768, 1024)), [b"blusa", b"jean"], ["arriba", "abajo"])
+    resultado, meta = flux.generar(imagen(tamano=(768, 1024)), [b"blusa", b"jean", b"cinto", b"cartera"],
+                                   ["arriba", "abajo", "cinto", "accesorio"])
 
     assert resultado == b"jpeg" and meta["cost"] == 4.5
     assert enviados["url"] == "https://ai-ejemplo.cognitiveservices.azure.com/providers/blackforestlabs/v1/flux-2-pro?api-version=preview"
@@ -251,7 +333,8 @@ def test_el_pedido_a_flux_tiene_la_forma_que_espera_azure(monkeypatch):
     cuerpo = enviados["json"]
     assert (cuerpo["width"], cuerpo["height"]) == (768, 1024)
     assert base64.b64decode(cuerpo["input_image_2"]) == b"blusa" and base64.b64decode(cuerpo["input_image_3"]) == b"jean"
-    assert "image 2 (a top)" in cuerpo["prompt"] and "image 3 (bottoms)" in cuerpo["prompt"]
+    assert base64.b64decode(cuerpo["input_image_5"]) == b"cartera" and "input_image_6" not in cuerpo
+    assert "image 2 (a top)" in cuerpo["prompt"] and "image 5 (an accessory)" in cuerpo["prompt"]
 
     rechazo = SimpleNamespace(status_code=400, text='{"error":{"code":"content_safety_violation"}}')
     monkeypatch.setattr(pb.httpx, "post", lambda *a, **k: rechazo)
