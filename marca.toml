@@ -1,21 +1,101 @@
-# Datos de la marca. Completalo con tu pareja: todos los agentes lo leen.
+# Datos de la marca. Todos los agentes lo leen, y la página /marca lo muestra.
 # Lo que dejes vacío, el agente no lo inventa.
+# Fuente: carpeta de marketing (CONTEXTO-NEGOCIO.md, IDENTIDAD-VISUAL.md, PROMPT-DIRECCION-CREATIVA.md).
 
-nombre = "Indigo"
-rubro = "tienda de ropa"
+nombre = "Índigo Py"
+rubro = "tienda de ropa femenina"
 ciudad = "Ciudad del Este, Paraguay"
 
-# A quién le venden (edad, estilo de vida, qué buscan)
-publico = ""
+# A quién le venden. No hay datos de edades ni de ingresos: no asumirlos.
+publico = "Mujeres de Ciudad del Este y del resto de Paraguay que buscan jeans, blusas y pantalones fáciles de combinar para la oficina y las salidas, y que quieren resolver sus dudas de talle y calce antes de comprar por WhatsApp."
 
-# Cómo habla la marca. Ej.: "cercana, alegre, con voseo, sin exagerar"
-tono = ""
+# Cómo habla la marca
+tono = "Español natural de Paraguay, con voseo. Cercana y concreta, sin exagerar: habla de lo que se ve en la prenda. Una sola llamada a la acción por pieza."
 
-# Estilos que más venden o que definen la tienda
-estilos_principales = []
+# Estilos que más venden o que definen la tienda (jeans es lo más vendido, según los dueños)
+estilos_principales = [
+  "jeans",
+  "blusas",
+  "pantalones",
+  "básicas",
+  "chalecos",
+  "tonos neutros",
+  "outfits fáciles de combinar",
+]
 
 # Palabras o frases que la marca NO usa
-evitar = []
+evitar = [
+  "elevá tu estilo",
+  "descubrí tu mejor versión",
+  "el must-have perfecto",
+  "frases genéricas de calidad o exclusividad",
+  "urgencia o escasez inventada",
+  "prometer precio, talle, stock o plazo sin confirmar",
+  "testimonios inventados",
+]
 
 # Cualquier otra cosa útil (promos fijas, envíos, horarios...)
-notas = ""
+notas = "Pedidos por WhatsApp y cobro por transferencia. Envíos a todo Paraguay por transportadora. Precio, talle y disponibilidad se confirman por consulta. No afirmar la composición de la tela sin comprobarla."
+
+[contacto]
+whatsapp = "+595 973 434 868"
+whatsapp_url = "https://wa.me/595973434868"
+instagram = "https://www.instagram.com/indigopy_/"
+tiktok = "https://www.tiktok.com/@indigopy_"
+
+# Identidad visual. La app toma sus colores de acá: si cambiás un hex, cambia el diseño.
+[identidad]
+logo = "marca/logo.jpg"  # dentro de app/static/
+origen = "Colores tomados del logo del perfil de Instagram. Son códigos de trabajo, no un manual oficial."
+reglas = [
+  "El logo se escala sin estirar y conserva su rama y su lettering.",
+  "Las fotos mantienen los colores reales de la prenda: el olivo no se usa como filtro.",
+  "Sin degradados decorativos, sombras enormes ni adornos que no tengan que ver con las prendas.",
+]
+
+[[identidad.tipografias]]
+nombre = "Inter"
+pesos = "500, 700 y 800"
+uso = "Textos, botones, etiquetas y titulares comerciales"
+
+[[identidad.tipografias]]
+nombre = "Cormorant Garamond"
+pesos = "600"
+uso = "Titulares editoriales"
+
+# "clave" es el nombre que usa el CSS (var(--olivo)). No la cambies sin cambiar app/static/indigo.css.
+[[identidad.colores]]
+clave = "olivo"
+nombre = "Verde olivo"
+hex = "#4F5533"
+uso = "Color principal: logo, títulos, botones y marcos"
+
+[[identidad.colores]]
+clave = "olivo-profundo"
+nombre = "Olivo profundo"
+hex = "#30371F"
+uso = "Fondos de contraste y cierres"
+
+[[identidad.colores]]
+clave = "marfil"
+nombre = "Marfil"
+hex = "#F4F0E6"
+uso = "Fondo claro y texto sobre olivo"
+
+[[identidad.colores]]
+clave = "arena"
+nombre = "Arena dorada"
+hex = "#C4AB79"
+uso = "Líneas y acentos"
+
+[[identidad.colores]]
+clave = "tinta"
+nombre = "Tinta"
+hex = "#20251B"
+uso = "Texto sobre marfil y salvia"
+
+[[identidad.colores]]
+clave = "salvia"
+nombre = "Salvia"
+hex = "#CBD0B2"
+uso = "Paneles y detalles de apoyo"

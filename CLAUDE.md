@@ -9,12 +9,22 @@ un cambio, explicá en 2–3 líneas qué concepto aplica (sin tutoriales largos
 
 - `agente_catalogo.py` — el agente (Microsoft Agent Framework + Claude). `crear_cliente()` es el único lugar que cambia según el modelo.
 - `esquemas.py` — la salida estructurada (Pydantic). Reglas: `extra="forbid"`, sin valores por defecto, opcionales como `X | None`.
-- `app/main.py` — FastAPI. Contraseña con HTTP Basic (`APP_PASSWORD`). `/salud` queda sin contraseña.
+- `app/main.py` — FastAPI. Contraseña con HTTP Basic (`APP_PASSWORD`). Sin contraseña quedan solo `/salud`, `/static`, `/probador` y `/probador/prenda/<id>.png`.
 - `secretos.py` — en Azure trae ANTHROPIC_API_KEY y APP_PASSWORD de Key Vault al arrancar (el entorno es *express*: no soporta Key Vault references).
-- `almacen.py` — fotos y fichas en Blob Storage (Azure) o en memoria (local).
+- `almacen.py` — Blob Storage (Azure) o memoria (local). Las fichas van en la raíz del contenedor; todo lo del probador, bajo `probador/`.
+- `probador.py` — probador virtual con IA: llama a FLUX.2 [pro] en el recurso de IA de Azure (`FLUX_ENDPOINT`) con la identidad administrada, sin API key. También el catálogo de prendas y los topes de gasto.
+- `app/static/probador.js` — la página del probador. La foto de la clienta se envía solo si acepta el aviso.
 - `app/plantillas/` — HTML con Jinja2. Tiene que verse bien en el celular.
+- `app/static/` — `indigo.css`, logo y tipografías (Inter y Cormorant Garamond, licencia OFL). Se sirve sin contraseña.
 - `catalogo.py` — versión de línea de comandos para procesar una carpeta de fotos.
-- `marca.toml` — datos de la marca que leen los agentes.
+- `marca.toml` — datos de la marca que leen los agentes. También define los colores de la app (`[identidad]`) y es lo que muestra la página `/marca`.
+
+## Reglas del probador (no romper)
+
+- La foto de una clienta y su resultado no se guardan nunca: ni en Blob, ni en disco, ni en logs. Hay un test que lo comprueba.
+- Cada imagen generada cuesta plata y la página es pública: todo camino que genere tiene que pasar por `Topes.reservar`.
+- Los resultados de la modelo de ejemplo sí se guardan (`probador/cache/`) para no pagarlos dos veces.
+- Apagarlo sin desplegar: `PROBADOR_IA=0` en la Container App.
 
 ## Reglas
 

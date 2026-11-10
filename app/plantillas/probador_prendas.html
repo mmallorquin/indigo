@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block titulo %}Prendas del probador{% endblock %}
+{% block contenido %}
+<section class="tarjeta">
+  <p class="etiqueta">Probador virtual</p>
+  <h1>Prendas del probador</h1>
+  <p class="suave">Lo que subas acá es lo que ven las clientas.
+    <a href="/probador">Ver el probador como lo ve una clienta</a>.</p>
+  <p class="suave">Link para compartir: <code>{{ request.url_for('probador') }}</code></p>
+  <dl>
+    <dt>Estado</dt>
+    <dd>{% if activo %}Activo{% else %}En pausa: las clientas ven las prendas pero no pueden probárselas{% endif %}</dd>
+    <dt>Fotos generadas hoy</dt>
+    <dd>{{ uso.total }} de {{ tope }} como máximo por día. Cada foto generada se descuenta del crédito de Azure.</dd>
+  </dl>
+</section>
+
+<form class="tarjeta formulario" action="/probador/prendas" method="post" enctype="multipart/form-data"
+      onsubmit="this.querySelector('button').disabled=true; this.querySelector('button').textContent='Subiendo…'">
+  <h2>Agregar una prenda</h2>
+  {% if error %}<p class="error">No se pudo: {{ error }}</p>{% endif %}
+  <label>Nombre<input type="text" name="nombre" maxlength="60" required placeholder="Jean recto azul"></label>
+  <label>Tipo
+    <select name="tipo" required>
+      {% for clave, nombre in tipos.items() %}<option value="{{ clave }}">{{ nombre }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Foto de la prenda
+    <input type="file" name="foto" accept="image/*" required>
+  </label>
+  <p class="suave">Una sola prenda por foto, entera, de frente y sobre un fondo liso. Puede estar estirada o colgada.
+    Cuanto mejor se vea la prenda, mejor sale en el probador.</p>
+  <button type="submit">Agregar prenda</button>
+</form>
+
+<section class="tarjeta">
+  <h2>Prendas cargadas</h2>
+  {% if prendas %}
+  <div class="grilla">
+    {% for p in prendas %}
+    <div>
+      <img class="recorte" src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
+      <b>{{ p.nombre }}</b>
+      <span class="suave">{{ tipos[p.tipo] }}{% if p.ejemplo %} · ejemplo{% endif %}</span>
+      <form action="/probador/prendas/{{ p.id }}/borrar" method="post"
+            onsubmit="return confirm('¿Borrar esta prenda del probador?')">
+        <button type="submit" class="secundario chico">Borrar</button>
+      </form>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="suave">Las prendas marcadas como ejemplo dejan de mostrarse a las clientas cuando cargás la primera prenda tuya.</p>
+  {% else %}
+  <p class="suave">Todavía no hay prendas.</p>
+  {% endif %}
+</section>
+
+<form class="tarjeta formulario" action="/probador/modelo" method="post" enctype="multipart/form-data">
+  <h2>Modelo de ejemplo</h2>
+  <p class="suave">Es la persona que ven las clientas antes de subir su foto.</p>
+  {% if hay_modelo %}<img class="foto-modelo" src="/probador/modelo.jpg" alt="Modelo de ejemplo actual">{% endif %}
+  <label>Cambiar la foto
+    <input type="file" name="foto" accept="image/*" required>
+  </label>
+  <p class="suave">De cuerpo entero, de frente, con fondo liso. Usá solo fotos de personas que te dieron permiso.</p>
+  <button type="submit" class="secundario">Cambiar modelo</button>
+</form>
+{% endblock %}

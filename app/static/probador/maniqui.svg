@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Maniquí de ejemplo">
+  <defs>
+    <linearGradient id="piel" x1="0" x2="1">
+      <stop offset="0" stop-color="#D2C6B2"/><stop offset=".5" stop-color="#E7DDCC"/><stop offset="1" stop-color="#CFC3AE"/>
+    </linearGradient>
+    <path id="brazo" d="M222 182 Q194 188 188 224 L175 332 Q170 384 166 430 Q164 454 178 455 Q191 455 193 434 L207 338 L234 252 Z"/>
+    <path id="pierna" d="M228 412 L301 412 L297 588 Q295 600 293 612 L285 756 Q284 774 268 774 L247 774 Q239 774 241 760 L244 612 Q238 520 228 412 Z"/>
+  </defs>
+  <ellipse cx="300" cy="778" rx="120" ry="10" fill="#30371F" opacity=".12"/>
+  <g fill="url(#piel)" stroke="#B8AA92" stroke-width="1.5" stroke-linejoin="round">
+    <use href="#pierna"/>
+    <use href="#pierna" transform="translate(600 0) scale(-1 1)"/>
+    <use href="#brazo"/>
+    <use href="#brazo" transform="translate(600 0) scale(-1 1)"/>
+    <rect x="283" y="134" width="34" height="46" rx="10"/>
+    <path d="M222 182 Q262 168 284 166 L316 166 Q338 168 378 182 L368 252 Q350 300 352 336 Q372 380 372 422 L228 422 Q228 380 248 336 Q250 300 232 252 Z"/>
+    <ellipse cx="300" cy="94" rx="41" ry="51"/>
+  </g>
+  <g fill="none" stroke="#B8AA92" stroke-width="1.5" stroke-linecap="round" opacity=".8">
+    <path d="M250 336 Q300 348 350 336"/>
+    <path d="M300 422 L300 446"/>
+    <path d="M262 600 Q270 606 280 600"/><path d="M320 600 Q330 606 338 600"/>
+  </g>
+</svg>

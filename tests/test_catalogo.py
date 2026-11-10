@@ -87,7 +87,7 @@ async def test_fichar_con_cliente_falso(foto):
     assert esquema["additionalProperties"] is False
     assert "preguntas_para_la_tienda" in esquema["required"]
     # Las instrucciones llevan el nombre de la marca
-    assert "Indigo" in str(pedido["system"])
+    assert "Índigo Py" in str(pedido["system"])
     # La foto viajó como imagen JPEG
     bloques = pedido["messages"][-1]["content"]
     imagen = next(b for b in bloques if b["type"] == "image")
