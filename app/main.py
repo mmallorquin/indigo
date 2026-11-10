@@ -147,7 +147,6 @@ async def ver_foto(id_: str):
 
 MAX_BYTES_PROBADOR = 10 * 1024 * 1024
 MODELO = pb.CARPETA + "modelo.jpg"
-ORDEN = {"arriba": 0, "entera": 1, "abajo": 2}
 probador_ia = pb.crear_probador()  # None = en pausa
 _candado = asyncio.Lock()  # para que dos pedidos a la vez no se salteen el tope
 
@@ -168,7 +167,7 @@ async def probador(request: Request):
     hay_modelo = await run_in_threadpool(almacen.leer, MODELO) is not None
     return plantillas.TemplateResponse(
         request, "probador.html",
-        {"prendas": prendas, "tipos": pb.TIPOS, "activo": probador_ia is not None, "hay_modelo": hay_modelo},
+        {"prendas": prendas, "pestanas": pb.PESTANAS, "activo": probador_ia is not None, "hay_modelo": hay_modelo},
     )
 
 
@@ -189,12 +188,13 @@ async def foto_prenda(id_: str):
 
 
 @app.post("/probador/probar")
-async def probar(request: Request, prendas: str = Form(...), acepto: str = Form(""),
+async def probar(request: Request, prendas: str = Form(...), vista: str = Form("frente"), acepto: str = Form(""),
                  foto: UploadFile | None = File(None)):
-    """Devuelve la foto de la persona con las prendas puestas (JPEG), o un error en JSON.
+    """Devuelve la foto de la persona con el conjunto puesto (JPEG), o un error en JSON.
 
+    Siempre se parte de la foto original de la persona más todas las prendas: una sola generación por foto.
     Sin `foto` usa la modelo de ejemplo, y ese resultado se guarda para no pagarlo dos veces.
-    Con `foto` (la de la clienta) no se guarda nada: ni la foto ni el resultado.
+    Con `foto` (la de la clienta) no se guarda nada: ni la foto ni el resultado, en ninguna vista.
     """
     try:
         if probador_ia is None:
@@ -202,11 +202,11 @@ async def probar(request: Request, prendas: str = Form(...), acepto: str = Form(
                                    "pausado", 503)
         catalogo = {p["id"]: p for p in await run_in_threadpool(pb.prendas, almacen)}
         pedidas = list(dict.fromkeys(i for i in prendas.split(",") if i))
-        elegidas = sorted((catalogo[i] for i in pedidas if i in catalogo), key=lambda p: ORDEN[p["tipo"]])
+        elegidas = sorted((catalogo[i] for i in pedidas if i in catalogo), key=lambda p: pb.ORDEN[p["tipo"]])
         tipos = [p["tipo"] for p in elegidas]
-        if (not elegidas or len(elegidas) != len(pedidas) or len(elegidas) > 2
-                or len(set(tipos)) != len(tipos) or ("entera" in tipos and len(tipos) > 1)):
-            raise pb.ProbadorError("Elegí una prenda, o una de arriba y una de abajo.", "pedido", 400)
+        if len(elegidas) != len(pedidas) or not pb.conjunto_valido(tipos) or vista not in pb.VISTAS:
+            raise pb.ProbadorError("Elegí una prenda por categoría. Un vestido reemplaza a la de arriba y a la de abajo.",
+                                   "pedido", 400)
 
         guardado = None
         if foto is not None:
@@ -219,7 +219,7 @@ async def probar(request: Request, prendas: str = Form(...), acepto: str = Form(
             datos = await run_in_threadpool(almacen.leer, MODELO)
             if datos is None:
                 raise pb.ProbadorError("Todavía no hay modelo de ejemplo. Probá con tu foto.", "pedido", 503)
-            huella = hashlib.sha1(datos + ",".join(p["id"] for p in elegidas).encode()).hexdigest()[:20]
+            huella = hashlib.sha1(datos + f"{','.join(p['id'] for p in elegidas)}|{vista}".encode()).hexdigest()[:20]
             guardado = f"{pb.CARPETA}cache/{huella}.jpg"
             ya_hecha = await run_in_threadpool(almacen.leer, guardado)
             if ya_hecha:
@@ -228,13 +228,15 @@ async def probar(request: Request, prendas: str = Form(...), acepto: str = Form(
             persona = await run_in_threadpool(pb.preparar_imagen, datos, pb.LADO_PERSONA, 16)
         except ValueError as e:
             raise pb.ProbadorError(str(e), "pedido", 400) from e
-        fotos = [await run_in_threadpool(pb.foto_prenda, almacen, p["id"]) for p in elegidas]
+        # En la vista de espalda, si la tienda cargó la foto de atrás de una prenda, se manda esa.
+        espaldas = [vista == "espalda" and bool(p.get("espalda")) for p in elegidas]
+        fotos = [await run_in_threadpool(pb.foto_prenda, almacen, p["id"], atras) for p, atras in zip(elegidas, espaldas)]
 
         topes, dia, ip = pb.Topes(almacen), _hoy(), _ip(request)
         async with _candado:
             await run_in_threadpool(topes.reservar, dia, ip)
         try:
-            imagen, meta = await run_in_threadpool(probador_ia.generar, persona, fotos, tipos)
+            imagen, meta = await run_in_threadpool(probador_ia.generar, persona, fotos, tipos, vista, espaldas)
         except Exception as e:
             async with _candado:
                 await run_in_threadpool(topes.devolver, dia, ip)  # si falló, no cuenta
@@ -269,9 +271,11 @@ async def prendas_admin(request: Request):
 
 
 @app.post("/probador/prendas", response_class=HTMLResponse, dependencies=[Depends(con_contrasena)])
-async def subir_prenda(request: Request, nombre: str = Form(...), tipo: str = Form(...), foto: UploadFile = File(...)):
+async def subir_prenda(request: Request, nombre: str = Form(...), tipo: str = Form(...), foto: UploadFile = File(...),
+                       espalda: UploadFile | None = File(None)):
     nombre = " ".join(nombre.split())[:60]
     datos = await foto.read()
+    atras = (await espalda.read()) if espalda is not None else b""  # sin archivo elegido llega vacío
     prenda = {
         "id": uuid.uuid4().hex[:12],
         "nombre": nombre,
@@ -282,12 +286,12 @@ async def subir_prenda(request: Request, nombre: str = Form(...), tipo: str = Fo
         if not nombre:
             raise ValueError("Falta el nombre de la prenda")
         if tipo not in pb.TIPOS:
-            raise ValueError("Elegí si es parte de arriba, de abajo o prenda entera")
+            raise ValueError("Elegí la categoría de la prenda")
         if not datos:
             raise ValueError("No llegó ninguna foto")
-        if len(datos) > MAX_BYTES_PROBADOR:
+        if max(len(datos), len(atras)) > MAX_BYTES_PROBADOR:
             raise ValueError("La foto pesa más de 10 MB")
-        await run_in_threadpool(pb.guardar_prenda, almacen, prenda, datos)
+        await run_in_threadpool(pb.guardar_prenda, almacen, prenda, datos, atras or None)
     except ValueError as e:
         return await _pagina_prendas(request, error=str(e), estado=400)
     return RedirectResponse("/probador/prendas", status_code=303)
