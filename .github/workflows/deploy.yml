@@ -16,6 +16,9 @@ permissions:
 
 env:
   IMAGEN: ghcr.io/mmallorquin/indigo
+  # Tag único por corrida. Azure recuerda por un rato si un tag falló al descargarse,
+  # así que nunca reutilizamos un tag: cada deploy estrena uno nuevo.
+  TAG: v${{ github.run_number }}-${{ github.run_attempt }}-${{ github.sha }}
   AZURE_CLIENT_ID: 9144fa74-7c9f-4165-bfaf-735d2b2bc2b6 # identidad id-indigo-github (no es un secreto)
   AZURE_TENANT_ID: fa9ff835-1d15-4b70-97be-ccb9691110e4
   AZURE_SUBSCRIPTION_ID: fcbcdd9b-0601-4100-81be-515a342776d9
@@ -55,7 +58,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.IMAGEN }}:${{ github.sha }}
+            ${{ env.IMAGEN }}:${{ env.TAG }}
             ${{ env.IMAGEN }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -71,8 +74,8 @@ jobs:
         run: |
           az config set extension.use_dynamic_install=yes_without_prompt
           az containerapp update -n $CONTAINER_APP -g $RESOURCE_GROUP \
-            --image $IMAGEN:${{ github.sha }} \
-            --set-env-vars APP_VERSION=${{ github.sha }} -o none
+            --image $IMAGEN:$TAG \
+            --set-env-vars APP_VERSION=$TAG -o none
           URL=https://$(az containerapp show -n $CONTAINER_APP -g $RESOURCE_GROUP --query properties.configuration.ingress.fqdn -o tsv)
           echo "Desplegado en $URL" >> $GITHUB_STEP_SUMMARY
 
@@ -80,7 +83,7 @@ jobs:
         run: |
           URL=https://$(az containerapp show -n $CONTAINER_APP -g $RESOURCE_GROUP --query properties.configuration.ingress.fqdn -o tsv)
           for i in $(seq 1 20); do
-            if curl -fsS "$URL/salud" | grep -q ${{ github.sha }}; then echo "OK: responde la versión nueva"; exit 0; fi
+            if curl -fsS "$URL/salud" | grep -q "$TAG"; then echo "OK: responde la versión nueva"; exit 0; fi
             sleep 10
           done
           echo "La app no respondió con la versión nueva en 200 s"; exit 1
