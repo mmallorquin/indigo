@@ -1,0 +1,105 @@
+/* Diseño de la app de Índigo Py.
+   Los colores de marca (--olivo, --marfil...) NO están acá: base.html los escribe desde marca.toml.
+   Acá solo se decide para qué se usa cada uno. */
+
+@font-face { font-family: "Inter"; font-weight: 500; font-display: swap; src: url("fuentes/inter-500.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 700; font-display: swap; src: url("fuentes/inter-700.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 800; font-display: swap; src: url("fuentes/inter-800.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 600; font-display: swap; src: url("fuentes/cormorant-normal.ttf") format("truetype"); }
+
+:root {
+  --fondo: var(--marfil); --texto: var(--tinta); --suave: var(--olivo); --acento: var(--olivo);
+  --sobre-acento: var(--marfil); --linea: var(--arena); --panel: var(--salvia); --error: #9c2219;
+  --editorial: "Cormorant Garamond", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fondo: var(--tinta); --texto: var(--marfil); --suave: var(--salvia); --acento: var(--salvia);
+    --sobre-acento: var(--tinta); --panel: var(--olivo-profundo); --error: #ff8a80;
+  }
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Inter", system-ui, -apple-system, sans-serif; font-weight: 500; background: var(--fondo); color: var(--texto); line-height: 1.55; }
+a { color: var(--acento); }
+
+/* Encabezado: siempre olivo, como el logo */
+.cabecera { background: var(--olivo); color: var(--marfil); border-bottom: 2px solid var(--arena); }
+.cabecera div { max-width: 760px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.cabecera a { color: var(--marfil); text-decoration: none; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: .12em; font-size: 1.05rem; }
+.logo img { width: 44px; height: 44px; border-radius: 50%; display: block; }
+.logo small { font-weight: 500; font-size: .7em; }
+.cabecera nav { display: flex; gap: 18px; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.cabecera nav a { padding: 12px 0 10px; border-bottom: 2px solid transparent; }
+.cabecera nav a[aria-current] { border-color: var(--arena); }
+
+main { max-width: 760px; margin: 0 auto; padding: 8px 16px 56px; }
+h1, h2 { font-family: var(--editorial); font-weight: 600; line-height: 1.1; margin: 0 0 6px; }
+h1 { font-size: 2.3rem; }
+h2 { font-size: 1.7rem; }
+.etiqueta { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin: 0 0 6px; }
+.suave { color: var(--suave); font-size: .9rem; }
+.error { color: var(--error); font-weight: 700; }
+
+/* Las secciones se separan con una línea, no con cajas */
+.tarjeta { padding: 24px 0; border-bottom: 1px solid var(--linea); }
+main > .tarjeta:last-child { border-bottom: 0; }
+
+button, .boton { background: var(--acento); color: var(--sobre-acento); border: 0; border-radius: 2px; padding: 14px 22px; font: inherit; font-weight: 700; font-size: .85rem; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; text-decoration: none; display: inline-block; }
+button:disabled { opacity: .6; cursor: wait; }
+input[type=file] { width: 100%; margin: 14px 0; padding: 14px; font: inherit; color: inherit; background: var(--panel); border: 1px dashed var(--acento); border-radius: 2px; }
+input[type=file]::file-selector-button { font: inherit; font-weight: 700; margin-right: 12px; padding: 8px 12px; border: 1px solid var(--acento); border-radius: 2px; background: transparent; color: inherit; }
+
+.grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px 12px; margin-top: 14px; }
+.grilla a { color: inherit; text-decoration: none; }
+.grilla img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--panel); display: block; margin-bottom: 6px; }
+.grilla b { display: block; font-weight: 700; line-height: 1.3; }
+
+.foto-ficha { width: 100%; max-height: 460px; object-fit: contain; background: var(--panel); display: block; margin-bottom: 18px; }
+dt { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin-top: 18px; }
+dd { margin: 4px 0 0; }
+dd ul, .lista { margin: 4px 0 0; padding-left: 20px; }
+.chips span { display: inline-block; border: 1px solid var(--linea); border-radius: 2px; padding: 2px 10px; margin: 3px 6px 3px 0; font-size: .9rem; }
+
+/* Página /marca */
+.colores { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px 12px; margin-top: 14px; }
+.colores i { display: block; height: 72px; border: 1px solid var(--linea); }
+.colores b, .colores code { display: block; }
+.colores code { font-size: .85rem; }
+.muestra-editorial { font-family: var(--editorial); font-weight: 600; font-size: 2rem; line-height: 1.1; margin: 4px 0; }
+.muestra-inter { font-weight: 800; font-size: 1.2rem; letter-spacing: .1em; text-transform: uppercase; margin: 4px 0; }
+.logo-grande { width: 148px; height: 148px; border-radius: 50%; display: block; margin-bottom: 16px; }
+
+/* Celulares angostos: el logo ya dice el nombre, así que el texto de al lado sobra */
+@media (max-width: 400px) { .logo span { display: none; } }
+.tarjeta + .boton { margin-top: 24px; }
+
+/* Probador */
+[hidden] { display: none !important; }
+.centrado { text-align: center; }
+.secundario { background: transparent; color: var(--acento); border: 1px solid var(--acento); }
+.chico { padding: 8px 12px; font-size: .72rem; margin-top: 8px; }
+button:disabled { opacity: .55; cursor: wait; }
+.escenario { position: relative; width: 100%; max-width: 420px; aspect-ratio: 3 / 4; margin: 16px auto 10px; background: var(--panel); border: 1px solid var(--linea); overflow: hidden; }
+.escenario img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.velo { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-align: center; padding: 16px; background: color-mix(in srgb, var(--olivo-profundo) 78%, transparent); color: var(--marfil); }
+.velo b { font-family: var(--editorial); font-weight: 600; font-size: 1.7rem; animation: latir 1.4s ease-in-out infinite; }
+@keyframes latir { 50% { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) { .velo b { animation: none; } }
+.controles { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.percha { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 0 12px; margin-top: 12px; }
+.prenda { flex: 0 0 132px; scroll-snap-align: start; background: transparent; color: inherit; border: 1px solid var(--linea); padding: 8px; text-align: left; text-transform: none; letter-spacing: 0; font-size: .9rem; font-weight: 500; }
+.prenda[aria-pressed="true"] { border-color: var(--acento); background: var(--panel); box-shadow: inset 0 -4px 0 var(--acento); }
+.prenda img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; margin-bottom: 8px; background: #fff; }
+.prenda b { display: block; font-weight: 700; line-height: 1.25; }
+.recorte { background: #fff !important; }
+.foto-modelo { display: block; width: 160px; margin: 10px 0; border: 1px solid var(--linea); }
+dialog { max-width: min(92vw, 460px); padding: 22px; border: 1px solid var(--linea); border-radius: 2px; background: var(--fondo); color: var(--texto); }
+dialog::backdrop { background: color-mix(in srgb, var(--olivo-profundo) 70%, transparent); }
+dialog li { margin-bottom: 8px; }
+.formulario label { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin-top: 16px; }
+.formulario input[type=text], .formulario select { display: block; width: 100%; margin-top: 6px; padding: 12px; font: inherit; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--texto); background: var(--fondo); border: 1px solid var(--acento); border-radius: 2px; }
+.formulario input[type=file] { margin: 6px 0 0; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.formulario button { margin-top: 8px; }
+code { word-break: break-all; }
