@@ -25,11 +25,14 @@
       {% for clave, nombre in tipos.items() %}<option value="{{ clave }}">{{ nombre }}</option>{% endfor %}
     </select>
   </label>
-  <label>Foto de la prenda
+  <label>Foto de la prenda (de frente)
     <input type="file" name="foto" accept="image/*" required>
   </label>
-  <p class="suave">Una sola prenda por foto, entera, de frente y sobre un fondo liso. Puede estar estirada o colgada.
-    Cuanto mejor se vea la prenda, mejor sale en el probador.</p>
+  <label>Foto de la espalda (opcional)
+    <input type="file" name="espalda" accept="image/*">
+  </label>
+  <p class="suave">Una sola prenda por foto, entera y sobre un fondo liso. Puede estar estirada o colgada.
+    La foto de la espalda se usa cuando la clienta toca Girar; sin ella, la IA imagina cómo es por detrás.</p>
   <button type="submit">Agregar prenda</button>
 </form>
 
@@ -41,7 +44,7 @@
     <div>
       <img class="recorte" src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
       <b>{{ p.nombre }}</b>
-      <span class="suave">{{ tipos[p.tipo] }}{% if p.ejemplo %} · ejemplo{% endif %}</span>
+      <span class="suave">{{ tipos[p.tipo] }}{% if p.espalda %} · con espalda{% endif %}{% if p.ejemplo %} · ejemplo{% endif %}</span>
       <form action="/probador/prendas/{{ p.id }}/borrar" method="post"
             onsubmit="return confirm('¿Borrar esta prenda del probador?')">
         <button type="submit" class="secundario chico">Borrar</button>

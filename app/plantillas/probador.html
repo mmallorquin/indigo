@@ -1,53 +1,56 @@
 {% extends "base.html" %}
 {% block titulo %}Probador{% endblock %}
 {% block inicio %}/probador{% endblock %}
+{% block cabecera %} baja{% endblock %}
 {% block nav %}<nav><a href="{{ marca.contacto.instagram }}" rel="noopener">Instagram</a></nav>{% endblock %}
 {% block contenido %}
-<section class="tarjeta">
-  <p class="etiqueta">Probador virtual</p>
-  <h1>Mirá cómo te queda</h1>
-  <p class="suave">Elegí una prenda y la vas a ver puesta. Probá con la modelo o con tu propia foto.</p>
+<h1 class="solo-lectores">Probador virtual de {{ marca.nombre }}</h1>
 
+<section class="probador">
   <div class="escenario" id="escenario">
     <img id="persona" src="{{ '/probador/modelo.jpg' if hay_modelo else '/static/probador/maniqui.svg' }}"
          alt="Modelo de ejemplo" draggable="false">
-    <div class="velo" id="velo" hidden><b>Probando la prenda…</b><span>Tarda unos 20 segundos</span></div>
+    <button type="button" class="girar" id="girar" hidden>⟳ Girar</button>
+    <div class="vistas" id="vistas" role="group" aria-label="Vista" hidden>
+      <button type="button" data-vista="frente" aria-pressed="true">Frente</button>
+      <button type="button" data-vista="perfil" aria-pressed="false">Perfil</button>
+      <button type="button" data-vista="espalda" aria-pressed="false">Espalda</button>
+    </div>
+    <p class="leyenda" id="leyenda" hidden></p>
+    <div class="velo" id="velo" hidden><b>Probando…</b><span>Tarda unos 20 segundos. Podés seguir mirando prendas.</span></div>
   </div>
-  <p class="suave centrado" id="leyenda" hidden>Imagen generada con IA. El calce real puede variar.</p>
   <p class="error centrado" id="mensaje" role="alert" hidden></p>
   {% if not activo %}
   <p class="suave centrado">El probador está en pausa por ahora. Escribinos y te ayudamos a elegir.</p>
   {% endif %}
 
+  <div class="puesto" id="puesto" aria-live="polite"><b>Puesto:</b> <span class="vacio">nada todavía</span></div>
+
+  {% if prendas %}
+  <div class="pestanas" id="pestanas" role="tablist" aria-label="Categorías"></div>
+  <div class="rueda" id="rueda" tabindex="0" role="group" aria-roledescription="carrusel"
+       aria-label="Prendas. Deslizá o usá las flechas para ver más.">
+    <button type="button" class="flecha izquierda" id="anterior" aria-label="Prenda anterior">‹</button>
+    <button type="button" class="flecha derecha" id="siguiente" aria-label="Prenda siguiente">›</button>
+  </div>
+  <p class="nombre-prenda" id="nombre" aria-live="polite"></p>
+  <button type="button" class="ancho" id="fijar">Fijar esta prenda</button>
+  {% else %}
+  <p class="suave centrado">Muy pronto vas a ver acá las prendas de la tienda.</p>
+  {% endif %}
+</section>
+
+<section class="extras">
+  {% if prendas and prendas[0].ejemplo %}
+  <p class="suave centrado chica">Son prendas de ejemplo. Muy pronto vas a ver acá las de la tienda.</p>
+  {% endif %}
   <div class="controles">
     <button type="button" class="secundario" id="usar-foto">Usar mi foto</button>
     <button type="button" class="secundario" id="usar-modelo" hidden>Volver a la modelo</button>
-    <button type="button" class="secundario" id="quitar" hidden>Ver sin prendas</button>
+    <a class="boton secundario" id="la-quiero" href="{{ marca.contacto.whatsapp_url }}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
   </div>
   <input type="file" id="mi-foto" accept="image/*" hidden>
 </section>
-
-<section class="tarjeta">
-  <h2>Prendas</h2>
-  {% if not prendas %}
-  <p class="suave">Muy pronto vas a ver acá las prendas de la tienda.</p>
-  {% elif prendas[0].ejemplo %}
-  <p class="suave">Estas son prendas de ejemplo. Muy pronto vas a ver acá las de la tienda.</p>
-  {% else %}
-  <p class="suave">Tocá una para probártela. Podés combinar una de arriba con una de abajo.</p>
-  {% endif %}
-  <div class="percha" id="percha">
-    {% for p in prendas %}
-    <button type="button" class="prenda" data-id="{{ p.id }}" aria-pressed="false">
-      <img src="/probador/prenda/{{ p.id }}.jpg" alt="" loading="lazy" draggable="false">
-      <b>{{ p.nombre }}</b>
-      <span class="suave">{{ tipos[p.tipo] }}</span>
-    </button>
-    {% endfor %}
-  </div>
-</section>
-
-<a class="boton" id="la-quiero" href="{{ marca.contacto.whatsapp_url }}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
 
 <dialog id="aviso">
   <h2>Antes de subir tu foto</h2>
@@ -63,6 +66,6 @@
   </div>
 </dialog>
 
-<script type="application/json" id="datos">{{ {"prendas": prendas, "activo": activo, "whatsapp": marca.contacto.whatsapp_url, "marca": marca.nombre} | tojson }}</script>
+<script type="application/json" id="datos">{{ {"prendas": prendas, "pestanas": pestanas.items() | list, "activo": activo, "whatsapp": marca.contacto.whatsapp_url, "marca": marca.nombre} | tojson }}</script>
 <script src="/static/probador.js?v={{ version }}"></script>
 {% endblock %}
