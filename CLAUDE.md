@@ -18,6 +18,7 @@ un cambio, explicá en 2–3 líneas qué concepto aplica (sin tutoriales largos
 - `app/static/` — `indigo.css`, logo y tipografías (Inter y Cormorant Garamond, licencia OFL). Se sirve sin contraseña.
 - `catalogo.py` — versión de línea de comandos para procesar una carpeta de fotos.
 - `marca.toml` — datos de la marca que leen los agentes. También define los colores de la app (`[identidad]`) y es lo que muestra la página `/marca`.
+- `marketing/` — guiones, prompts, proyectos de video y `api-credito/` (lotes con la API de Anthropic). No entra en la imagen Docker (`.dockerignore`). Los videos y fotos no van a GitHub: se sincronizan con Azure Storage con `marketing/sincronizar-medios.sh`.
 
 ## Reglas del probador (no romper)
 

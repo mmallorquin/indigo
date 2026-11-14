@@ -1,0 +1,79 @@
+[
+  {
+    "at": 0.0,
+    "source": "jeans-percha.mp4",
+    "from": 0.0,
+    "dur": 2.5,
+    "source_frames": [
+      0,
+      74
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 2.5,
+    "source": "jeans-percha.mp4",
+    "from": 5.4,
+    "dur": 2.5,
+    "source_frames": [
+      162,
+      236
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 5.0,
+    "source": "jeans-percha.mp4",
+    "from": 5.8,
+    "dur": 2.0,
+    "source_frames": [
+      174,
+      233
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 7.0,
+    "source": "outfit-calle.mp4",
+    "from": 1.5,
+    "dur": 3.0,
+    "source_frames": [
+      45,
+      134
+    ],
+    "crop": "crop=432:600:180:250"
+  },
+  {
+    "at": 10.0,
+    "source": "jeans-percha.mp4",
+    "from": 0.0,
+    "dur": 2.5,
+    "source_frames": [
+      0,
+      74
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 12.5,
+    "source": "jeans-percha.mp4",
+    "from": 4.5,
+    "dur": 3.5,
+    "source_frames": [
+      135,
+      239
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 16.0,
+    "source": "outfit-calle.mp4",
+    "from": 0.8,
+    "dur": 4.0,
+    "source_frames": [
+      24,
+      143
+    ],
+    "crop": "crop=432:600:180:250"
+  }
+]

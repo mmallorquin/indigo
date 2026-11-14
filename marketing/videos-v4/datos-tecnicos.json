@@ -1,0 +1,104 @@
+{
+  "videos": {
+    "editorial": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10063870",
+          "nb_frames": "600"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "20.000000",
+          "bit_rate": "196125",
+          "nb_frames": "939"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25673989",
+        "bit_rate": "10269595"
+      }
+    },
+    "energia": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10044742",
+          "nb_frames": "600"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "20.000000",
+          "bit_rate": "193762",
+          "nb_frames": "939"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25620252",
+        "bit_rate": "10248100"
+      }
+    },
+    "editorial-sin-musica": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10063870",
+          "nb_frames": "600"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25168126",
+        "bit_rate": "10067250"
+      }
+    },
+    "energia-sin-musica": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10044742",
+          "nb_frames": "600"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25120304",
+        "bit_rate": "10048121"
+      }
+    }
+  },
+  "hashes_video": {
+    "editorial": "SHA256=7c744c41c39745489a9e2ab5b61b3a25e34b9ac48f1f0eae2275a0327303d039",
+    "energia": "SHA256=263aa312ed93f2c07ddb881b6b5c41bfcb7f5bb00a8496a4171508402ea8ac44",
+    "editorial-sin-musica": "SHA256=7c744c41c39745489a9e2ab5b61b3a25e34b9ac48f1f0eae2275a0327303d039",
+    "energia-sin-musica": "SHA256=263aa312ed93f2c07ddb881b6b5c41bfcb7f5bb00a8496a4171508402ea8ac44"
+  }
+}

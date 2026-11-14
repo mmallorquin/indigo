@@ -1,0 +1,6 @@
+Pillow
+numpy
+reportlab
+fonttools
+brotli
+pypdf

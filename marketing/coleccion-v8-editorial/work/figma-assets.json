@@ -1,0 +1,52 @@
+[
+  {
+    "src": "sastrero.jpg",
+    "result": {
+      "success": true,
+      "imageHash": "9a41059f19f05d8137b1c4bb9d982b2ee2a4221f",
+      "sizeBytes": 486926,
+      "contentType": "image/jpeg",
+      "placedOnNodeId": "2:17"
+    }
+  },
+  {
+    "src": "conjunto-marron.jpg",
+    "result": {
+      "success": true,
+      "imageHash": "c0b1ae4e760e8febc853ef546834f38ecf53b638",
+      "sizeBytes": 656233,
+      "contentType": "image/jpeg",
+      "placedOnNodeId": "2:19"
+    }
+  },
+  {
+    "src": "conjunto-beige.jpg",
+    "result": {
+      "success": true,
+      "imageHash": "5ed3f93797cd7e5a42c2e10297ff2f1da7dc2454",
+      "sizeBytes": 775451,
+      "contentType": "image/jpeg",
+      "placedOnNodeId": "2:21"
+    }
+  },
+  {
+    "src": "jean-detalle.jpg",
+    "result": {
+      "success": true,
+      "imageHash": "c07a428fac920174c17b4a3d54b2744c2f2244ff",
+      "sizeBytes": 52287,
+      "contentType": "image/jpeg",
+      "placedOnNodeId": "2:23"
+    }
+  },
+  {
+    "src": "logo.jpg",
+    "result": {
+      "success": true,
+      "imageHash": "ae08ff5a747368c4edb7c77857818c9221fbf1e2",
+      "sizeBytes": 93456,
+      "contentType": "image/jpeg",
+      "placedOnNodeId": "2:25"
+    }
+  }
+]

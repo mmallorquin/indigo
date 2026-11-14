@@ -1,0 +1,22 @@
+{
+  "primera_pasada": {
+    "input_i": "-19.61",
+    "input_tp": "-6.10",
+    "input_lra": "2.10",
+    "input_thresh": "-29.75",
+    "output_i": "-13.91",
+    "output_tp": "-1.80",
+    "output_lra": "1.20",
+    "output_thresh": "-24.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.09"
+  },
+  "segunda_pasada": [
+    "{\n\t\"input_i\" : \"-19.61\",\n\t\"input_tp\" : \"-6.10\",\n\t\"input_lra\" : \"2.10\",\n\t\"input_thresh\" : \"-29.75\",\n\t\"output_i\" : \"-13.98\",\n\t\"output_tp\" : \"-1.80\",\n\t\"output_lra\" : \"1.30\",\n\t\"output_thresh\" : \"-24.08\",\n\t\"normalization_type\" : \"dynamic\",\n\t\"target_offset\" : \"-0.02\"\n}"
+  ],
+  "objetivo": {
+    "lufs": -14,
+    "true_peak_maximo_dbtp": -1.5,
+    "margen_antes_aac": -1.8
+  }
+}

@@ -1,0 +1,1647 @@
+{
+  "id": "68ebffa7-83fa-41dc-8ff3-66fda01c6b82",
+  "name": "looks",
+  "schemaVersion": 2,
+  "scenes": [
+    {
+      "id": "cea1338a-b990-4814-8cfe-afaa3e266de0",
+      "name": "New Scene",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1920,
+      "background": { "type": "solid", "color": "#F4F1EB" },
+      "fps": 30,
+      "duration": 20,
+      "tracks": [
+        {
+          "id": "c6f32637-b8b3-4a1f-97ec-c9bce09d5ff4",
+          "name": "Track 1",
+          "mode": "default",
+          "clips": [
+            {
+              "id": "dd9d6e9f-b99a-4a41-bbae-7cb8218d0bef",
+              "kind": "media",
+              "name": "looks-base.mp4",
+              "assetId": "debc6d14-7e55-0367-3915-effea580ade7",
+              "timeRange": { "start": 0, "duration": 20 },
+              "trim": { "start": 0, "end": 20 },
+              "speed": 1,
+              "transform": {
+                "x": 540,
+                "y": 960,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "volume": 1,
+              "muted": false,
+              "cornerRadius": { "bl": 0, "br": 0, "mixed": false, "tl": 0, "tr": 0, "uniform": 0 },
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "origin": { "column": 5, "file": "editar.jsx", "line": 10 },
+              "preservePitch": true
+            }
+          ],
+          "locked": false,
+          "hidden": false,
+          "muted": false,
+          "solo": false,
+          "volume": 1
+        },
+        {
+          "id": "549e502e-3d0a-4841-935d-ce85368a0f21",
+          "name": "Track 2",
+          "mode": "default",
+          "clips": [
+            {
+              "id": "eeeb33ef-a386-424c-8781-c8779ad76c6e",
+              "kind": "group",
+              "name": "looks-title-0.03",
+              "timeRange": { "start": 0.03, "duration": 1.77 },
+              "transform": {
+                "x": 0,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0,
+                "anchorY": 0,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "autoLayout": null,
+              "children": [
+                {
+                  "id": "b6e69bab-93da-4a9f-8548-c6355b2a66ff",
+                  "kind": "group",
+                  "name": "Frame",
+                  "timeRange": { "start": 0, "duration": 1.77 },
+                  "transform": {
+                    "x": 70,
+                    "y": 80,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "flipX": false,
+                    "flipY": false,
+                    "skewX": 0,
+                    "skewY": 0
+                  },
+                  "size": { "width": 925, "height": 245 },
+                  "opacity": 1,
+                  "blendMode": "normal",
+                  "effects": [],
+                  "animations": [
+                    {
+                      "property": "offsetX",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": -35,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "5e4796bb-647e-4150-ba1e-3ee734866540"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "dcd3cdc1-f952-4058-ae70-87c6287d003e"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "472de81d-087d-4618-8b68-7eee89783009"
+                    },
+                    {
+                      "property": "scale",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0.97,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "29dbc62d-600e-4935-8848-fc96c5c2c600"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "linear" },
+                          "id": "c2e0b22b-93f8-40fb-ab37-4e4797afcfd2"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "2cf125d5-3834-4b6d-aabe-8d3988a994c8"
+                    },
+                    {
+                      "property": "opacity",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "49e69719-afcb-4281-b7b2-19eb004beffe"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "hold" },
+                          "id": "54afe05d-e17d-43e6-a09b-af4df2f508f2"
+                        },
+                        {
+                          "time": 1.57,
+                          "value": 1,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "43065548-63bf-40cd-9fd8-462687687157"
+                        },
+                        {
+                          "time": 1.77,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "b8be3074-ac2d-4abb-89f6-78eb5a49b0b4"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "e8611add-0b49-49ee-8bf2-d8939a2c3e52"
+                    },
+                    {
+                      "property": "offsetY",
+                      "keyframes": [
+                        {
+                          "time": 1.57,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "0c1da2b9-d25f-474d-9066-610ad2a68e46"
+                        },
+                        {
+                          "time": 1.77,
+                          "value": -22,
+                          "easing": { "kind": "linear" },
+                          "id": "4e85f997-5c38-4d05-9c05-05a6095e44f1"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "98ac3858-9aef-47ce-bcb2-142d7acc16e8"
+                    }
+                  ],
+                  "presetAnimations": [],
+                  "mask": null,
+                  "locked": false,
+                  "hidden": false,
+                  "autoLayout": null,
+                  "children": [
+                    {
+                      "id": "3c10f0d1-69cd-4e0d-8b17-52f674e4f165",
+                      "kind": "text",
+                      "name": "UN JEAN",
+                      "text": "UN JEAN",
+                      "timeRange": { "start": 0, "duration": 1.77 },
+                      "transform": {
+                        "x": 0,
+                        "y": 0,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 925, "height": 220 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 210,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "df8ee018-4623-4747-bbf5-cbc2097189b7"
+                            },
+                            {
+                              "time": 0.42,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "386c67b3-03c0-4698-b58c-513c32445b78"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "cd3d31cf-2c30-4e96-a59e-92232903656b"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "2e649567-a5ba-4428-8e3f-c95610d77978",
+                      "kind": "rect",
+                      "name": "Rect",
+                      "timeRange": { "start": 0, "duration": 1.77 },
+                      "transform": {
+                        "x": 0,
+                        "y": 235,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 225, "height": 8 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fill": { "type": "solid", "color": "#3155E7" },
+                      "stroke": { "width": 0, "color": "#ffffff" },
+                      "cornerRadius": { "bl": 0, "br": 0, "mixed": false, "tl": 0, "tr": 0, "uniform": 0 },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "scaleX",
+                          "keyframes": [
+                            {
+                              "time": 0.1,
+                              "value": 0.1,
+                              "easing": {
+                                "kind": "cubic-bezier",
+                                "x1": 0.215,
+                                "x2": 0.355,
+                                "y1": 0.61,
+                                "y2": 1
+                              },
+                              "id": "3a4cfd46-6eea-4336-9aee-01c65b9c7a99"
+                            },
+                            {
+                              "time": 0.4,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "5e15b5ec-e269-42e3-b58d-efe1e336bd78"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "1085f468-8412-4683-b5f6-efe53ab6fb1e"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false
+                    }
+                  ],
+                  "frame": { "background": null, "clip": false, "radius": 0 },
+                  "layoutSizing": { "width": "fixed", "height": "fixed" }
+                }
+              ],
+              "frame": { "background": null, "clip": false, "radius": 0 },
+              "layoutSizing": { "width": "fixed", "height": "fixed" },
+              "origin": { "column": 6, "file": "editar.jsx", "line": 12 }
+            },
+            {
+              "id": "6817582e-3882-45e3-8526-0de733f158cc",
+              "kind": "group",
+              "name": "looks-resolucion-gancho",
+              "timeRange": { "start": 1.93, "duration": 2.1 },
+              "transform": {
+                "x": 0,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0,
+                "anchorY": 0,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "autoLayout": null,
+              "children": [
+                {
+                  "id": "2bf37bd9-7be9-4827-b9a0-b81fc8f3f91b",
+                  "kind": "group",
+                  "name": "Frame",
+                  "timeRange": { "start": 0, "duration": 2.1 },
+                  "transform": {
+                    "x": 70,
+                    "y": 72,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "flipX": false,
+                    "flipY": false,
+                    "skewX": 0,
+                    "skewY": 0
+                  },
+                  "size": { "width": 920, "height": 330 },
+                  "opacity": 1,
+                  "blendMode": "normal",
+                  "effects": [],
+                  "animations": [
+                    {
+                      "property": "offsetX",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": -35,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "01d50b3e-d734-43f4-8e3d-0ea68da502ef"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "faaf72d3-3a85-4d42-8f99-7eec440c1893"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "2502f693-ab9c-4f82-be2b-ac87a7011114"
+                    },
+                    {
+                      "property": "scale",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0.97,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "6c77ac8f-b2f5-40f9-b157-b0d581e37475"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "linear" },
+                          "id": "fc59ec62-a20e-4115-9167-c6ed2f75ae67"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "3751b120-8b88-4aed-b254-1319c965251d"
+                    },
+                    {
+                      "property": "opacity",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "d3ab65ce-0740-41ff-961b-51108629fe5b"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "hold" },
+                          "id": "05aaeb9e-6aa4-41c4-b976-3448a92941ef"
+                        },
+                        {
+                          "time": 1.9000000000000001,
+                          "value": 1,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "85a4723f-ccf6-4ea2-bee6-7a90934a6b63"
+                        },
+                        {
+                          "time": 2.1,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "b414f3c4-730b-4d9b-8ca9-e9461d5d730f"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "7605dab3-325a-4193-93a0-7b1b215a28cc"
+                    },
+                    {
+                      "property": "offsetY",
+                      "keyframes": [
+                        {
+                          "time": 1.9000000000000001,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "7a15b304-a12a-4045-ae47-f999fd777981"
+                        },
+                        {
+                          "time": 2.1,
+                          "value": -22,
+                          "easing": { "kind": "linear" },
+                          "id": "942650dd-02f7-4867-8622-85e64a5cc9c4"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "c6f87c76-4e34-409b-9d94-2efca73d381a"
+                    }
+                  ],
+                  "presetAnimations": [],
+                  "mask": null,
+                  "locked": false,
+                  "hidden": false,
+                  "autoLayout": null,
+                  "children": [
+                    {
+                      "id": "005c4a15-60a0-4c88-904b-af996208d460",
+                      "kind": "text",
+                      "name": "VARIOS",
+                      "text": "VARIOS",
+                      "timeRange": { "start": 0, "duration": 2.1 },
+                      "transform": {
+                        "x": 10,
+                        "y": 0,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 900, "height": 160 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 145,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "6c5ac90b-ca42-469b-8259-bd5f7bdc688c"
+                            },
+                            {
+                              "time": 0.42,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "43333230-32b3-47b8-8680-305dd9569b1e"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "8482e771-3524-48b6-b53a-e69f072ffb8d"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "character",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "1893e81c-fdf5-48d3-a345-6e90269080ba",
+                      "kind": "text",
+                      "name": "LOOKS",
+                      "text": "LOOKS",
+                      "timeRange": { "start": 0, "duration": 2.1 },
+                      "transform": {
+                        "x": 10,
+                        "y": 147,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 900, "height": 165 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 145,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#3155E7" },
+                      "stroke": { "width": 0, "color": "#3155E7" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0.12,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "06df1eeb-de16-4aef-b8ec-6b2bdc0c2c4f"
+                            },
+                            {
+                              "time": 0.54,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "fdad10dc-73a6-4afb-96ff-bd4b721ae402"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "88dab4b5-cf01-4e7e-8567-2ac79d3a5f61"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 45, "y": 0, "opacity": 0, "scale": 1 },
+                        "overlap": 0.4
+                      }
+                    }
+                  ],
+                  "frame": { "background": null, "clip": false, "radius": 0 },
+                  "layoutSizing": { "width": "fixed", "height": "fixed" }
+                }
+              ],
+              "frame": { "background": null, "clip": false, "radius": 0 },
+              "layoutSizing": { "width": "fixed", "height": "fixed" },
+              "origin": { "column": 6, "file": "editar.jsx", "line": 21 }
+            },
+            {
+              "id": "a73d69b6-7687-412f-9964-6237ee6ba502",
+              "kind": "group",
+              "name": "looks-title-6.97",
+              "timeRange": { "start": 6.97, "duration": 1.95 },
+              "transform": {
+                "x": 0,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0,
+                "anchorY": 0,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "autoLayout": null,
+              "children": [
+                {
+                  "id": "f28d2669-e1e2-418d-8215-c4b3e7657daf",
+                  "kind": "group",
+                  "name": "Frame",
+                  "timeRange": { "start": 0, "duration": 1.95 },
+                  "transform": {
+                    "x": 70,
+                    "y": 95,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "flipX": false,
+                    "flipY": false,
+                    "skewX": 0,
+                    "skewY": 0
+                  },
+                  "size": { "width": 925, "height": 245 },
+                  "opacity": 1,
+                  "blendMode": "normal",
+                  "effects": [],
+                  "animations": [
+                    {
+                      "property": "offsetX",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": -35,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "578a104e-ea21-4c65-a0cf-04414adb3fde"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "baaf580e-823e-4133-91e3-9b56ef289e9d"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "b8065585-f707-4725-a685-59eea3704d24"
+                    },
+                    {
+                      "property": "scale",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0.97,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "cf75854f-8837-47ff-ba41-f6a5bf46ad74"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "linear" },
+                          "id": "d37d9343-2124-4555-9812-bbb73beecf65"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "81f92bba-19e4-4f9b-8625-ceb788f51aff"
+                    },
+                    {
+                      "property": "opacity",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "5b07497a-0530-4e05-958f-685adf6ce4a0"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "hold" },
+                          "id": "e6d90027-709a-40f6-b3e9-8722e46077bc"
+                        },
+                        {
+                          "time": 1.75,
+                          "value": 1,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "8018e854-a180-41f8-9e7e-32b49604bff0"
+                        },
+                        {
+                          "time": 1.95,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "944acd11-bab5-4cd0-af64-c3370cc3a5b3"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "5b9199b0-24e4-4f46-84af-702b6de766fd"
+                    },
+                    {
+                      "property": "offsetY",
+                      "keyframes": [
+                        {
+                          "time": 1.75,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "6e639a58-e7d5-406d-847f-2e48731b1eff"
+                        },
+                        {
+                          "time": 1.95,
+                          "value": -22,
+                          "easing": { "kind": "linear" },
+                          "id": "f683c6d9-3ee9-4109-a64e-7ee558cf3048"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "1e0ec8e2-6bbf-4392-a8c0-7f83bb05ee8d"
+                    }
+                  ],
+                  "presetAnimations": [],
+                  "mask": null,
+                  "locked": false,
+                  "hidden": false,
+                  "autoLayout": null,
+                  "children": [
+                    {
+                      "id": "bd0bb6d4-a0c3-4cba-9ae7-69b10f881cc6",
+                      "kind": "text",
+                      "name": "CAMBIÁ EL LOOK",
+                      "text": "CAMBIÁ EL LOOK",
+                      "timeRange": { "start": 0, "duration": 1.95 },
+                      "transform": {
+                        "x": 0,
+                        "y": 0,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 925, "height": 220 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 112,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "3fd1400e-dd51-46be-a5e3-3d077eee681b"
+                            },
+                            {
+                              "time": 0.42,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "4e68ff80-32c5-4a53-83a8-ea54487b18c0"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "16510bcc-e6f2-4fdc-bae7-3a37970e946c"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "24305949-4b18-47b2-b614-09af8f56ebf6",
+                      "kind": "rect",
+                      "name": "Rect",
+                      "timeRange": { "start": 0, "duration": 1.95 },
+                      "transform": {
+                        "x": 0,
+                        "y": 137,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 225, "height": 8 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fill": { "type": "solid", "color": "#3155E7" },
+                      "stroke": { "width": 0, "color": "#ffffff" },
+                      "cornerRadius": { "bl": 0, "br": 0, "mixed": false, "tl": 0, "tr": 0, "uniform": 0 },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "scaleX",
+                          "keyframes": [
+                            {
+                              "time": 0.1,
+                              "value": 0.1,
+                              "easing": {
+                                "kind": "cubic-bezier",
+                                "x1": 0.215,
+                                "x2": 0.355,
+                                "y1": 0.61,
+                                "y2": 1
+                              },
+                              "id": "5042f6c7-2697-4751-851f-f2992462572c"
+                            },
+                            {
+                              "time": 0.4,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "a2a2742f-663f-4aed-bc83-7624a9e705a3"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "f087f211-d681-4104-b588-ad50d5061b84"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false
+                    }
+                  ],
+                  "frame": { "background": null, "clip": false, "radius": 0 },
+                  "layoutSizing": { "width": "fixed", "height": "fixed" }
+                }
+              ],
+              "frame": { "background": null, "clip": false, "radius": 0 },
+              "layoutSizing": { "width": "fixed", "height": "fixed" },
+              "origin": { "column": 6, "file": "editar.jsx", "line": 12 }
+            },
+            {
+              "id": "c5122ede-34a1-4e71-ad7d-2b3c69d189aa",
+              "kind": "group",
+              "name": "looks-title-12.25",
+              "timeRange": { "start": 12.25, "duration": 1.7 },
+              "transform": {
+                "x": 0,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0,
+                "anchorY": 0,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "autoLayout": null,
+              "children": [
+                {
+                  "id": "18b24cf4-b1c1-4d62-b5f9-86a5edb49c4c",
+                  "kind": "group",
+                  "name": "Frame",
+                  "timeRange": { "start": 0, "duration": 1.7 },
+                  "transform": {
+                    "x": 70,
+                    "y": 105,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "flipX": false,
+                    "flipY": false,
+                    "skewX": 0,
+                    "skewY": 0
+                  },
+                  "size": { "width": 925, "height": 245 },
+                  "opacity": 1,
+                  "blendMode": "normal",
+                  "effects": [],
+                  "animations": [
+                    {
+                      "property": "offsetX",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": -35,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "ee5e3817-51db-40f4-a831-e30919bbd753"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "79ffb77a-6337-4612-881d-f15108469d7c"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "a3fa690c-9ceb-48a5-81c3-21229f7a6b69"
+                    },
+                    {
+                      "property": "scale",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0.97,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "c37310cc-ffae-4281-befa-1ba3a0772c20"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "linear" },
+                          "id": "d4189f10-6b38-413b-9c38-c79000d4beab"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "b3c010ea-1867-41f5-9ce3-1b03acbd0b5b"
+                    },
+                    {
+                      "property": "opacity",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "349ed64a-0a5f-4755-9a27-ff355ed83027"
+                        },
+                        {
+                          "time": 0.32,
+                          "value": 1,
+                          "easing": { "kind": "hold" },
+                          "id": "9b7132a1-5b56-4ce9-8642-d03a8b86cda7"
+                        },
+                        {
+                          "time": 1.5,
+                          "value": 1,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "817f4bb0-7155-455a-9e62-78cb43225740"
+                        },
+                        {
+                          "time": 1.7,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "ab2490c6-31c3-4ca2-97e9-264b678e2d4b"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "4f5e4202-dcc9-4128-9fc6-d88c1eaf8ab4"
+                    },
+                    {
+                      "property": "offsetY",
+                      "keyframes": [
+                        {
+                          "time": 1.5,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "c8258901-9402-4ee9-ac7a-9ec7433e57c4"
+                        },
+                        {
+                          "time": 1.7,
+                          "value": -22,
+                          "easing": { "kind": "linear" },
+                          "id": "373b1dc4-20e5-4a6c-a312-ba19e4c044f7"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "7cdc4aef-a96e-4373-a968-3b2114273362"
+                    }
+                  ],
+                  "presetAnimations": [],
+                  "mask": null,
+                  "locked": false,
+                  "hidden": false,
+                  "autoLayout": null,
+                  "children": [
+                    {
+                      "id": "29007d51-694e-4974-bcac-18ad63f48928",
+                      "kind": "text",
+                      "name": "¿CUÁL VA CON VOS?",
+                      "text": "¿CUÁL VA CON VOS?",
+                      "timeRange": { "start": 0, "duration": 1.7 },
+                      "transform": {
+                        "x": 0,
+                        "y": 0,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 925, "height": 220 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 96,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "e5dab373-ae88-4290-be08-8577c387cdaf"
+                            },
+                            {
+                              "time": 0.42,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "ef00740e-a27f-404e-a779-4705e0dc67bd"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "282cf8c1-f04f-46d3-afdb-ff74ee24dcec"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "a3768097-873e-428b-892b-a13f31c2e5c3",
+                      "kind": "rect",
+                      "name": "Rect",
+                      "timeRange": { "start": 0, "duration": 1.7 },
+                      "transform": {
+                        "x": 0,
+                        "y": 121,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 225, "height": 8 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fill": { "type": "solid", "color": "#3155E7" },
+                      "stroke": { "width": 0, "color": "#ffffff" },
+                      "cornerRadius": { "bl": 0, "br": 0, "mixed": false, "tl": 0, "tr": 0, "uniform": 0 },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "scaleX",
+                          "keyframes": [
+                            {
+                              "time": 0.1,
+                              "value": 0.1,
+                              "easing": {
+                                "kind": "cubic-bezier",
+                                "x1": 0.215,
+                                "x2": 0.355,
+                                "y1": 0.61,
+                                "y2": 1
+                              },
+                              "id": "b38f70ff-322e-4b30-83ca-16d4d1d14d51"
+                            },
+                            {
+                              "time": 0.4,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "a4f70893-f0d2-4da1-94ac-bd7e79ff164b"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "72db07b9-5998-4b63-a6ef-329a2e336142"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false
+                    }
+                  ],
+                  "frame": { "background": null, "clip": false, "radius": 0 },
+                  "layoutSizing": { "width": "fixed", "height": "fixed" }
+                }
+              ],
+              "frame": { "background": null, "clip": false, "radius": 0 },
+              "layoutSizing": { "width": "fixed", "height": "fixed" },
+              "origin": { "column": 6, "file": "editar.jsx", "line": 12 }
+            },
+            {
+              "id": "67731696-15ed-46af-9abe-98b96fabbe2e",
+              "kind": "group",
+              "name": "looks-cta-sobre-producto",
+              "timeRange": { "start": 16, "duration": 4 },
+              "transform": {
+                "x": 0,
+                "y": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0,
+                "anchorX": 0,
+                "anchorY": 0,
+                "flipX": false,
+                "flipY": false,
+                "skewX": 0,
+                "skewY": 0
+              },
+              "size": { "width": 1080, "height": 1920 },
+              "opacity": 1,
+              "blendMode": "normal",
+              "effects": [],
+              "animations": [],
+              "presetAnimations": [],
+              "mask": null,
+              "locked": false,
+              "hidden": false,
+              "autoLayout": null,
+              "children": [
+                {
+                  "id": "79983f22-def5-4b2b-b2b7-b7ecbe516cf5",
+                  "kind": "group",
+                  "name": "Frame",
+                  "timeRange": { "start": 0, "duration": 4 },
+                  "transform": {
+                    "x": 70,
+                    "y": 65,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "flipX": false,
+                    "flipY": false,
+                    "skewX": 0,
+                    "skewY": 0
+                  },
+                  "size": { "width": 850, "height": 500 },
+                  "opacity": 1,
+                  "blendMode": "normal",
+                  "effects": [],
+                  "animations": [
+                    {
+                      "property": "offsetX",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": -40,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "80b0a2b2-46f0-49b9-85b1-86647faccbe8"
+                        },
+                        {
+                          "time": 0.35,
+                          "value": 0,
+                          "easing": { "kind": "linear" },
+                          "id": "80ededf9-d192-4503-9478-98ff6ca21916"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "3bef2a97-3c36-4d97-a42e-e37ebc408c72"
+                    },
+                    {
+                      "property": "opacity",
+                      "keyframes": [
+                        {
+                          "time": 0,
+                          "value": 0,
+                          "easing": { "kind": "cubic-bezier", "x1": 0.215, "x2": 0.355, "y1": 0.61, "y2": 1 },
+                          "id": "3a52d9e4-b311-4d7b-ab40-2431250fcf68"
+                        },
+                        {
+                          "time": 0.35,
+                          "value": 1,
+                          "easing": { "kind": "linear" },
+                          "id": "74710631-882f-446b-978d-e79c31f3b7b1"
+                        }
+                      ],
+                      "effectId": null,
+                      "effectParam": null,
+                      "gradientStopIndex": null,
+                      "id": "b41bc314-d088-419d-9789-956f83d03d93"
+                    }
+                  ],
+                  "presetAnimations": [],
+                  "mask": null,
+                  "locked": false,
+                  "hidden": false,
+                  "autoLayout": null,
+                  "children": [
+                    {
+                      "id": "d23ebbca-8e0c-482e-afd2-2b828eab6c26",
+                      "kind": "text",
+                      "name": "ÍNDIGO PY",
+                      "text": "ÍNDIGO PY",
+                      "timeRange": { "start": 0, "duration": 4 },
+                      "transform": {
+                        "x": 0,
+                        "y": 0,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 790, "height": 50 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 29,
+                      "fontWeight": 700,
+                      "italic": false,
+                      "letterSpacing": 3,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": null
+                    },
+                    {
+                      "id": "8a86ffc4-630c-4301-9a41-76ebf9c4f72d",
+                      "kind": "text",
+                      "name": "ESCRIBINOS",
+                      "text": "ESCRIBINOS",
+                      "timeRange": { "start": 0, "duration": 4 },
+                      "transform": {
+                        "x": 0,
+                        "y": 55,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 790, "height": 95 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 80,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "d6a8c1b9-b049-49be-a8c1-f8df647088fa"
+                            },
+                            {
+                              "time": 0.3,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "b0eacc48-58fd-41b5-a568-5499279f7222"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "8e7704b9-4770-4ea5-b290-16202939bc6a"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "14b6cb36-100e-434e-ba55-1edca8f33127",
+                      "kind": "text",
+                      "name": "JEANS",
+                      "text": "JEANS",
+                      "timeRange": { "start": 0, "duration": 4 },
+                      "transform": {
+                        "x": 0,
+                        "y": 125,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 455, "height": 170 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "Bebas Neue",
+                      "fontSize": 144,
+                      "fontWeight": 400,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#3155E7" },
+                      "stroke": { "width": 0, "color": "#3155E7" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0.13,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "166fead3-2f0d-4ca7-b7d8-48583107c284"
+                            },
+                            {
+                              "time": 0.43,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "69e5e8b4-0403-4b2c-aeb3-2c1faeaa87ab"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "3301c1e3-2ac8-4bbb-9a17-b45085fd9487"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    },
+                    {
+                      "id": "0bee4ea0-7cbe-4db0-81b9-1a0354b3f50b",
+                      "kind": "text",
+                      "name": "por WhatsApp",
+                      "text": "por WhatsApp",
+                      "timeRange": { "start": 0, "duration": 4 },
+                      "transform": {
+                        "x": 0,
+                        "y": 270,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "rotation": 0,
+                        "anchorX": 0,
+                        "anchorY": 0,
+                        "flipX": false,
+                        "flipY": false,
+                        "skewX": 0,
+                        "skewY": 0
+                      },
+                      "size": { "width": 415, "height": 55 },
+                      "opacity": 1,
+                      "blendMode": "normal",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 40,
+                      "fontWeight": 700,
+                      "italic": false,
+                      "letterSpacing": 0,
+                      "lineHeight": 1.2,
+                      "align": "left",
+                      "fill": { "type": "solid", "color": "#172346" },
+                      "stroke": { "width": 0, "color": "#172346" },
+                      "effects": [],
+                      "animations": [
+                        {
+                          "property": "textProgress",
+                          "keyframes": [
+                            {
+                              "time": 0.2,
+                              "value": 0,
+                              "easing": { "kind": "linear" },
+                              "id": "b694603c-6f64-4cdb-810c-92fa7939d9e5"
+                            },
+                            {
+                              "time": 0.5,
+                              "value": 1,
+                              "easing": { "kind": "linear" },
+                              "id": "12ededc9-db8a-48f4-bd76-4c3822dd1238"
+                            }
+                          ],
+                          "effectId": null,
+                          "effectParam": null,
+                          "gradientStopIndex": null,
+                          "id": "71983e4a-b342-4e05-884f-99979383e8cc"
+                        }
+                      ],
+                      "presetAnimations": [],
+                      "mask": null,
+                      "locked": false,
+                      "hidden": false,
+                      "motion": {
+                        "easing": "house",
+                        "by": "word",
+                        "from": { "x": 0, "y": 35, "opacity": 0, "scale": 0.94 },
+                        "overlap": 0.4
+                      }
+                    }
+                  ],
+                  "frame": { "background": null, "clip": false, "radius": 0 },
+                  "layoutSizing": { "width": "fixed", "height": "fixed" }
+                }
+              ],
+              "frame": { "background": null, "clip": false, "radius": 0 },
+              "layoutSizing": { "width": "fixed", "height": "fixed" },
+              "origin": { "column": 5, "file": "editar.jsx", "line": 41 }
+            }
+          ],
+          "locked": false,
+          "hidden": false,
+          "muted": false,
+          "solo": false,
+          "volume": 1
+        }
+      ],
+      "markers": []
+    }
+  ],
+  "activeSceneId": "cea1338a-b990-4814-8cfe-afaa3e266de0",
+  "assets": [
+    {
+      "id": "df6ef628-2a85-86c1-9f0d-2232bd4a0653",
+      "name": "fonts/bebas-neue-400.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "byteSize": 8596,
+      "duration": null,
+      "width": null,
+      "height": null,
+      "fontFace": { "family": "Bebas Neue", "weight": "400", "style": "normal" },
+      "uri": "fs:fonts/bebas-neue-400.woff2",
+      "hash": null
+    },
+    {
+      "id": "0d8c3a97-30ad-3ff9-630e-4bbbde92bf27",
+      "name": "fonts/dm-sans-400.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "byteSize": 14124,
+      "duration": null,
+      "width": null,
+      "height": null,
+      "fontFace": { "family": "DM Sans", "weight": "400", "style": "normal" },
+      "uri": "fs:fonts/dm-sans-400.woff2",
+      "hash": null
+    },
+    {
+      "id": "107850c8-7fbe-3d2f-d338-b190e1b480ba",
+      "name": "fonts/dm-sans-700.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "byteSize": 14256,
+      "duration": null,
+      "width": null,
+      "height": null,
+      "fontFace": { "family": "DM Sans", "weight": "700", "style": "normal" },
+      "uri": "fs:fonts/dm-sans-700.woff2",
+      "hash": null
+    },
+    {
+      "id": "debc6d14-7e55-0367-3915-effea580ade7",
+      "name": "looks-base.mp4",
+      "kind": "video",
+      "mimeType": "video/mp4",
+      "byteSize": 42313383,
+      "duration": 20,
+      "width": 1080,
+      "height": 1920,
+      "uri": "fs:media/debc6d147e5503673915effea580ade7b19381548459b9d689b1b1f1ab9d4a20.mp4",
+      "hash": "debc6d147e5503673915effea580ade7b19381548459b9d689b1b1f1ab9d4a20"
+    }
+  ],
+  "createdAt": 1791596706649,
+  "modifiedAt": 1791596888783
+}

@@ -1,0 +1,1 @@
+Videos hechos con datos o tomas ficticios (datos.ejemplo.json o una carpeta de tomas con EJEMPLO.txt). Solo para pruebas. NO PUBLICAR.

@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "inventario_fecha_utc": "2026-10-11T04:40:43.984653+00:00",
+  "project_root": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing",
+  "scope": [
+    "Proyecto local Índigo",
+    "Catálogo público observado y auditoría inicial relevantes",
+    "Descarga de og:image de15 publicaciones públicas autorizadas"
+  ],
+  "catalogo_path": "/Users/marco.mallorquin/Documents/Codex/2026-10-10/me/outputs/indigo/coordinacion/catalogo-observado.json",
+  "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json",
+  "resumen": {
+    "videos_fuente_unicos_locales": 4,
+    "video_adicional_a_tres_v5": 1,
+    "imagenes_publicas_nuevas": 15,
+    "fotos_publicas_sin_play": 11,
+    "fotos_condicionadas_aprovechables_detalle": 10,
+    "poster_reel_descartado_para_final": 4,
+    "foto_ai_pendiente": 1,
+    "masters_v5_no_reutilizados": true,
+    "productos_generados": 0
+  },
+  "assets": [
+    {
+      "id": "REAL-01",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v2/source.mp4",
+      "tipo": "video_fuente_publico_local",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-04",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DadS-vpOk4k/",
+      "catalogo_refs": [],
+      "categories": [
+        "Básicas",
+        "Mangas largas",
+        "Combinaciones",
+        "Jeans"
+      ],
+      "width": 720,
+      "height": 1280,
+      "duracion_seg": 27.7,
+      "fps": "30/1",
+      "codec": "h264",
+      "audio": false,
+      "bytes": 3134549,
+      "sha256": "9cabd01ef69df1a5791fbfd110c0e849712a898f5dd1313a1612707c4f804029",
+      "visible": "Combinaciones: top verde oscuro, remera negra, top lila, blazer fucsia sobre lila, top verde claro, abrigo beige sobre azul.",
+      "limites": [
+        "Texto original “1 jeans, 5 outfits” incrustado arriba.",
+        "A 6 s hay transición de división; evitar cuadros de transición.",
+        "La fuente no confirma SKU, talles, medidas ni stock.",
+        "Blazer y abrigo cubren cintura/espalda; no usarlos como prueba de partes tapadas.",
+        "Aparece el mismo jean con distintas partes superiores; no contarlo como varios modelos.",
+        "720p comprimido y sin audio; exportar a 1080 no recupera detalle."
+      ],
+      "muestras_inspeccionadas_seg": [
+        0.5,
+        1.5,
+        3.0,
+        4.5,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0,
+        18.0,
+        20.0,
+        22.0,
+        24.0,
+        26.0,
+        27.0
+      ],
+      "duplicados_identicos": [
+        "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v3/source.mp4",
+        "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v4/source.mp4"
+      ],
+      "inspeccion_visual": "Hojas de contacto de fotogramas completos; límites de muestreo documentados.",
+      "uso_sugerido": "fuente_para_cortes_sin_alterar_producto"
+    },
+    {
+      "id": "REAL-02",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v5/fuentes/jeans-percha.mp4",
+      "tipo": "video_fuente_publico_local",
+      "nuevo_respecto_a_v5": false,
+      "source_id": "IG-06",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/",
+      "catalogo_refs": [
+        "CAT-03",
+        "CAT-04"
+      ],
+      "categories": [
+        "Jeans"
+      ],
+      "width": 720,
+      "height": 1280,
+      "duracion_seg": 11.033333,
+      "fps": "30/1",
+      "codec": "h264",
+      "audio": false,
+      "bytes": 1089919,
+      "sha256": "2ad35f1e23cd508339ab6e0ac4a12255ffc48a777ca0ffb600572a5bcfe3778b",
+      "visible": "Jeans negro y azul en percha; tarjeta oliva de marca al final.",
+      "limites": [
+        "Base ya usada en v5: aporta poca variedad nueva.",
+        "Texto original de nuevos ingresos/premium incrustado abajo: no repetir como información actual.",
+        "Transición entre prendas y tarjeta final.",
+        "No confirmar Mom/Flare del fotograma por sí solo; se apoya en publicación."
+      ],
+      "muestras_inspeccionadas_seg": [
+        0.3,
+        1.5,
+        3.0,
+        4.7,
+        6.2,
+        7.5,
+        9.0,
+        10.6
+      ],
+      "duplicados_identicos": [],
+      "inspeccion_visual": "Hojas de contacto de fotogramas completos; límites de muestreo documentados.",
+      "uso_sugerido": "fuente_para_cortes_sin_alterar_producto"
+    },
+    {
+      "id": "REAL-03",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v5/fuentes/outfit-calle.mp4",
+      "tipo": "video_fuente_publico_local",
+      "nuevo_respecto_a_v5": false,
+      "source_id": "IG-05",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DabTsJUxOsf/",
+      "catalogo_refs": [],
+      "categories": [
+        "Básicas",
+        "Mangas largas",
+        "Jeans",
+        "Combinaciones"
+      ],
+      "width": 720,
+      "height": 1280,
+      "duracion_seg": 5.033333,
+      "fps": "30/1",
+      "codec": "h264",
+      "audio": false,
+      "bytes": 1286454,
+      "sha256": "45dde24cab5734e481d6d88bfca5cdb97c7445bc285e50ee38adcb3514d2645f",
+      "visible": "Persona con parte superior negra de mangas largas y jean azul caminando en exterior.",
+      "limites": [
+        "Base ya usada en v5: aporta poca variedad nueva.",
+        "Texto original en zona inferior izquierda.",
+        "Marcas comerciales del lugar aparecen en el fondo.",
+        "Duración 5,03 s; no prolongar con vistas inexistentes."
+      ],
+      "muestras_inspeccionadas_seg": [
+        0.2,
+        1.0,
+        1.8,
+        2.6,
+        3.4,
+        4.5
+      ],
+      "duplicados_identicos": [],
+      "inspeccion_visual": "Hojas de contacto de fotogramas completos; límites de muestreo documentados.",
+      "uso_sugerido": "fuente_para_cortes_sin_alterar_producto"
+    },
+    {
+      "id": "REAL-04",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v5/fuentes/prendas-tonos.mp4",
+      "tipo": "video_fuente_publico_local",
+      "nuevo_respecto_a_v5": false,
+      "source_id": "IG-07",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DaJklkgxH-Q/",
+      "catalogo_refs": [],
+      "categories": [
+        "Blusas",
+        "Pantalones de vestir",
+        "Básicas",
+        "Combinaciones"
+      ],
+      "width": 720,
+      "height": 1280,
+      "duracion_seg": 34.733333,
+      "fps": "30/1",
+      "codec": "h264",
+      "audio": false,
+      "bytes": 3950596,
+      "sha256": "d1a614cef8e8a4c2c48e764071de2ed51177d6d4e2a8366ad79daf13544ccd70",
+      "visible": "Perchas: pantalón beige, blusa clara sin mangas, blusa marrón acanalada/cuello alto, pantalón gris; tarjeta oliva de marca al final.",
+      "limites": [
+        "Base ya usada en v5: aporta poca variedad nueva.",
+        "Texto original de temporada incrustado abajo; excluirlo o no repetirlo como temporada actual.",
+        "Al inicio hay bolso; no convertirlo en nueva categoría de venta.",
+        "Transición final y tarjeta de marca.",
+        "No asumir que los productos son los mismos SKU que otras publicaciones."
+      ],
+      "muestras_inspeccionadas_seg": [
+        0.3,
+        2.0,
+        5.0,
+        8.0,
+        11.0,
+        14.0,
+        17.0,
+        20.0,
+        23.0,
+        26.0,
+        29.0,
+        33.0
+      ],
+      "duplicados_identicos": [],
+      "inspeccion_visual": "Hojas de contacto de fotogramas completos; límites de muestreo documentados.",
+      "uso_sugerido": "fuente_para_cortes_sin_alterar_producto"
+    },
+    {
+      "id": "NEW-IG-01",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-01-Dcty3qwljHI-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-01",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/",
+      "catalogo_refs": [
+        "CAT-01"
+      ],
+      "categoria_catalogo": "Remeronas",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 42336,
+      "sha256": "8b9d624bb6b667c44086f4505c1e1e34d22cbe9f48a6234bbac2403efa28b45f",
+      "visible": "Persona con remerona blanca estampada y parte superior del jean.",
+      "uso_sugerido": "excluir_hasta_validacion_humana",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Auditoría de 2026-10-09 registró etiqueta AI content en carrusel: pendiente de validación humana de fidelidad; no usar como prueba de calce real.",
+        "La auditoría registró etiqueta AI content en este carrusel. No usar como prueba de producto o calce real sin validación de fidelidad.",
+        "Sólo primera imagen cuadrada del carrusel; no demuestra otras estampas."
+      ],
+      "estado_comercial_publicacion": "Publicado como disponible",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-02",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-02-DaszDt2xnFK-poster.jpg",
+      "tipo": "poster_del_reel",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-02",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/",
+      "catalogo_refs": [
+        "CAT-02"
+      ],
+      "categoria_catalogo": "Chalecos",
+      "width": 360,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 22776,
+      "sha256": "7209ed0b9676665907c5ebd421e6df69658d5e1dd22ea329d75a61067dd98f05",
+      "visible": "Chalecos claros, negro y bicolor colgados; play incrustado sobre una prenda.",
+      "uso_sugerido": "evaluacion_solo",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta.",
+        "Botón play incrustado; no usar como imagen final ni eliminarlo con IA.",
+        "La categoría queda apoyada por catálogo y poster; video a recuperar por otro agente."
+      ],
+      "estado_comercial_publicacion": "Sin confirmación actual",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-09",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-09-DZ74Wm0RHDo-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-09",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+      "catalogo_refs": [
+        "CAT-08"
+      ],
+      "categoria_catalogo": "Básicas cuello alto",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 94772,
+      "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85",
+      "visible": "Detalle de cuello y tela de una parte superior verde en percha.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "No es vista completa ni muestra calce.",
+        "Foto cuadrada de detalle; no recolorear a oliva para hacer coincidir la marca."
+      ],
+      "estado_comercial_publicacion": "Sin confirmación actual",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-10",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-10-DZ3YJ1WReAq-poster.jpg",
+      "tipo": "poster_del_reel",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-10",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/",
+      "catalogo_refs": [
+        "CAT-06"
+      ],
+      "categoria_catalogo": "Básicas mangas largas",
+      "width": 360,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 28345,
+      "sha256": "8bff008e7977a98b0b46d73f9d1d7d7331461455da6951c3fb5864225e40c91f",
+      "visible": "Perchero con varias partes superiores de mangas largas, múltiples tonos; play central.",
+      "uso_sugerido": "evaluacion_solo",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta.",
+        "Botón play incrustado; no usar como imagen final ni eliminarlo con IA."
+      ],
+      "estado_comercial_publicacion": "Precio histórico",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-11",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-11-DZpObDsRtkZ-poster.jpg",
+      "tipo": "poster_del_reel",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-11",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/",
+      "catalogo_refs": [
+        "CAT-07"
+      ],
+      "categoria_catalogo": "Básicas",
+      "width": 361,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 30458,
+      "sha256": "79edc8266293cebe02a8db0ba564057c0d041840019335ac4aaf24d7cf0bb8d9",
+      "visible": "Perchero y bolsos; texto histórico de precio, talles y teléfono; play central.",
+      "uso_sugerido": "evaluacion_solo",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta.",
+        "Botón play y precio histórico incrustados; descartar para finales.",
+        "El poster no demuestra las básicas completas."
+      ],
+      "estado_comercial_publicacion": "Precio histórico desde",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-13",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-13-DZisj6QFh5H-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-13",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/",
+      "catalogo_refs": [
+        "CAT-11"
+      ],
+      "categoria_catalogo": "Blusa / pantalón",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 27750,
+      "sha256": "9e833ec1b64bd23c0482b7dca16a1c0cb263ef8846dcddd6ac0dc6417838a833",
+      "visible": "Torso con blusa bordó y apenas inicio de pantalón violeta.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Recorte cuadrado; pantalón casi fuera. No presentarlo como conjunto completo.",
+        "La descripción indica blusa vendida en la publicación histórica; no inferir reposición."
+      ],
+      "estado_comercial_publicacion": "Disponibilidad mixta histórica",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-14",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-14-DZirs6Clrw8-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-14",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/",
+      "catalogo_refs": [
+        "CAT-09",
+        "CAT-10"
+      ],
+      "categoria_catalogo": "Básica morley / pantalón",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 44877,
+      "sha256": "67214045e885e723f44dde8930a823b6fc6bd66da12d631933270e5bea581abb",
+      "visible": "Torso de básica beige en persona; el pantalón negro no aparece en este recorte.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "No usar como imagen del pantalón negro ni como calce completo.",
+        "Básica marcada vendida en descripción histórica."
+      ],
+      "estado_comercial_publicacion": "Disponibilidad mixta histórica",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-15",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-15-DZirEg3FlK3-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-15",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/",
+      "catalogo_refs": [
+        "CAT-12"
+      ],
+      "categoria_catalogo": "Conjuntos",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 34951,
+      "sha256": "7711a9f8ef16c15792948a00fa1872e159944c8c28a6ac5bb53d4796260ea875",
+      "visible": "Parte superior marrón de cuello alto en persona; pantalón fuera del recorte.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "No demuestra conjunto completo aunque la descripción sea de conjunto.",
+        "Publicación marcada vendida; disponibilidad actual pendiente."
+      ],
+      "estado_comercial_publicacion": "Marcado vendido",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-19",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-19-DYc88YVRpAH-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-19",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc88YVRpAH/",
+      "catalogo_refs": [
+        "CAT-13"
+      ],
+      "categoria_catalogo": "Básicas",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 45164,
+      "sha256": "d7b742263c26d6cd08efc85af5736275a16074ba8d13d32b1c86b9a243367154",
+      "visible": "Básica beige acanalada de cuello alto y manga larga en percha.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Recorte cuadrado de torso; no muestra largo total ni calce.",
+        "Publicación marcada vendida; no inferir reposición."
+      ],
+      "estado_comercial_publicacion": "Marcado vendido",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-20",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-20-DYc8sVjxNN5-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-20",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc8sVjxNN5/",
+      "catalogo_refs": [
+        "CAT-14"
+      ],
+      "categoria_catalogo": "Pantalón sastrero",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 45007,
+      "sha256": "bb6a54536c97dbd6025c9dfe5cd070683b00dbfbc765e89bb4ba9d76102ad079",
+      "visible": "Cintura y tramo superior frontal de pantalón sastrero camel en percha.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "No muestra largo, ancho de bota ni caída completa.",
+        "Publicación marcada vendida; no inferir reposición."
+      ],
+      "estado_comercial_publicacion": "Marcado vendido",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-21",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-21-DYc8VybRql_-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-21",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc8VybRql_/",
+      "catalogo_refs": [
+        "CAT-15"
+      ],
+      "categoria_catalogo": "Blusa sin mangas",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 36962,
+      "sha256": "e99f78d5610b2b8f279d9b3e48420ddd3f41bc6d71a17e18b1415c64bc1fa427",
+      "visible": "Escote redondo y tramo superior de blusa clara sin mangas en percha.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Fruncido y largo inferior quedan fuera; no anunciar prueba del fruncido o calce."
+      ],
+      "estado_comercial_publicacion": "Consultar disponibilidad",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-22",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-22-DYc74FaR_lG-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-22",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/",
+      "catalogo_refs": [
+        "CAT-16"
+      ],
+      "categoria_catalogo": "Blusa cuello alto",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 39958,
+      "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2",
+      "visible": "Cuello alto y torso de blusa marrón chocolate acanalada en percha.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Recorte de detalle; no muestra calce ni largo completo.",
+        "Publicación marcada vendida; no inferir reposición."
+      ],
+      "estado_comercial_publicacion": "Marcado vendido",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-23",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-23-DYc6-1vRaIk-poster.jpg",
+      "tipo": "poster_del_reel",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-23",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/",
+      "catalogo_refs": [],
+      "categoria_catalogo": "Pantalón sastrero",
+      "width": 361,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 26797,
+      "sha256": "d842151e604fbe029bb62f59ac41de2766272e324ee0ab03082d7c00eb8b8196",
+      "visible": "Parte superior clara sostenida junto a pantalón sastrero; play incrustado y texto de tres outfits.",
+      "uso_sugerido": "evaluacion_solo",
+      "limites": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta.",
+        "Botón play incrustado; no usar como imagen final ni eliminarlo con IA."
+      ],
+      "estado_comercial_publicacion": "Inspiración",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-17",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-17-DYyDt18lhHE-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-17",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYyDt18lhHE/",
+      "catalogo_refs": [],
+      "categoria_catalogo": "Jeans Wide Leg",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 52287,
+      "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a",
+      "visible": "Detalle posterior lateral de cadera, cintura y bolsillo de jean azul puesto.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Archivo og:image original sin alterar.",
+        "El nombre Wide Leg está apoyado por descripción; el recorte no muestra el ancho de pierna ni calce completo."
+      ],
+      "estado_comercial_publicacion": "Sin confirmación actual",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    },
+    {
+      "id": "NEW-IG-03",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-03-DaeBh6olslD-imagen-publica.jpg",
+      "tipo": "imagen_publica_del_post",
+      "nuevo_respecto_a_v5": true,
+      "source_id": "IG-03",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DaeBh6olslD/",
+      "catalogo_refs": [],
+      "categoria_catalogo": "Combinación azul y crema",
+      "width": 640,
+      "height": 640,
+      "duracion_seg": null,
+      "bytes": 33608,
+      "sha256": "e13d9c5cdf6252ac127bf2fcbb1e92002b83319b71c3cd243856a695c26a0c23",
+      "visible": "Torso con parte superior azul y abrigo claro/crema.",
+      "uso_sugerido": "detalle_publico_condicionado",
+      "limites": [
+        "Una imagen pública; no recupera otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Archivo og:image original sin alterar.",
+        "Recorte de torso; no demuestra outfit de cuerpo completo ni pantalón."
+      ],
+      "estado_comercial_publicacion": "Inspiración",
+      "verificacion": "Archivo público og:image descargado sin alterar; inspección visual del archivo. No prueba autenticidad del calce si hubo edición previa; excepción AI registrada en IG-01.",
+      "provenance_path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/provenance.json"
+    }
+  ],
+  "category_coverage": [
+    {
+      "categoria": "Remeronas",
+      "assets": [
+        "NEW-IG-01"
+      ],
+      "estado": "pendiente_de_fidelidad",
+      "limite": "Existe imagen pública, pero alerta AI content; excluir de finales hasta validación."
+    },
+    {
+      "categoria": "Chalecos",
+      "assets": [
+        "NEW-IG-02"
+      ],
+      "estado": "poster_no_apto_para_final",
+      "limite": "Poster con play; video público lo gestiona agente de marca. No existe video nuevo local en este inventario."
+    },
+    {
+      "categoria": "Básicas",
+      "assets": [
+        "REAL-01",
+        "REAL-03",
+        "REAL-04",
+        "NEW-IG-09",
+        "NEW-IG-19",
+        "NEW-IG-22",
+        "NEW-IG-14",
+        "NEW-IG-15",
+        "NEW-IG-10",
+        "NEW-IG-11"
+      ],
+      "estado": "fotos_de_detalle_y_originales_existentes",
+      "limite": "IG10/11 posters no aptos. Fotos sin vista completa; videos antiguos ayudan a combinación."
+    },
+    {
+      "categoria": "Mangas largas",
+      "assets": [
+        "REAL-01",
+        "REAL-03",
+        "NEW-IG-19",
+        "NEW-IG-22",
+        "NEW-IG-10"
+      ],
+      "estado": "originales_existentes_y_fotos_de_detalle",
+      "limite": "REAL01 sí muestra cuerpo entero con varias partes superiores. Poster IG10 no apto para final."
+    },
+    {
+      "categoria": "Pantalón de vestir / sastrero",
+      "assets": [
+        "REAL-04",
+        "NEW-IG-20",
+        "NEW-IG-13",
+        "NEW-IG-14",
+        "NEW-IG-15",
+        "NEW-IG-23"
+      ],
+      "estado": "percha_en_base_v5_y_detalle_foto_nueva",
+      "limite": "IG20 muestra cintura; IG14/15 no muestran pantalón. IG23 poster descartado. No afirmar nueva vista completa."
+    },
+    {
+      "categoria": "Blusas",
+      "assets": [
+        "REAL-01",
+        "REAL-04",
+        "NEW-IG-13",
+        "NEW-IG-21",
+        "NEW-IG-22"
+      ],
+      "estado": "fotos_de_detalle_y_videos_existentes",
+      "limite": "IG21 no muestra fruncido completo; REAL04 permite mostrar más prenda de percha pero ya usada."
+    },
+    {
+      "categoria": "Conjuntos",
+      "assets": [
+        "REAL-01",
+        "REAL-03",
+        "REAL-04",
+        "NEW-IG-03",
+        "NEW-IG-13",
+        "NEW-IG-14",
+        "NEW-IG-15"
+      ],
+      "estado": "combinaciones_originales_y_fotos_parciales",
+      "limite": "Conjunto del postIG15 fuera del recorte inferior; no etiquetar foto como conjunto completo."
+    },
+    {
+      "categoria": "Jeans Wide Leg",
+      "assets": [
+        "NEW-IG-17"
+      ],
+      "estado": "detalle_posterior_nuevo",
+      "limite": "Fuente catalogada Wide Leg; fotoOG no muestra ancho de pierna."
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/01-looks-original-primera-parte.jpg",
+      "dimensiones": [
+        1386,
+        1363
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/02-looks-original-segunda-parte.jpg",
+      "dimensiones": [
+        1386,
+        1363
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/03-jeans-percha-base-v5.jpg",
+      "dimensiones": [
+        1386,
+        1363
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/04-outfit-calle-base-v5.jpg",
+      "dimensiones": [
+        1044,
+        1363
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/05-prendas-tonos-base-v5.jpg",
+      "dimensiones": [
+        1386,
+        1993
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/06-nuevas-basicas-chalecos-remeronas.jpg",
+      "dimensiones": [
+        1444,
+        1538
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/07-nuevas-pantalones-conjuntos.jpg",
+      "dimensiones": [
+        1444,
+        1538
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    },
+    {
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/inventario/08-nuevas-blusas-sastrero.jpg",
+      "dimensiones": [
+        1444,
+        817
+      ],
+      "inspeccionada": true,
+      "uso": "Evaluación; no asset final de producto. Miniaturas sin cambio de proporción/color."
+    }
+  ],
+  "global_limits": [
+    "Catálogo público no equivale a stock, SKU único, precio, talle o composición actuales.",
+    "No se recuperó video completo con HTML público; no se usó login, cookies de usuario ni API oculta.",
+    "Las fotos 640 cuadradas son crops publicados por og:image; no se modificó laURL para forzar mayor resolución.",
+    "Ningún archivo fuente fue retocado, rellenado, recoloreado o alterado.",
+    "Hojas de contacto conservan fotograma completo y proporción; miniaturas sólo para evaluación.",
+    "No usar play incrustado, precio histórico ni palabra estacional en finales.",
+    "Se necesita el archivo de mayor encuadre desde control DOM público para pantalón negro, conjunto completo y ancho del jean.",
+    "Muestreo de contacto evalúa contenido y limitaciones principales; no sustituye reproducción completa antes de export final."
+  ],
+  "exclusions": [
+    "Masters v1–v5 y montajes derivados no aportan material nuevo.",
+    "Las copias source.mp4 de v2/v3/v4 son idénticas por SHA256.",
+    "Fotos/screens de prueba y portadas v5 repiten fuentes ya listadas; no se cuentan como categorías nuevas."
+  ]
+}

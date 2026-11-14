@@ -1,0 +1,137 @@
+[
+  {
+    "path": "editor/public/brand/logo.jpg",
+    "bytes": 93456,
+    "sha256": "5328d99d7b2ca4e87fde8f8a6b5eb8a201948e9d9effb1f418d98e689059f444"
+  },
+  {
+    "path": "editor/public/media/azul-crema.jpg",
+    "bytes": 507163,
+    "sha256": "5d7f11141a92d1e75a6d9d2ed7116ea18f99b96796f29f15ca51a91dcb7b3d68"
+  },
+  {
+    "path": "editor/public/media/basica-beige.jpg",
+    "bytes": 45164,
+    "sha256": "d7b742263c26d6cd08efc85af5736275a16074ba8d13d32b1c86b9a243367154"
+  },
+  {
+    "path": "editor/public/media/blusa.jpg",
+    "bytes": 673432,
+    "sha256": "70c2255fe92fca8aac77e4eeed7a420c68c36ce5a96224ca7a81b65d9a70c75c"
+  },
+  {
+    "path": "editor/public/media/chaleco-a.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "path": "editor/public/media/chaleco-b.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "path": "editor/public/media/chocolate.jpg",
+    "bytes": 39958,
+    "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2"
+  },
+  {
+    "path": "editor/public/media/conjunto-beige.jpg",
+    "bytes": 775451,
+    "sha256": "ea664dbbf5e8c9f3d72297c7cff2aaa7b7cc8e60e2f4d53af5278e1da134d531"
+  },
+  {
+    "path": "editor/public/media/conjunto-marron.jpg",
+    "bytes": 656233,
+    "sha256": "8725865fba1ee842270fa35110b7127f85512076e7be0e0f23c32e8c1e29eacb"
+  },
+  {
+    "path": "editor/public/media/conjunto-uva.jpg",
+    "bytes": 493603,
+    "sha256": "0916960a921540dc2a2f831b85bcee9fa6c451829bef264a4d4c4f927b320c0c"
+  },
+  {
+    "path": "editor/public/media/jean-detalle.jpg",
+    "bytes": 52287,
+    "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a"
+  },
+  {
+    "path": "editor/public/media/jean-percha.mp4",
+    "bytes": 1796476,
+    "sha256": "cde2c207025e057c885d27856b13173653a618085705faea98088a7de4b6bf4f"
+  },
+  {
+    "path": "editor/public/media/manga-lila.mp4",
+    "bytes": 587795,
+    "sha256": "031c630cb692c0e0490bb0c7bb3f4c11e26afa8bca959f947c3d334984024ae6"
+  },
+  {
+    "path": "editor/public/media/manga-verde.mp4",
+    "bytes": 293816,
+    "sha256": "51e051239cda4d7ac3b5640cb0504dc4d73304c0a1c078a21e526adca1d647f3"
+  },
+  {
+    "path": "editor/public/media/mangas.jpg",
+    "bytes": 73068,
+    "sha256": "344afe0f06d2d7b0e3098d88f32a9466cca630c52f3381f5f707df8c36fecd4f"
+  },
+  {
+    "path": "editor/public/media/sastrero.jpg",
+    "bytes": 486926,
+    "sha256": "eedeefd8b8e2c0755084df6ca3ea95f02add317cdce47e1d847de43e3631ab38"
+  },
+  {
+    "path": "editor/public/media/verde.jpg",
+    "bytes": 94772,
+    "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85"
+  },
+  {
+    "path": "editor/public/audio/01.wav",
+    "bytes": 4608078,
+    "sha256": "1e91d678505f7dc9426455c02106aaaee6f3755201561677d058cb498803243e"
+  },
+  {
+    "path": "editor/public/audio/02.wav",
+    "bytes": 4608078,
+    "sha256": "b1c6143e6e9d6032d9b59a1cf03f95d3238246e33e83a8a96f0f7b7637180ce1"
+  },
+  {
+    "path": "editor/public/audio/03.wav",
+    "bytes": 4608078,
+    "sha256": "46a5c0c8f3149c8d4a726ab83985ce608e8f2a78762f61cf48af2798ee9304f5"
+  },
+  {
+    "path": "editor/public/audio/04.wav",
+    "bytes": 4608078,
+    "sha256": "48dfab7418d7b75983035ec36a4344aef45c307c81135ac86227ae8c4f56a4b7"
+  },
+  {
+    "path": "editor/public/audio/05.wav",
+    "bytes": 4608078,
+    "sha256": "53dec7f888fc4169f64aa1596f4a0b9bbd788a6e4f2beabb1ce5a84d268ad402"
+  },
+  {
+    "path": "editor/public/audio/06.wav",
+    "bytes": 4608078,
+    "sha256": "41d7aac9e7a8c926112d512896281ffdf315e0518cc47ccfe078992e8a123f57"
+  },
+  {
+    "path": "editor/public/audio/07.wav",
+    "bytes": 4608078,
+    "sha256": "3546c96aeda8399535e4812057462a7eed05849195de4920b670853bfd12ea79"
+  },
+  {
+    "path": "editor/public/audio/08.wav",
+    "bytes": 4608078,
+    "sha256": "9a5c9f0028fadbaa97f67c9c16589e8b9e581d341ef17e96eb21db448ebbbb0c"
+  },
+  {
+    "path": "editor/public/audio/09.wav",
+    "bytes": 4608078,
+    "sha256": "2ff7bb817c8a5ff1abf76c4fd62b5636da094cd403d4d3ed4ca591aab87722d3"
+  },
+  {
+    "path": "editor/public/audio/10.wav",
+    "bytes": 4608078,
+    "sha256": "b2d5e0cef91e5374368870e8dadecbcec3d451d515569605886329f987ff4c37"
+  }
+]

@@ -1,0 +1,32 @@
+# Medios pesados: no van a GitHub (se sincronizan con Azure Storage)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.zip
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.webp
+*.heic
+*.HEIC
+*.gif
+*.wav
+*.mp3
+*.m4a
+*.pdf
+*.ttf
+*.otf
+*.woff
+*.woff2
+# Exportes de Canva con imagenes embebidas
+*-canva.html
+# Herramientas y dependencias locales
+node_modules/
+coleccion-v8-editorial/work/python/
+*.so
+tmp/
+# Resultados de la API (quedan en tu Mac y en Azure Storage)
+api-credito/salida/

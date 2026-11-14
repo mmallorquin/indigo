@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:03,000
+Mirá más que el color.
+
+2
+00:00:03,000 --> 00:00:04,500
+Tres cosas para mirar.
+
+3
+00:00:04,500 --> 00:00:10,000
+01. El cuello. Dos referencias de cuello
+alto.
+
+4
+00:00:10,000 --> 00:00:15,500
+02. Las mangas. Una referencia sin mangas.
+
+5
+00:00:15,500 --> 00:00:21,000
+03. Los detalles. El fruncido, de cerca.
+
+6
+00:00:21,000 --> 00:00:25,500
+Cuello. Mangas. Detalles.
+
+7
+00:00:25,500 --> 00:00:30,500
+Comentá qué detalle querés ver de cerca.

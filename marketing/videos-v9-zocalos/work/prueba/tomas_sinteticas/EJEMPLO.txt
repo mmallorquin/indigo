@@ -1,0 +1,1 @@
+Clips sinteticos (FFmpeg testsrc) solo para probar el motor. Todo lo armado con esta carpeta es EJEMPLO: NO PUBLICAR.

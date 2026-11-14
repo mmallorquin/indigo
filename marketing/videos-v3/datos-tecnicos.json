@@ -1,0 +1,96 @@
+{
+  "looks": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "20.000000",
+        "bit_rate": "10023725",
+        "nb_frames": "600"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "20.000000",
+        "bit_rate": "195509",
+        "nb_frames": "939"
+      }
+    ],
+    "format": {
+      "duration": "20.000000",
+      "size": "25572068",
+      "bit_rate": "10228827"
+    }
+  },
+  "consulta": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "20.000000",
+        "bit_rate": "10029973",
+        "nb_frames": "600"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "20.000000",
+        "bit_rate": "194669",
+        "nb_frames": "939"
+      }
+    ],
+    "format": {
+      "duration": "20.000000",
+      "size": "25585600",
+      "bit_rate": "10234240"
+    }
+  },
+  "looks-sin-musica": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "20.000000",
+        "bit_rate": "10023725",
+        "nb_frames": "600"
+      }
+    ],
+    "format": {
+      "duration": "20.000000",
+      "size": "25067747",
+      "bit_rate": "10027098"
+    }
+  },
+  "consulta-sin-musica": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "20.000000",
+        "bit_rate": "10029973",
+        "nb_frames": "600"
+      }
+    ],
+    "format": {
+      "duration": "20.000000",
+      "size": "25083334",
+      "bit_rate": "10033333"
+    }
+  }
+}

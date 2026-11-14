@@ -1,0 +1,188 @@
+[
+  {
+    "id": "11",
+    "fps": 30,
+    "beats": [
+      {
+        "start_s": 0,
+        "end_s": 3,
+        "start_frame": 0,
+        "end_frame_exclusive": 90,
+        "text": "¿Por dónde empezás?",
+        "visual": "Gancho con dos tarjetas y palabras cinéticas"
+      },
+      {
+        "start_s": 3,
+        "end_s": 4.5,
+        "start_frame": 90,
+        "end_frame_exclusive": 135,
+        "text": "Una base. Tres ideas.",
+        "visual": "Título editorial de 1,5 s"
+      },
+      {
+        "start_s": 4.5,
+        "end_s": 9.5,
+        "start_frame": 135,
+        "end_frame_exclusive": 285,
+        "text": "Beige + negro",
+        "visual": "Foto completa y etiquetas de base/tono"
+      },
+      {
+        "start_s": 9.5,
+        "end_s": 14.5,
+        "start_frame": 285,
+        "end_frame_exclusive": 435,
+        "text": "Vino + violeta. Un tono, otro acento.",
+        "visual": "Encuadre y lectura de color"
+      },
+      {
+        "start_s": 14.5,
+        "end_s": 19.5,
+        "start_frame": 435,
+        "end_frame_exclusive": 585,
+        "text": "Marrón + marrón. En la misma familia de tonos.",
+        "visual": "Retrato real y acercamiento suave"
+      },
+      {
+        "start_s": 19.5,
+        "end_s": 25.5,
+        "start_frame": 585,
+        "end_frame_exclusive": 765,
+        "text": "Primero la base. Después el tono.",
+        "visual": "Tríptico, contador 1–3 y flecha SVG"
+      },
+      {
+        "start_s": 25.5,
+        "end_s": 30.5,
+        "start_frame": 765,
+        "end_frame_exclusive": 915,
+        "text": "Comentá cuál combinación querés ver de cerca.",
+        "visual": "Logo y CTA único"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "fps": 30,
+    "beats": [
+      {
+        "start_s": 0,
+        "end_s": 3,
+        "start_frame": 0,
+        "end_frame_exclusive": 90,
+        "text": "Mirá más que el color.",
+        "visual": "Gancho de un detalle real"
+      },
+      {
+        "start_s": 3,
+        "end_s": 4.5,
+        "start_frame": 90,
+        "end_frame_exclusive": 135,
+        "text": "Tres cosas para mirar.",
+        "visual": "Título editorial"
+      },
+      {
+        "start_s": 4.5,
+        "end_s": 10,
+        "start_frame": 135,
+        "end_frame_exclusive": 300,
+        "text": "01. El cuello. Dos referencias de cuello alto.",
+        "visual": "Díptico de verde y chocolate"
+      },
+      {
+        "start_s": 10,
+        "end_s": 15.5,
+        "start_frame": 300,
+        "end_frame_exclusive": 465,
+        "text": "02. Las mangas. Una referencia sin mangas.",
+        "visual": "Prenda completa y etiqueta de corte"
+      },
+      {
+        "start_s": 15.5,
+        "end_s": 21,
+        "start_frame": 465,
+        "end_frame_exclusive": 630,
+        "text": "03. Los detalles. El fruncido, de cerca.",
+        "visual": "Ampliación y llamada SVG de 497 px"
+      },
+      {
+        "start_s": 21,
+        "end_s": 25.5,
+        "start_frame": 630,
+        "end_frame_exclusive": 765,
+        "text": "Cuello. Mangas. Detalles.",
+        "visual": "Lista escalonada y foto general"
+      },
+      {
+        "start_s": 25.5,
+        "end_s": 30.5,
+        "start_frame": 765,
+        "end_frame_exclusive": 915,
+        "text": "Comentá qué detalle querés ver de cerca.",
+        "visual": "Logo y CTA único"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "fps": 30,
+    "beats": [
+      {
+        "start_s": 0,
+        "end_s": 3,
+        "start_frame": 0,
+        "end_frame_exclusive": 90,
+        "text": "Una capa. Otra idea.",
+        "visual": "Gancho con chalecos reales"
+      },
+      {
+        "start_s": 3,
+        "end_s": 4.5,
+        "start_frame": 90,
+        "end_frame_exclusive": 135,
+        "text": "El look por capas.",
+        "visual": "Título editorial"
+      },
+      {
+        "start_s": 4.5,
+        "end_s": 10.5,
+        "start_frame": 135,
+        "end_frame_exclusive": 315,
+        "text": "Idea para combinar: camisa + chaleco.",
+        "visual": "Diagrama genérico, rotulado como idea; foto real de chalecos"
+      },
+      {
+        "start_s": 10.5,
+        "end_s": 16.5,
+        "start_frame": 315,
+        "end_frame_exclusive": 495,
+        "text": "Otra referencia: azul + crema.",
+        "visual": "Look completo con la cara visible"
+      },
+      {
+        "start_s": 16.5,
+        "end_s": 22.5,
+        "start_frame": 495,
+        "end_frame_exclusive": 675,
+        "text": "Dos ideas para mirar las capas.",
+        "visual": "Comparación de referencias reales"
+      },
+      {
+        "start_s": 22.5,
+        "end_s": 26.5,
+        "start_frame": 675,
+        "end_frame_exclusive": 795,
+        "text": "Mirá el look por partes: base, capa y tonos.",
+        "visual": "Diagrama vertical de 580 px y palabras escalonadas"
+      },
+      {
+        "start_s": 26.5,
+        "end_s": 31.5,
+        "start_frame": 795,
+        "end_frame_exclusive": 945,
+        "text": "Comentá qué combinación querés en el próximo video.",
+        "visual": "Logo y CTA único"
+      }
+    ]
+  }
+]

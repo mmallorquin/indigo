@@ -1,0 +1,2183 @@
+{
+  "palette": {
+    "olive": "#4F5533",
+    "dark": "#30371F",
+    "paper": "#F4F0E6",
+    "ink": "#20251B",
+    "sage": "#CBD0B2",
+    "sand": "#C4AB79"
+  },
+  "posts": [
+    {
+      "id": "neutros-01",
+      "bg": "#30371F",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "ESTUDIO DE LOOKS",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "Neutros",
+          "x": 66,
+          "y": 180,
+          "size": 211,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "CON PRESENCIA",
+          "x": 78,
+          "y": 399,
+          "size": 27,
+          "color": "#CBD0B2",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 5
+        },
+        {
+          "type": "photo",
+          "src": "conjunto-marron.jpg",
+          "x": 454,
+          "y": 480,
+          "w": 554,
+          "h": 739,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "Beige.\nMarrón.\nNegro.",
+          "x": 72,
+          "y": 665,
+          "size": 68,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": true,
+          "lh": 1.12,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "logo",
+          "x": 72,
+          "y": 1100,
+          "w": 100,
+          "h": 100
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#F4F0E6"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "01 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "neutros-02",
+      "bg": "#F4F0E6",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "LA PRENDA",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "photo",
+          "src": "sastrero.jpg",
+          "x": 72,
+          "y": 160,
+          "w": 515,
+          "h": 1015,
+          "fit": "meet",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "El punto\nde partida.",
+          "x": 625,
+          "y": 300,
+          "size": 69,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.02,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "Un sastrero\nen tono neutro.",
+          "x": 625,
+          "y": 600,
+          "size": 32,
+          "color": "#20251B",
+          "serif": false,
+          "italic": false,
+          "lh": 1.3,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 625,
+          "y": 810,
+          "w": 383,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 625,
+          "y": 865,
+          "size": 135,
+          "color": "#4F5533",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "02 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "neutros-03",
+      "bg": "#30371F",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "EL LOOK",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "photo",
+          "src": "conjunto-marron.jpg",
+          "x": 320,
+          "y": 105,
+          "w": 688,
+          "h": 918,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "Un tono,\nconjunto completo.",
+          "x": 72,
+          "y": 1050,
+          "size": 82,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": false,
+          "lh": 1.04,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 72,
+          "y": 290,
+          "size": 136,
+          "color": "#CBD0B2",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#F4F0E6"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "03 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "neutros-04",
+      "bg": "#F4F0E6",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "EL CONTRASTE",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "Beige arriba.\nNegro abajo.",
+          "x": 72,
+          "y": 127,
+          "size": 76,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 0.98,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "photo",
+          "src": "conjunto-beige.jpg",
+          "x": 72,
+          "y": 335,
+          "w": 600,
+          "h": 800,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "+",
+          "x": 749,
+          "y": 455,
+          "size": 175,
+          "color": "#4F5533",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "Dos tonos.\nUn look.",
+          "x": 730,
+          "y": 807,
+          "size": 46,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.15,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "04 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "neutros-05",
+      "bg": "#4F5533",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "SEGUIMOS CONVERSANDO",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "logo",
+          "x": 892,
+          "y": 130,
+          "w": 100,
+          "h": 100
+        },
+        {
+          "type": "text",
+          "text": "¿Cuál va\ncon vos?",
+          "x": 72,
+          "y": 229,
+          "size": 139,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": false,
+          "lh": 0.98,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "photo",
+          "src": "sastrero.jpg",
+          "x": 72,
+          "y": 700,
+          "w": 270,
+          "h": 360,
+          "fit": "meet",
+          "crop": null
+        },
+        {
+          "type": "photo",
+          "src": "conjunto-marron.jpg",
+          "x": 405,
+          "y": 700,
+          "w": 270,
+          "h": 360,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "photo",
+          "src": "conjunto-beige.jpg",
+          "x": 738,
+          "y": 700,
+          "w": 270,
+          "h": 360,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "Mandanos tu referencia favorita.",
+          "x": 72,
+          "y": 1147,
+          "size": 44,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#F4F0E6"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "05 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "pantalones-01",
+      "bg": "#F4F0E6",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "CUADERNO DE PRENDAS",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "Dos pantalones.\nDos lecturas.",
+          "x": 72,
+          "y": 190,
+          "size": 111,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 0.97,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "photo",
+          "src": "sastrero.jpg",
+          "x": 72,
+          "y": 540,
+          "w": 441,
+          "h": 585,
+          "fit": "meet",
+          "crop": null
+        },
+        {
+          "type": "photo",
+          "src": "jean-detalle.jpg",
+          "x": 567,
+          "y": 540,
+          "w": 441,
+          "h": 585,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "SASTRERO",
+          "x": 72,
+          "y": 1160,
+          "size": 26,
+          "color": "#20251B",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 2
+        },
+        {
+          "type": "text",
+          "text": "JEAN",
+          "x": 567,
+          "y": 1160,
+          "size": 26,
+          "color": "#20251B",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 2
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "01 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "pantalones-02",
+      "bg": "#30371F",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "SASTRERO",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "Primero,\nla cintura.",
+          "x": 72,
+          "y": 175,
+          "size": 120,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": false,
+          "lh": 0.98,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "photo",
+          "src": "sastrero.jpg",
+          "x": 72,
+          "y": 500,
+          "w": 936,
+          "h": 590,
+          "fit": "slice",
+          "crop": [
+            230,
+            125,
+            920,
+            580
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Una mirada al diseño del sastrero.",
+          "x": 72,
+          "y": 1164,
+          "size": 32,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#F4F0E6"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "02 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "pantalones-03",
+      "bg": "#F4F0E6",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "JEAN",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "photo",
+          "src": "jean-detalle.jpg",
+          "x": 350,
+          "y": 145,
+          "w": 658,
+          "h": 900,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "El bolsillo.\nLa costura.\nEl lavado.",
+          "x": 72,
+          "y": 1019,
+          "size": 69,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.02,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 72,
+          "y": 250,
+          "size": 140,
+          "color": "#4F5533",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "03 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "pantalones-04",
+      "bg": "#F4F0E6",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "LA CONSULTA",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "Antes de elegir,\npedí las medidas.",
+          "x": 72,
+          "y": 175,
+          "size": 92,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.03,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "path",
+          "d": "M 240 560 L 490 560 L 540 1050 L 430 1050 L 365 750 L 300 1050 L 190 1050 Z",
+          "color": "#4F5533",
+          "stroke": 3
+        },
+        {
+          "type": "rect",
+          "x": 180,
+          "y": 575,
+          "w": 410,
+          "h": 1.5,
+          "color": "#C4AB79"
+        },
+        {
+          "type": "rect",
+          "x": 180,
+          "y": 675,
+          "w": 410,
+          "h": 1.5,
+          "color": "#C4AB79"
+        },
+        {
+          "type": "path",
+          "d": "M 555 575 V 1050 M 545 575 H 565 M 545 1050 H 565",
+          "color": "#4F5533",
+          "stroke": 2
+        },
+        {
+          "type": "text",
+          "text": "Cintura",
+          "x": 650,
+          "y": 554,
+          "size": 49,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "Cadera",
+          "x": 650,
+          "y": 665,
+          "size": 49,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "Largo",
+          "x": 650,
+          "y": 920,
+          "size": 49,
+          "color": "#20251B",
+          "serif": true,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "Guía para consultar.",
+          "x": 72,
+          "y": 1148,
+          "size": 28,
+          "color": "#20251B",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#4F5533"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "04 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#4F5533",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    },
+    {
+      "id": "pantalones-05",
+      "bg": "#30371F",
+      "width": 1080,
+      "height": 1350,
+      "nodes": [
+        {
+          "type": "text",
+          "text": "ÍNDIGO PY",
+          "x": 72,
+          "y": 62,
+          "size": 24,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 700,
+          "tracking": 3
+        },
+        {
+          "type": "text",
+          "text": "TU PRÓXIMA ELECCIÓN",
+          "x": 480,
+          "y": 65,
+          "size": 19,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 1.6
+        },
+        {
+          "type": "text",
+          "text": "¿Sastrero\no jean?",
+          "x": 72,
+          "y": 177,
+          "size": 145,
+          "color": "#F4F0E6",
+          "serif": true,
+          "italic": false,
+          "lh": 0.97,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "photo",
+          "src": "sastrero.jpg",
+          "x": 72,
+          "y": 655,
+          "w": 441,
+          "h": 410,
+          "fit": "meet",
+          "crop": null
+        },
+        {
+          "type": "photo",
+          "src": "jean-detalle.jpg",
+          "x": 567,
+          "y": 655,
+          "w": 441,
+          "h": 410,
+          "fit": "slice",
+          "crop": null
+        },
+        {
+          "type": "text",
+          "text": "Consultanos por el modelo\nque te gustó.",
+          "x": 72,
+          "y": 1137,
+          "size": 42,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.1,
+          "weight": 700,
+          "tracking": 0
+        },
+        {
+          "type": "logo",
+          "x": 892,
+          "y": 155,
+          "w": 100,
+          "h": 100
+        },
+        {
+          "type": "rect",
+          "x": 72,
+          "y": 1260,
+          "w": 936,
+          "h": 1.5,
+          "color": "#F4F0E6"
+        },
+        {
+          "type": "text",
+          "text": "@indigopy_",
+          "x": 72,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "text": "05 / 05",
+          "x": 907,
+          "y": 1281,
+          "size": 21,
+          "color": "#F4F0E6",
+          "serif": false,
+          "italic": false,
+          "lh": 1.05,
+          "weight": 500,
+          "tracking": 0
+        }
+      ]
+    }
+  ],
+  "reels": [
+    {
+      "id": "14-Neutros",
+      "scenes": [
+        {
+          "id": "14-gancho",
+          "bg": "#30371F",
+          "width": 1080,
+          "height": 1920,
+          "duration": 3,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "Neutros",
+              "x": 66,
+              "y": 315,
+              "size": 210,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "CON PRESENCIA",
+              "x": 78,
+              "y": 548,
+              "size": 30,
+              "color": "#CBD0B2",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 5
+            },
+            {
+              "type": "photo",
+              "src": "conjunto-marron.jpg",
+              "x": 380,
+              "y": 660,
+              "w": 628,
+              "h": 837,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "Beige.\nMarrón.\nNegro.",
+              "x": 72,
+              "y": 910,
+              "size": 63,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": true,
+              "lh": 1.1,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#F4F0E6"
+            }
+          ]
+        },
+        {
+          "id": "14-prenda",
+          "bg": "#F4F0E6",
+          "width": 1080,
+          "height": 1920,
+          "duration": 4.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "photo",
+              "src": "sastrero.jpg",
+              "x": 72,
+              "y": 290,
+              "w": 565,
+              "h": 1190,
+              "fit": "meet",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "Una\nprenda.",
+              "x": 680,
+              "y": 460,
+              "size": 89,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 0.98,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "El tono\nneutro.",
+              "x": 680,
+              "y": 950,
+              "size": 55,
+              "color": "#20251B",
+              "serif": true,
+              "italic": true,
+              "lh": 1.1,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#4F5533"
+            }
+          ]
+        },
+        {
+          "id": "14-look",
+          "bg": "#30371F",
+          "width": 1080,
+          "height": 1920,
+          "duration": 4.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "photo",
+              "src": "conjunto-marron.jpg",
+              "x": 300,
+              "y": 280,
+              "w": 708,
+              "h": 944,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "Un tono.\nEl look completo.",
+              "x": 72,
+              "y": 1285,
+              "size": 85,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": false,
+              "lh": 1.02,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#F4F0E6"
+            }
+          ]
+        },
+        {
+          "id": "14-contraste",
+          "bg": "#F4F0E6",
+          "width": 1080,
+          "height": 1920,
+          "duration": 4.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "Beige arriba.\nNegro abajo.",
+              "x": 72,
+              "y": 295,
+              "size": 104,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 0.98,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "photo",
+              "src": "conjunto-beige.jpg",
+              "x": 72,
+              "y": 650,
+              "w": 600,
+              "h": 800,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "+",
+              "x": 756,
+              "y": 830,
+              "size": 150,
+              "color": "#4F5533",
+              "serif": true,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "El\ncontraste.",
+              "x": 720,
+              "y": 1190,
+              "size": 57,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.1,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#4F5533"
+            }
+          ]
+        },
+        {
+          "id": "14-cierre",
+          "bg": "#4F5533",
+          "width": 1080,
+          "height": 1920,
+          "duration": 5.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "logo",
+              "x": 72,
+              "y": 280,
+              "w": 150,
+              "h": 150
+            },
+            {
+              "type": "text",
+              "text": "¿Cuál va\ncon vos?",
+              "x": 72,
+              "y": 530,
+              "size": 156,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": false,
+              "lh": 0.98,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "photo",
+              "src": "sastrero.jpg",
+              "x": 72,
+              "y": 990,
+              "w": 270,
+              "h": 360,
+              "fit": "meet",
+              "crop": null
+            },
+            {
+              "type": "photo",
+              "src": "conjunto-marron.jpg",
+              "x": 405,
+              "y": 990,
+              "w": 270,
+              "h": 360,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "photo",
+              "src": "conjunto-beige.jpg",
+              "x": 738,
+              "y": 990,
+              "w": 270,
+              "h": 360,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "Mandanos tu\nreferencia favorita.",
+              "x": 72,
+              "y": 1390,
+              "size": 52,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#F4F0E6"
+            }
+          ]
+        }
+      ],
+      "audio": "03.wav",
+      "duration": 22.0
+    },
+    {
+      "id": "15-Pantalones",
+      "scenes": [
+        {
+          "id": "15-gancho",
+          "bg": "#F4F0E6",
+          "width": 1080,
+          "height": 1920,
+          "duration": 3,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "Dos pantalones.\nDos lecturas.",
+              "x": 72,
+              "y": 315,
+              "size": 116,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 0.97,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "photo",
+              "src": "sastrero.jpg",
+              "x": 72,
+              "y": 720,
+              "w": 441,
+              "h": 620,
+              "fit": "meet",
+              "crop": null
+            },
+            {
+              "type": "photo",
+              "src": "jean-detalle.jpg",
+              "x": 567,
+              "y": 720,
+              "w": 441,
+              "h": 620,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "SASTRERO",
+              "x": 72,
+              "y": 1400,
+              "size": 28,
+              "color": "#20251B",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 2
+            },
+            {
+              "type": "text",
+              "text": "JEAN",
+              "x": 567,
+              "y": 1400,
+              "size": 28,
+              "color": "#20251B",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 2
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#4F5533"
+            }
+          ]
+        },
+        {
+          "id": "15-cintura",
+          "bg": "#30371F",
+          "width": 1080,
+          "height": 1920,
+          "duration": 4.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "Primero,\nla cintura.",
+              "x": 72,
+              "y": 320,
+              "size": 144,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": false,
+              "lh": 0.98,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "photo",
+              "src": "sastrero.jpg",
+              "x": 72,
+              "y": 780,
+              "w": 936,
+              "h": 595,
+              "fit": "slice",
+              "crop": [
+                230,
+                125,
+                920,
+                580
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Una mirada al sastrero.",
+              "x": 72,
+              "y": 1420,
+              "size": 34,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#F4F0E6"
+            }
+          ]
+        },
+        {
+          "id": "15-denim",
+          "bg": "#F4F0E6",
+          "width": 1080,
+          "height": 1920,
+          "duration": 4.5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "photo",
+              "src": "jean-detalle.jpg",
+              "x": 350,
+              "y": 280,
+              "w": 658,
+              "h": 920,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "El bolsillo.\nLa costura.\nEl lavado.",
+              "x": 72,
+              "y": 1250,
+              "size": 74,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.02,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "JEAN",
+              "x": 72,
+              "y": 510,
+              "size": 28,
+              "color": "#20251B",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#4F5533"
+            }
+          ]
+        },
+        {
+          "id": "15-medidas",
+          "bg": "#F4F0E6",
+          "width": 1080,
+          "height": 1920,
+          "duration": 5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "text",
+              "text": "Antes de elegir,\npedí las medidas.",
+              "x": 72,
+              "y": 300,
+              "size": 92,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.03,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "path",
+              "d": "M 240 700 L 490 700 L 540 1190 L 430 1190 L 365 890 L 300 1190 L 190 1190 Z",
+              "color": "#4F5533",
+              "stroke": 3
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 715,
+              "w": 410,
+              "h": 1.5,
+              "color": "#C4AB79"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 815,
+              "w": 410,
+              "h": 1.5,
+              "color": "#C4AB79"
+            },
+            {
+              "type": "path",
+              "d": "M 555 715 V 1190 M 545 715 H 565 M 545 1190 H 565",
+              "color": "#4F5533",
+              "stroke": 2
+            },
+            {
+              "type": "text",
+              "text": "Cintura",
+              "x": 650,
+              "y": 694,
+              "size": 49,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "Cadera",
+              "x": 650,
+              "y": 805,
+              "size": 49,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "Largo",
+              "x": 650,
+              "y": 1060,
+              "size": 49,
+              "color": "#20251B",
+              "serif": true,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "Cintura · cadera · largo",
+              "x": 72,
+              "y": 1390,
+              "size": 34,
+              "color": "#20251B",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#4F5533",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#4F5533"
+            }
+          ]
+        },
+        {
+          "id": "15-cierre",
+          "bg": "#30371F",
+          "width": 1080,
+          "height": 1920,
+          "duration": 5,
+          "nodes": [
+            {
+              "type": "text",
+              "text": "ÍNDIGO PY",
+              "x": 72,
+              "y": 166,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 700,
+              "tracking": 3
+            },
+            {
+              "type": "logo",
+              "x": 72,
+              "y": 280,
+              "w": 150,
+              "h": 150
+            },
+            {
+              "type": "text",
+              "text": "¿Sastrero\no jean?",
+              "x": 72,
+              "y": 530,
+              "size": 160,
+              "color": "#F4F0E6",
+              "serif": true,
+              "italic": false,
+              "lh": 0.97,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "photo",
+              "src": "sastrero.jpg",
+              "x": 72,
+              "y": 1000,
+              "w": 441,
+              "h": 305,
+              "fit": "meet",
+              "crop": null
+            },
+            {
+              "type": "photo",
+              "src": "jean-detalle.jpg",
+              "x": 567,
+              "y": 1000,
+              "w": 441,
+              "h": 305,
+              "fit": "slice",
+              "crop": null
+            },
+            {
+              "type": "text",
+              "text": "Consultanos por el modelo\nque te gustó.",
+              "x": 72,
+              "y": 1390,
+              "size": 49,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.1,
+              "weight": 700,
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "text": "@indigopy_",
+              "x": 72,
+              "y": 1570,
+              "size": 27,
+              "color": "#F4F0E6",
+              "serif": false,
+              "italic": false,
+              "lh": 1.05,
+              "weight": 500,
+              "tracking": 0
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 1530,
+              "w": 936,
+              "h": 1.5,
+              "color": "#F4F0E6"
+            }
+          ]
+        }
+      ],
+      "audio": "07.wav",
+      "duration": 22.0
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "marca": "Índigo Py",
+  "coleccion": "Olivo",
+  "entrega": "2026-10-13",
+  "formato": {
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30,
+    "codec": "H.264",
+    "audio": "AAC estéreo"
+  },
+  "contacto": "https://wa.me/595973434868",
+  "videos": [
+    {
+      "id": "01",
+      "archivo": "finales/01-consulta.mp4",
+      "portada": "portadas/01-consulta.jpg",
+      "titulo": "Tu consulta empieza acá",
+      "categoria": "Consulta",
+      "duracion_s": 19,
+      "concepto": "Collage de prendas + dos datos para consultar: foto y talle.",
+      "prendas": [
+        "Blusa sin mangas",
+        "Blusa vino con pantalón violeta"
+      ],
+      "fuentes": [
+        {
+          "id": "IG13",
+          "url": "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/"
+        },
+        {
+          "id": "IG21",
+          "url": "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+        }
+      ],
+      "cta": "Mandanos la foto y tu talle",
+      "caption": "¿Viste una prenda que te gustó? Mandanos la foto y tu talle por WhatsApp para consultar disponibilidad y precio.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/conjunto-uva.jpg",
+        "editor/public/media/blusa.jpg"
+      ],
+      "motion": "Collage inclinado, palabras escalonadas, filas que entran y máscara tipográfica."
+    },
+    {
+      "id": "02",
+      "archivo": "finales/02-chalecos.mp4",
+      "portada": "portadas/02-chalecos.jpg",
+      "titulo": "Sumá una capa",
+      "categoria": "Chalecos",
+      "duracion_s": 18,
+      "concepto": "El chaleco como una capa para otra combinación.",
+      "prendas": [
+        "Chalecos blanco, negro y blanco con turquesa"
+      ],
+      "fuentes": [
+        {
+          "id": "IG02",
+          "url": "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+        }
+      ],
+      "cta": "Preguntanos por chalecos",
+      "caption": "Chalecos para pensar otra combinación. Preguntanos por WhatsApp por los modelos y talles actuales.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/chaleco-a.jpg",
+        "editor/public/media/chaleco-b.jpg"
+      ],
+      "motion": "Franja horizontal, revelado vertical, díptico con acercamiento y máscara circular."
+    },
+    {
+      "id": "03",
+      "archivo": "finales/03-basicas.mp4",
+      "portada": "portadas/03-basicas.jpg",
+      "titulo": "Una buena base",
+      "categoria": "Básicas",
+      "duracion_s": 18,
+      "concepto": "Una básica como punto de partida, seguida de otra idea de look.",
+      "prendas": [
+        "Básica beige en percha",
+        "Básica beige con pantalón negro"
+      ],
+      "fuentes": [
+        {
+          "id": "IG19",
+          "url": "https://www.instagram.com/indigopy_/p/DYc88YVRpAH/"
+        },
+        {
+          "id": "IG14",
+          "url": "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/"
+        }
+      ],
+      "cta": "Consultá por básicas",
+      "caption": "Una básica puede ser el punto de partida de tu look. Inspiración de nuestro perfil: consultá por WhatsApp las opciones actuales.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/basica-beige.jpg",
+        "editor/public/media/conjunto-beige.jpg"
+      ],
+      "motion": "Bloque de color ascendente, fórmula tipográfica modular y cambio a look completo."
+    },
+    {
+      "id": "04",
+      "archivo": "finales/04-mangas-largas.mp4",
+      "portada": "portadas/04-mangas-largas.jpg",
+      "titulo": "Otra forma de empezar",
+      "categoria": "Mangas largas",
+      "duracion_s": 18,
+      "concepto": "Perchero de colores y dos looks reales con mangas largas.",
+      "prendas": [
+        "Mangas largas en varios colores",
+        "Cuello alto verde",
+        "Cuello alto lila"
+      ],
+      "fuentes": [
+        {
+          "id": "IG10",
+          "url": "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+        },
+        {
+          "id": "IG04",
+          "url": "https://www.instagram.com/indigopy_/reel/DadS-vpOk4k/"
+        }
+      ],
+      "cta": "Escribinos por mangas largas",
+      "caption": "Verde, lila y otras ideas para combinar mangas largas. Escribinos por WhatsApp para consultar colores, talles y disponibilidad.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/mangas.jpg",
+        "editor/public/media/manga-verde.mp4",
+        "editor/public/media/manga-lila.mp4"
+      ],
+      "motion": "Letras escalonadas, cambio de espaciado, revelado lateral y clips reales ralentizados."
+    },
+    {
+      "id": "05",
+      "archivo": "finales/05-sastrero.mp4",
+      "portada": "portadas/05-sastrero.jpg",
+      "titulo": "Sastrero de cerca",
+      "categoria": "Pantalones de vestir",
+      "duracion_s": 18,
+      "concepto": "Vista completa y detalle de cintura de un sastrero.",
+      "prendas": [
+        "Pantalón sastrero en tono neutro"
+      ],
+      "fuentes": [
+        {
+          "id": "IG20",
+          "url": "https://www.instagram.com/indigopy_/p/DYc8sVjxNN5/"
+        }
+      ],
+      "cta": "Consultá por un sastrero",
+      "caption": "Cintura, líneas y una idea para combinar. Referencia de una publicación anterior: consultá por WhatsApp las opciones de sastreros actuales.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/sastrero.jpg"
+      ],
+      "motion": "Composición asimétrica, máscara lateral, ampliación de cintura y cierre oscuro."
+    },
+    {
+      "id": "06",
+      "archivo": "finales/06-blusa.mp4",
+      "portada": "portadas/06-blusa.jpg",
+      "titulo": "La blusa protagonista",
+      "categoria": "Blusas",
+      "duracion_s": 18,
+      "concepto": "Una blusa sin mangas y su detalle fruncido.",
+      "prendas": [
+        "Blusa sin mangas con fruncido"
+      ],
+      "fuentes": [
+        {
+          "id": "IG21",
+          "url": "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+        }
+      ],
+      "cta": "Consultá por esta blusa",
+      "caption": "Una blusa sin mangas y ese detalle fruncido. Consultá por WhatsApp la disponibilidad, el talle y el precio de esta referencia.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/blusa.jpg"
+      ],
+      "motion": "Máscara circular, aro de acento, cambios de tracking y acercamiento al fruncido."
+    },
+    {
+      "id": "07",
+      "archivo": "finales/07-conjuntos.mp4",
+      "portada": "portadas/07-conjuntos.jpg",
+      "titulo": "Tres ideas para combinar",
+      "categoria": "Conjuntos",
+      "duracion_s": 20,
+      "concepto": "Tres combinaciones reales del perfil, presentadas como inspiración.",
+      "prendas": [
+        "Beige con pantalón negro",
+        "Vino con pantalón violeta",
+        "Marrón con pantalón marrón"
+      ],
+      "fuentes": [
+        {
+          "id": "IG14",
+          "url": "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/"
+        },
+        {
+          "id": "IG13",
+          "url": "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/"
+        },
+        {
+          "id": "IG15",
+          "url": "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+        }
+      ],
+      "cta": "Consultá por conjuntos",
+      "caption": "Tres combinaciones de publicaciones anteriores para inspirar tu próximo look. Consultá conjuntos por WhatsApp.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/conjunto-beige.jpg",
+        "editor/public/media/conjunto-uva.jpg",
+        "editor/public/media/conjunto-marron.jpg"
+      ],
+      "motion": "Tarjetas con rotación escalonada, tríptico y collage que cambia de composición."
+    },
+    {
+      "id": "08",
+      "archivo": "finales/08-cuellos.mp4",
+      "portada": "portadas/08-cuellos.jpg",
+      "titulo": "El detalle está arriba",
+      "categoria": "Cuellos altos",
+      "duracion_s": 18,
+      "concepto": "Cuellos altos verde y chocolate, vistos de cerca.",
+      "prendas": [
+        "Cuello alto verde",
+        "Cuello alto chocolate acanalado"
+      ],
+      "fuentes": [
+        {
+          "id": "IG09",
+          "url": "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/"
+        },
+        {
+          "id": "IG22",
+          "url": "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+        }
+      ],
+      "cta": "Consultá por cuellos altos",
+      "caption": "Verde y chocolate: dos referencias de nuestro perfil con cuello alto. Consultá las opciones actuales por WhatsApp.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/verde.jpg",
+        "editor/public/media/chocolate.jpg"
+      ],
+      "motion": "Máscara circular, díptico diagonal, letras escalonadas y composición tipográfica en tres líneas."
+    },
+    {
+      "id": "09",
+      "archivo": "finales/09-azul-crema.mp4",
+      "portada": "portadas/09-azul-crema.jpg",
+      "titulo": "Que el color converse",
+      "categoria": "Combinaciones",
+      "duracion_s": 18,
+      "concepto": "Una combinación real azul con crema y una lectura de sus tonos.",
+      "prendas": [
+        "Parte superior azul",
+        "Abrigo crema",
+        "Jean azul"
+      ],
+      "fuentes": [
+        {
+          "id": "IG03",
+          "url": "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+        }
+      ],
+      "cta": "Escribinos por azul + crema",
+      "caption": "Azul + crema, una idea de nuestro perfil para combinar tonos. Escribinos por WhatsApp para consultar las prendas actuales.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/azul-crema.jpg"
+      ],
+      "motion": "Apertura bicolor, máscara de texto, retrato y bloques cromáticos que se revelan."
+    },
+    {
+      "id": "10",
+      "archivo": "finales/10-jeans.mp4",
+      "portada": "portadas/10-jeans.jpg",
+      "titulo": "Elegí con más información",
+      "categoria": "Jeans",
+      "duracion_s": 20,
+      "concepto": "Detalle de jean y preguntas útiles sobre modelo, talle y medidas.",
+      "prendas": [
+        "Jean azul en percha",
+        "Detalle posterior de jean azul"
+      ],
+      "fuentes": [
+        {
+          "id": "IG06",
+          "url": "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/"
+        },
+        {
+          "id": "IG17",
+          "url": "https://www.instagram.com/indigopy_/p/DYyDt18lhHE/"
+        }
+      ],
+      "cta": "Consultá por jeans",
+      "caption": "Antes de elegir tu jean, mirá los detalles y tené a mano las preguntas sobre modelo, talle y medidas. Consultá por WhatsApp.\n\n#ÍndigoPy #CDE",
+      "recursos": [
+        "editor/public/media/jean-percha.mp4",
+        "editor/public/media/jean-detalle.jpg"
+      ],
+      "motion": "Letras con entrada individual, lectura por pasos, texto lateral rotado y cierre oscuro."
+    }
+  ]
+}

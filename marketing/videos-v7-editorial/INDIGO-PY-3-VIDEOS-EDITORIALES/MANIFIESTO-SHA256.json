@@ -1,0 +1,357 @@
+[
+  {
+    "archivo": "CAPITULOS-YOUTUBE.txt",
+    "bytes": 445,
+    "sha256": "268a3f94c2112ea2337ef1840016032fb5942ec99b4d29a68ba98b21b93ed8eb"
+  },
+  {
+    "archivo": "CONTROL-DE-CALIDAD.md",
+    "bytes": 3859,
+    "sha256": "1fe090e7de417a4500dc14dda38661f6fd4826548443ae04d5d9ebeb1ccde18b"
+  },
+  {
+    "archivo": "IDENTIDAD-VISUAL.md",
+    "bytes": 1427,
+    "sha256": "441771e06b0142298c3dd015e66d986dc5ad6e28379e70d792058fd0613ecb26"
+  },
+  {
+    "archivo": "INDICE.md",
+    "bytes": 2978,
+    "sha256": "3d12523e3b758c77263b3674bdb97c9db6e925ac8ea81d168384ed36785527d6"
+  },
+  {
+    "archivo": "LEEME.md",
+    "bytes": 3624,
+    "sha256": "082d386a25c250b402988d75f63f3a1f620702c7c2600f78bd6fbabf56e3cd4b"
+  },
+  {
+    "archivo": "beat-sheet.json",
+    "bytes": 5051,
+    "sha256": "5f3ca21819f982d014cc03bbb9c3e265526b88f8aa3ab48e6c8aaa43584797d1"
+  },
+  {
+    "archivo": "captions/11-combinaciones.txt",
+    "bytes": 170,
+    "sha256": "c386f22d300c18ac81f05b644e8bd878a71b9a0b7f150bfaed01a570acb30904"
+  },
+  {
+    "archivo": "captions/12-detalles.txt",
+    "bytes": 213,
+    "sha256": "ca12243eaba088556081c66c4082bc2b4b952f5de6719b082b6718ae004d6c97"
+  },
+  {
+    "archivo": "captions/13-capas.txt",
+    "bytes": 175,
+    "sha256": "383a49d55dee93c1e39bd1201e81a6b84ecbde35b535f843ebd67bfa4fde9c2d"
+  },
+  {
+    "archivo": "datos-tecnicos.json",
+    "bytes": 22184,
+    "sha256": "78795ec88aa48159f2256803a3db9b2e78ca6f8242fb6f0d8c1bd393e826be2b"
+  },
+  {
+    "archivo": "editor/.prettierrc",
+    "bytes": 66,
+    "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+  },
+  {
+    "archivo": "editor/eslint.config.mjs",
+    "bytes": 79,
+    "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+  },
+  {
+    "archivo": "editor/package-lock.json",
+    "bytes": 193099,
+    "sha256": "5d3a3bb2c5bc7f89da5f4a497ab1ceb27ad1092d8ab83dfd0fdf756d51b25f15"
+  },
+  {
+    "archivo": "editor/package.json",
+    "bytes": 748,
+    "sha256": "98c3dbcd1a733c5146d105834ecd7f31e41c5f409987072d3264569d7b72bd4a"
+  },
+  {
+    "archivo": "editor/public/audio/02.wav",
+    "bytes": 4608078,
+    "sha256": "b1c6143e6e9d6032d9b59a1cf03f95d3238246e33e83a8a96f0f7b7637180ce1"
+  },
+  {
+    "archivo": "editor/public/audio/03.wav",
+    "bytes": 4608078,
+    "sha256": "46a5c0c8f3149c8d4a726ab83985ce608e8f2a78762f61cf48af2798ee9304f5"
+  },
+  {
+    "archivo": "editor/public/audio/05.wav",
+    "bytes": 4608078,
+    "sha256": "53dec7f888fc4169f64aa1596f4a0b9bbd788a6e4f2beabb1ce5a84d268ad402"
+  },
+  {
+    "archivo": "editor/public/audio/07.wav",
+    "bytes": 4608078,
+    "sha256": "3546c96aeda8399535e4812057462a7eed05849195de4920b670853bfd12ea79"
+  },
+  {
+    "archivo": "editor/public/audio/08.wav",
+    "bytes": 4608078,
+    "sha256": "9a5c9f0028fadbaa97f67c9c16589e8b9e581d341ef17e96eb21db448ebbbb0c"
+  },
+  {
+    "archivo": "editor/public/audio/09.wav",
+    "bytes": 4608078,
+    "sha256": "2ff7bb817c8a5ff1abf76c4fd62b5636da094cd403d4d3ed4ca591aab87722d3"
+  },
+  {
+    "archivo": "editor/public/audio/sfx-11.wav",
+    "bytes": 5856044,
+    "sha256": "f902691867c631fe2beb03d0bde111be27ad7e454548d54d60953c1a3d658046"
+  },
+  {
+    "archivo": "editor/public/audio/sfx-12.wav",
+    "bytes": 5856044,
+    "sha256": "8889f2b9a86b2a2cf18312f871a03f9828c22aa2464884521ef44179f9e7e26e"
+  },
+  {
+    "archivo": "editor/public/audio/sfx-13.wav",
+    "bytes": 6048044,
+    "sha256": "4e631beae71fd620b4441cd45dc48ac8abc1a62d86b0cb4f67362b6bb8c73a6c"
+  },
+  {
+    "archivo": "editor/public/brand/logo.jpg",
+    "bytes": 93456,
+    "sha256": "5328d99d7b2ca4e87fde8f8a6b5eb8a201948e9d9effb1f418d98e689059f444"
+  },
+  {
+    "archivo": "editor/public/fonts/CORMORANT-OFL.txt",
+    "bytes": 4387,
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "archivo": "editor/public/fonts/INTER-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "archivo": "editor/public/fonts/cormorant-italic.ttf",
+    "bytes": 293312,
+    "sha256": "8ddad6fd245858b13f48aeb9977c0f2531469571ca6b7a98ef490d7f549ade58"
+  },
+  {
+    "archivo": "editor/public/fonts/cormorant-normal.ttf",
+    "bytes": 290392,
+    "sha256": "69e7ae35cba23d962227b86f99217c250e642e4c6f6104b4f3ec465039e4e2d8"
+  },
+  {
+    "archivo": "editor/public/fonts/inter-500.woff2",
+    "bytes": 24356,
+    "sha256": "a1eab7f4970e8a2f70137b1b7379ccad15fd227f2c9c0e65412f280ae9aad73c"
+  },
+  {
+    "archivo": "editor/public/fonts/inter-700.woff2",
+    "bytes": 24456,
+    "sha256": "ea90630996b19c80bec9dfe46cd52b9871705a8d6d89035cf18eddef24c82b74"
+  },
+  {
+    "archivo": "editor/public/fonts/inter-800.woff2",
+    "bytes": 24436,
+    "sha256": "713403e7d227a0fc231322cbd70e46601ceda4a514f08d19896a3029c2eefed9"
+  },
+  {
+    "archivo": "editor/public/media/azul-crema.jpg",
+    "bytes": 507163,
+    "sha256": "5d7f11141a92d1e75a6d9d2ed7116ea18f99b96796f29f15ca51a91dcb7b3d68"
+  },
+  {
+    "archivo": "editor/public/media/blusa.jpg",
+    "bytes": 673432,
+    "sha256": "70c2255fe92fca8aac77e4eeed7a420c68c36ce5a96224ca7a81b65d9a70c75c"
+  },
+  {
+    "archivo": "editor/public/media/chaleco-a.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "archivo": "editor/public/media/chocolate.jpg",
+    "bytes": 39958,
+    "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2"
+  },
+  {
+    "archivo": "editor/public/media/conjunto-beige.jpg",
+    "bytes": 775451,
+    "sha256": "ea664dbbf5e8c9f3d72297c7cff2aaa7b7cc8e60e2f4d53af5278e1da134d531"
+  },
+  {
+    "archivo": "editor/public/media/conjunto-marron.jpg",
+    "bytes": 656233,
+    "sha256": "8725865fba1ee842270fa35110b7127f85512076e7be0e0f23c32e8c1e29eacb"
+  },
+  {
+    "archivo": "editor/public/media/conjunto-uva.jpg",
+    "bytes": 493603,
+    "sha256": "0916960a921540dc2a2f831b85bcee9fa6c451829bef264a4d4c4f927b320c0c"
+  },
+  {
+    "archivo": "editor/public/media/verde.jpg",
+    "bytes": 94772,
+    "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85"
+  },
+  {
+    "archivo": "editor/remotion.config.ts",
+    "bytes": 332,
+    "sha256": "680114316c3f433b7ebee0f4badbedd162661ea7f86bfae17a8956dbf13f9629"
+  },
+  {
+    "archivo": "editor/requirements.txt",
+    "bytes": 13,
+    "sha256": "21aa828e3ee8b30490bd0ed1456dfb5cd8ab0531e453179fa1c3f3f8616bccdc"
+  },
+  {
+    "archivo": "editor/scripts/control.py",
+    "bytes": 3895,
+    "sha256": "467167d86123eeab1af888dc1dd76d1ee58014b02063d5777b47bfefe9dec22f"
+  },
+  {
+    "archivo": "editor/scripts/empaquetar.py",
+    "bytes": 2428,
+    "sha256": "22419804a98d027288b4e4cde24df6c51eb97ada60be501f71e1abece3a43c93"
+  },
+  {
+    "archivo": "editor/scripts/entrega.py",
+    "bytes": 9990,
+    "sha256": "280e16613e212684579a306b1b387816ec904f7c3b163515b2fc429fda065596"
+  },
+  {
+    "archivo": "editor/scripts/master.py",
+    "bytes": 1378,
+    "sha256": "ad546c2eef2261e8abe105036631bfcc1a3ed3f7f6011a61ab947c2a17710930"
+  },
+  {
+    "archivo": "editor/scripts/musica.py",
+    "bytes": 13969,
+    "sha256": "b14ddab6ec442e152a7334037b4043ea967f8f9470187096c258d372bcc0cf42"
+  },
+  {
+    "archivo": "editor/scripts/render.mjs",
+    "bytes": 2049,
+    "sha256": "339112a06a224bf7472f65f1dc28b354e791b05c616507f3eb95e4eb4911bed0"
+  },
+  {
+    "archivo": "editor/scripts/sfx.py",
+    "bytes": 1138,
+    "sha256": "b8dbc830948fc601178ad359bf781ad91a8c5712b3e9d370a15e9dc3d2e6e732"
+  },
+  {
+    "archivo": "editor/src/Design.tsx",
+    "bytes": 12167,
+    "sha256": "09ea85bbf7e1d495bc56327aac4dc13b2e8986fb393bdd0dd78270af71426ec3"
+  },
+  {
+    "archivo": "editor/src/Root.tsx",
+    "bytes": 16440,
+    "sha256": "bfb8b958bcb616206f0121ee754c3fdd40e35e4c0bc94bd01c8b8fa2a4e9a7d3"
+  },
+  {
+    "archivo": "editor/src/index.ts",
+    "bytes": 109,
+    "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+  },
+  {
+    "archivo": "editor/tsconfig.json",
+    "bytes": 368,
+    "sha256": "a6fbcf514dbfd3d116c3f7f78b72949c8c2ff45bdbe17aeff4c97e16bc1327fa"
+  },
+  {
+    "archivo": "finales/11-combinaciones.mp4",
+    "bytes": 10002794,
+    "sha256": "4699f28f48003d3d1d5dd99b4ce8eba683938cc06d940f2032be84b87822723b"
+  },
+  {
+    "archivo": "finales/12-detalles.mp4",
+    "bytes": 10497467,
+    "sha256": "a12820cc674655ab09c1d0db67a907860e7b3eff1f8c0a78c918711494e1508b"
+  },
+  {
+    "archivo": "finales/13-capas.mp4",
+    "bytes": 9618010,
+    "sha256": "ec31545d8ab029c99e2e756dd0b53d0044019b2c7826727232a7f47eed2064fc"
+  },
+  {
+    "archivo": "index.html",
+    "bytes": 6615,
+    "sha256": "7d8af2a6038ea58c4a00cf68f82a7ebcd1135a2bcd8a61f18a1b41bcdb890898"
+  },
+  {
+    "archivo": "indice.json",
+    "bytes": 6839,
+    "sha256": "74f7fb8abf9a78ef3ae050f0639ad69fef3617ef3b001e726ae1740016bdd48f"
+  },
+  {
+    "archivo": "licencia/audio-editorial.md",
+    "bytes": 946,
+    "sha256": "ff4b48a9d0d735f14e2a03f74ded89483f6c278c14e96e7df3ee8d9a57f17fdd"
+  },
+  {
+    "archivo": "licencia/origen-musica-v6.md",
+    "bytes": 2659,
+    "sha256": "bc89ece189ee799cbd7a2c323916f4906091a35f5601da59150b1e6e75058b47"
+  },
+  {
+    "archivo": "portadas/11-combinaciones.jpg",
+    "bytes": 277200,
+    "sha256": "a6a923322e8b0610b8b3d0c0a8120d64260f47451915dc3de49983d3663350ab"
+  },
+  {
+    "archivo": "portadas/12-detalles.jpg",
+    "bytes": 288879,
+    "sha256": "e8404822d892e854c118740e8955ba01817d68352e23dc4d3adf74d840e73e41"
+  },
+  {
+    "archivo": "portadas/13-capas.jpg",
+    "bytes": 263599,
+    "sha256": "26641112aa6abee13e1b97151c40bc69a148f94b172c05ab091d916eef73e3bd"
+  },
+  {
+    "archivo": "qa/11-combinaciones-40-fotogramas.jpg",
+    "bytes": 768385,
+    "sha256": "b36e346e6e90bf8d8acdb7b3b54f44e8009fda87ee459cc603e30b1c61a52886"
+  },
+  {
+    "archivo": "qa/11-combinaciones-master.json",
+    "bytes": 769,
+    "sha256": "2dcc7cbff35879fe33ac97178a1cb47de6df7cdb26b82f0f852313b434c2282e"
+  },
+  {
+    "archivo": "qa/12-detalles-40-fotogramas.jpg",
+    "bytes": 703519,
+    "sha256": "0d12f844959656b2f6375965ee9768ed4f03b4c609e0cb2a84a2be8c76c6cfab"
+  },
+  {
+    "archivo": "qa/12-detalles-master.json",
+    "bytes": 769,
+    "sha256": "fa52f54601b5d8021dedebacbe4665902332e534bb4e74ff550b70420e0614e8"
+  },
+  {
+    "archivo": "qa/13-capas-40-fotogramas.jpg",
+    "bytes": 677826,
+    "sha256": "079224ec9ce976ffae1b9d2401ab1c579dc92739ac41272467c61c034d704c09"
+  },
+  {
+    "archivo": "qa/13-capas-master.json",
+    "bytes": 767,
+    "sha256": "fafabbd13562225f4d2e7a570ccedca59b960aaf210b877c4c73a8864febe522"
+  },
+  {
+    "archivo": "subtitulos/11-combinaciones-texto-en-pantalla.srt",
+    "bytes": 461,
+    "sha256": "4a4e8b81c073a39e62c9c9ad115244ab085f7d35c201370740d2c6bffe177f2f"
+  },
+  {
+    "archivo": "subtitulos/12-detalles-texto-en-pantalla.srt",
+    "bytes": 479,
+    "sha256": "e8cf7a827713b42f36e12306ca4b683a2992d2dbdfada308f695388661c05429"
+  },
+  {
+    "archivo": "subtitulos/13-capas-texto-en-pantalla.srt",
+    "bytes": 474,
+    "sha256": "93d0e4a6ddae0e52c3a3a88bfef7c6c48fa8c8fd299acb447cd633371113c862"
+  }
+]

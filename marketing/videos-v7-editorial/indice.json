@@ -1,0 +1,250 @@
+{
+  "coleccion": "Índigo · Editorial",
+  "fecha": "2026-10-13",
+  "formato": {
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30
+  },
+  "tipo": "Fotografías reales con motion graphics y música, sin voz ni grabación nueva",
+  "videos": [
+    {
+      "id": "11",
+      "nombre": "11-combinaciones",
+      "titulo": "Una base. Tres ideas.",
+      "duracion_s": 30.5,
+      "concepto": "Tres combinaciones reales explicadas a partir de base y tono.",
+      "cta": "Comentá cuál combinación querés ver de cerca.",
+      "caption": "Beige + negro, vino + violeta y marrón + marrón: tres referencias de nuestro perfil para pensar una combinación. Comentá cuál querés ver de cerca.",
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/",
+        "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/",
+        "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+      ],
+      "assets": [
+        "conjunto-beige.jpg",
+        "conjunto-uva.jpg",
+        "conjunto-marron.jpg"
+      ],
+      "cues": [
+        [
+          0,
+          3,
+          "¿Por dónde empezás?",
+          "Gancho con dos tarjetas y palabras cinéticas"
+        ],
+        [
+          3,
+          4.5,
+          "Una base. Tres ideas.",
+          "Título editorial de 1,5 s"
+        ],
+        [
+          4.5,
+          9.5,
+          "Beige + negro",
+          "Foto completa y etiquetas de base/tono"
+        ],
+        [
+          9.5,
+          14.5,
+          "Vino + violeta. Un tono, otro acento.",
+          "Encuadre y lectura de color"
+        ],
+        [
+          14.5,
+          19.5,
+          "Marrón + marrón. En la misma familia de tonos.",
+          "Retrato real y acercamiento suave"
+        ],
+        [
+          19.5,
+          25.5,
+          "Primero la base. Después el tono.",
+          "Tríptico, contador 1–3 y flecha SVG"
+        ],
+        [
+          25.5,
+          30.5,
+          "Comentá cuál combinación querés ver de cerca.",
+          "Logo y CTA único"
+        ]
+      ],
+      "chapters": [
+        [
+          "0:00",
+          "Una base y primera referencia"
+        ],
+        [
+          "0:10",
+          "Más ideas de combinación"
+        ],
+        [
+          "0:20",
+          "Resumen y próximos contenidos"
+        ]
+      ],
+      "archivo": "finales/11-combinaciones.mp4",
+      "portada": "portadas/11-combinaciones.jpg",
+      "srt": "subtitulos/11-combinaciones-texto-en-pantalla.srt"
+    },
+    {
+      "id": "12",
+      "nombre": "12-detalles",
+      "titulo": "Tres cosas para mirar",
+      "duracion_s": 30.5,
+      "concepto": "Cuello, mangas y fruncido: lectura visual de detalles verificables.",
+      "cta": "Comentá qué detalle querés ver de cerca.",
+      "caption": "El cuello, las mangas y un detalle visible pueden ayudarte a mirar una prenda con más información. Inspiración de nuestras publicaciones anteriores: comentá qué detalle querés ver de cerca.",
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/p/DYc8VybRql_/",
+        "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+        "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+      ],
+      "assets": [
+        "blusa.jpg",
+        "verde.jpg",
+        "chocolate.jpg"
+      ],
+      "cues": [
+        [
+          0,
+          3,
+          "Mirá más que el color.",
+          "Gancho de un detalle real"
+        ],
+        [
+          3,
+          4.5,
+          "Tres cosas para mirar.",
+          "Título editorial"
+        ],
+        [
+          4.5,
+          10,
+          "01. El cuello. Dos referencias de cuello alto.",
+          "Díptico de verde y chocolate"
+        ],
+        [
+          10,
+          15.5,
+          "02. Las mangas. Una referencia sin mangas.",
+          "Prenda completa y etiqueta de corte"
+        ],
+        [
+          15.5,
+          21,
+          "03. Los detalles. El fruncido, de cerca.",
+          "Ampliación y llamada SVG de 497 px"
+        ],
+        [
+          21,
+          25.5,
+          "Cuello. Mangas. Detalles.",
+          "Lista escalonada y foto general"
+        ],
+        [
+          25.5,
+          30.5,
+          "Comentá qué detalle querés ver de cerca.",
+          "Logo y CTA único"
+        ]
+      ],
+      "chapters": [
+        [
+          "0:00",
+          "Color y diseño del cuello"
+        ],
+        [
+          "0:10",
+          "Mangas y detalles visibles"
+        ],
+        [
+          "0:20",
+          "Lectura de la prenda y comentarios"
+        ]
+      ],
+      "archivo": "finales/12-detalles.mp4",
+      "portada": "portadas/12-detalles.jpg",
+      "srt": "subtitulos/12-detalles-texto-en-pantalla.srt"
+    },
+    {
+      "id": "13",
+      "nombre": "13-capas",
+      "titulo": "El look por capas",
+      "duracion_s": 31.5,
+      "concepto": "Comparar dos referencias de capas y explicar base, capa y tonos.",
+      "cta": "Comentá qué combinación querés en el próximo video.",
+      "caption": "Un chaleco y una capa crema: dos referencias distintas de nuestro perfil para pensar cómo combinar. Comentá qué combinación querés en el próximo video.",
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/",
+        "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+      ],
+      "assets": [
+        "chaleco-a.jpg",
+        "azul-crema.jpg"
+      ],
+      "cues": [
+        [
+          0,
+          3,
+          "Una capa. Otra idea.",
+          "Gancho con chalecos reales"
+        ],
+        [
+          3,
+          4.5,
+          "El look por capas.",
+          "Título editorial"
+        ],
+        [
+          4.5,
+          10.5,
+          "Idea para combinar: camisa + chaleco.",
+          "Diagrama genérico, rotulado como idea; foto real de chalecos"
+        ],
+        [
+          10.5,
+          16.5,
+          "Otra referencia: azul + crema.",
+          "Look completo con la cara visible"
+        ],
+        [
+          16.5,
+          22.5,
+          "Dos ideas para mirar las capas.",
+          "Comparación de referencias reales"
+        ],
+        [
+          22.5,
+          26.5,
+          "Mirá el look por partes: base, capa y tonos.",
+          "Diagrama vertical de 580 px y palabras escalonadas"
+        ],
+        [
+          26.5,
+          31.5,
+          "Comentá qué combinación querés en el próximo video.",
+          "Logo y CTA único"
+        ]
+      ],
+      "chapters": [
+        [
+          "0:00",
+          "Idea de camisa y chaleco"
+        ],
+        [
+          "0:10",
+          "Referencias de capas"
+        ],
+        [
+          "0:20",
+          "Comparación y próximos contenidos"
+        ]
+      ],
+      "archivo": "finales/13-capas.mp4",
+      "portada": "portadas/13-capas.jpg",
+      "srt": "subtitulos/13-capas-texto-en-pantalla.srt"
+    }
+  ]
+}

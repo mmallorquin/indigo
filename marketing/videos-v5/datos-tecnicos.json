@@ -1,0 +1,160 @@
+{
+  "videos": {
+    "lanzamiento-negro": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10388510",
+          "nb_frames": "600"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "20.000000",
+          "bit_rate": "194528",
+          "nb_frames": "939"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "26481491",
+        "bit_rate": "10592596"
+      }
+    },
+    "lanzamiento-negro-sin-musica": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10388510",
+          "nb_frames": "600"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25979630",
+        "bit_rate": "10391852"
+      }
+    },
+    "lanzamiento-blanco": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10316362",
+          "nb_frames": "600"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "20.000000",
+          "bit_rate": "195617",
+          "nb_frames": "939"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "26303825",
+        "bit_rate": "10521530"
+      }
+    },
+    "lanzamiento-blanco-sin-musica": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "20.000000",
+          "bit_rate": "10316362",
+          "nb_frames": "600"
+        }
+      ],
+      "format": {
+        "duration": "20.000000",
+        "size": "25799238",
+        "bit_rate": "10319695"
+      }
+    }
+  },
+  "hashes_video": {
+    "lanzamiento-negro": "SHA256=b2b7ca88920ac853eb93583f44d7c0bcd0c332c9afcf645f752f770f22c1c51f",
+    "lanzamiento-negro-sin-musica": "SHA256=b2b7ca88920ac853eb93583f44d7c0bcd0c332c9afcf645f752f770f22c1c51f",
+    "lanzamiento-blanco": "SHA256=fbe3fb5aaa7955277080b15a7a52995cc4b82fcfe3d0e04620a44e6b08fc0233",
+    "lanzamiento-blanco-sin-musica": "SHA256=fbe3fb5aaa7955277080b15a7a52995cc4b82fcfe3d0e04620a44e6b08fc0233"
+  },
+  "fuentes": {
+    "jeans-percha.mp4": {
+      "sha256": "2ad35f1e23cd508339ab6e0ac4a12255ffc48a777ca0ffb600572a5bcfe3778b",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "11.033333",
+          "size": "1089919"
+        }
+      }
+    },
+    "outfit-calle.mp4": {
+      "sha256": "45dde24cab5734e481d6d88bfca5cdb97c7445bc285e50ee38adcb3514d2645f",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "5.033333",
+          "size": "1286454"
+        }
+      }
+    },
+    "prendas-tonos.mp4": {
+      "sha256": "d1a614cef8e8a4c2c48e764071de2ed51177d6d4e2a8366ad79daf13544ccd70",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "34.733333",
+          "size": "3950596"
+        }
+      }
+    }
+  }
+}

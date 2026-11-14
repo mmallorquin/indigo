@@ -1,0 +1,79 @@
+{
+  "_comentario": "Datos variables de los videos de Índigo PY. null = dato que falta: el video queda pendiente y no se renderiza. Completar reemplazando null por texto entre comillas (ej: \"189.000\"). Los precios van solo con el número: el video agrega 'Gs.'. Los talles pueden ser texto (\"36 al 42\") o lista ([\"36\",\"38\"]). Nada se inventa ni se rellena solo.",
+  "confirmaciones": {
+    "_ayuda": "nombre = lo que se muestra en pantalla hoy. Poner confirmado en true cuando se confirme (si el nombre es otro, cambiar nombre y poner true).",
+    "jean_negro": {
+      "nombre": "Flare",
+      "confirmado": false
+    },
+    "jean_azul": {
+      "nombre": "Mom",
+      "confirmado": false
+    },
+    "color_terracota": {
+      "nombre": "Terracota",
+      "confirmado": false
+    },
+    "color_camel": {
+      "nombre": "Camel",
+      "confirmado": false
+    }
+  },
+  "videos": {
+    "07": {
+      "altura": null,
+      "talle": null
+    },
+    "08": {
+      "composicion_tela": null
+    },
+    "10": {
+      "persona_a": {
+        "altura": null,
+        "talle": null
+      },
+      "persona_b": {
+        "altura": null,
+        "talle": null
+      }
+    },
+    "12": {
+      "medida_tiro_cm": null,
+      "talles_sastrero_camel": null
+    },
+    "18": {
+      "costo_envio": null,
+      "plazo_envio": null
+    },
+    "20": {
+      "costo_envio": null,
+      "condiciones_pago": null
+    },
+    "22": {
+      "nombre": null
+    },
+    "27": {
+      "jean_negro": {
+        "precio": null,
+        "talles": null
+      },
+      "jean_azul": {
+        "precio": null,
+        "talles": null
+      }
+    },
+    "28": {
+      "prenda": null,
+      "unidades": null,
+      "talles": null
+    },
+    "29": {
+      "precio": null,
+      "talles": null,
+      "colores": null
+    },
+    "30": {
+      "fecha_disponibilidad": null
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_comentario": "Datos variables de los videos de Índigo PY. null = dato que falta: el video queda pendiente y no se renderiza. Completar reemplazando null por texto entre comillas (ej: \"189.000\"). Los precios van solo con el número: el video agrega 'Gs.'. Los talles pueden ser texto (\"36 al 42\") o lista ([\"36\",\"38\"]). Nada se inventa ni se rellena solo.",
+  "_ejemplo": true,
+  "_aviso": "DATOS FICTICIOS SOLO PARA PRUEBAS. NO PUBLICAR los videos hechos con este archivo.",
+  "confirmaciones": {
+    "_ayuda": "nombre = lo que se muestra en pantalla hoy. Poner confirmado en true cuando se confirme (si el nombre es otro, cambiar nombre y poner true).",
+    "jean_negro": {
+      "nombre": "Flare",
+      "confirmado": false
+    },
+    "jean_azul": {
+      "nombre": "Mom",
+      "confirmado": false
+    },
+    "color_terracota": {
+      "nombre": "Terracota",
+      "confirmado": false
+    },
+    "color_camel": {
+      "nombre": "Camel",
+      "confirmado": false
+    }
+  },
+  "videos": {
+    "07": {
+      "altura": "EJEMPLO 1,60 m",
+      "talle": "EJEMPLO 99"
+    },
+    "08": {
+      "composicion_tela": "EJEMPLO 100% EJEMPLO"
+    },
+    "10": {
+      "persona_a": {
+        "altura": "EJEMPLO 1,60 m",
+        "talle": "EJEMPLO 99"
+      },
+      "persona_b": {
+        "altura": "EJEMPLO 1,80 m",
+        "talle": "EJEMPLO 98"
+      }
+    },
+    "12": {
+      "medida_tiro_cm": "EJEMPLO 99",
+      "talles_sastrero_camel": "EJEMPLO 99 al 98"
+    },
+    "18": {
+      "costo_envio": "EJEMPLO 99.000 Gs",
+      "plazo_envio": "EJEMPLO 9 días"
+    },
+    "20": {
+      "costo_envio": "EJEMPLO 99.000 Gs",
+      "condiciones_pago": "EJEMPLO pago de prueba"
+    },
+    "22": {
+      "nombre": "EJEMPLO Nombre"
+    },
+    "27": {
+      "jean_negro": {
+        "precio": "EJEMPLO 99.000",
+        "talles": "EJEMPLO 99 al 98"
+      },
+      "jean_azul": {
+        "precio": "EJEMPLO 98.000",
+        "talles": "EJEMPLO 97 al 96"
+      }
+    },
+    "28": {
+      "prenda": "EJEMPLO Prenda",
+      "unidades": "EJEMPLO 9",
+      "talles": "EJEMPLO 99"
+    },
+    "29": {
+      "precio": "EJEMPLO 99.000",
+      "talles": "EJEMPLO 99 al 98",
+      "colores": "EJEMPLO Color A y B"
+    },
+    "30": {
+      "fecha_disponibilidad": "EJEMPLO 99 de mes"
+    }
+  }
+}

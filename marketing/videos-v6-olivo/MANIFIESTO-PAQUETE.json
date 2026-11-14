@@ -1,0 +1,622 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 1757,
+    "sha256": "7d84c2d6a3d2fcaa5a73bfb4643fdff557fe50713075ae844c0212a5e1ef174b"
+  },
+  {
+    "path": "CONTROL-DE-CALIDAD.md",
+    "bytes": 4246,
+    "sha256": "7726d36219a3299ab4a396ded5e6acb25627c9aeaf99fa01f33635870291d24f"
+  },
+  {
+    "path": "IDENTIDAD-VISUAL.md",
+    "bytes": 2165,
+    "sha256": "1a35376f83fdb381c9153ccc27e59475cf28577e480cd783409c1257f69d1ae5"
+  },
+  {
+    "path": "INDICE.md",
+    "bytes": 5478,
+    "sha256": "fede7fc45235ef4997da5d3b0f9fc8f96c54f1eeaa3156d03adc6fa16b1594cc"
+  },
+  {
+    "path": "LEEME.md",
+    "bytes": 3194,
+    "sha256": "0c9eeb5b803f9dccb9c97fecb1ada5e85e483d3b94e1f45139bba33cafd130a5"
+  },
+  {
+    "path": "captions/01-consulta.txt",
+    "bytes": 132,
+    "sha256": "96635d05c5439b7ff5eb8fb8dd34094a5834f521e3ce0509d1e64fca5a1c59f2"
+  },
+  {
+    "path": "captions/02-chalecos.txt",
+    "bytes": 117,
+    "sha256": "09e65161d1db748d32e0ee9f3535d89002a1e12f4213781564598f00ce72b533"
+  },
+  {
+    "path": "captions/03-basicas.txt",
+    "bytes": 149,
+    "sha256": "5203a3e09fb93904a68f6b81727c967eea064bf42d63d148bc8ffaf898433e70"
+  },
+  {
+    "path": "captions/04-mangas-largas.txt",
+    "bytes": 145,
+    "sha256": "6b8786493244e9b83f744ba364ec6a94f1bd8a943befec21a4eeda8225f96401"
+  },
+  {
+    "path": "captions/05-sastrero.txt",
+    "bytes": 160,
+    "sha256": "bfea02a8b2530453dcebb45d5822e66658d7dd850497e4ab6f3dc69cc510c64f"
+  },
+  {
+    "path": "captions/06-blusa.txt",
+    "bytes": 145,
+    "sha256": "d11afa91c27810c8ab4b8c4c9d23619094d7ef18c65486bcb7a89c42de3ead41"
+  },
+  {
+    "path": "captions/07-conjuntos.txt",
+    "bytes": 130,
+    "sha256": "e1fe0504afb33fed3ae1712c18447d4a3167b7e00cb19a9e06a4b4fbf3abce34"
+  },
+  {
+    "path": "captions/08-cuellos.txt",
+    "bytes": 133,
+    "sha256": "5376a874eb731214fdd4b7de8f4da8b4452d2ede5f802c77256cc616cb61d963"
+  },
+  {
+    "path": "captions/09-azul-crema.txt",
+    "bytes": 140,
+    "sha256": "2986543c9e64f99a6214535b79a670af26efbc4a9067e3a703f161e2ddb1f04b"
+  },
+  {
+    "path": "captions/10-jeans.txt",
+    "bytes": 145,
+    "sha256": "ca5177b065b59ba6fb94e4b732fa114f5d4bf2b650a2f6c2d3b5472faf39cda3"
+  },
+  {
+    "path": "datos-tecnicos.json",
+    "bytes": 7597,
+    "sha256": "6ee9d027bd4356681daa4986d6dcf673e0330f8c1f345a27730849f4be5c4f1b"
+  },
+  {
+    "path": "editor/.gitignore",
+    "bytes": 110,
+    "sha256": "aec949d1fbf80687da7f6059290d2f7d0515f759903f774075f7957ca71667da"
+  },
+  {
+    "path": "editor/.prettierrc",
+    "bytes": 66,
+    "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+  },
+  {
+    "path": "editor/README.md",
+    "bytes": 310,
+    "sha256": "72947e48cae6b167d5958f8e502274af219914fed331dd88be4c5dd3641da9c7"
+  },
+  {
+    "path": "editor/eslint.config.mjs",
+    "bytes": 79,
+    "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+  },
+  {
+    "path": "editor/package-lock.json",
+    "bytes": 193099,
+    "sha256": "5d3a3bb2c5bc7f89da5f4a497ab1ceb27ad1092d8ab83dfd0fdf756d51b25f15"
+  },
+  {
+    "path": "editor/package.json",
+    "bytes": 748,
+    "sha256": "98c3dbcd1a733c5146d105834ecd7f31e41c5f409987072d3264569d7b72bd4a"
+  },
+  {
+    "path": "editor/public/audio/01.wav",
+    "bytes": 4608078,
+    "sha256": "1e91d678505f7dc9426455c02106aaaee6f3755201561677d058cb498803243e"
+  },
+  {
+    "path": "editor/public/audio/02.wav",
+    "bytes": 4608078,
+    "sha256": "b1c6143e6e9d6032d9b59a1cf03f95d3238246e33e83a8a96f0f7b7637180ce1"
+  },
+  {
+    "path": "editor/public/audio/03.wav",
+    "bytes": 4608078,
+    "sha256": "46a5c0c8f3149c8d4a726ab83985ce608e8f2a78762f61cf48af2798ee9304f5"
+  },
+  {
+    "path": "editor/public/audio/04.wav",
+    "bytes": 4608078,
+    "sha256": "48dfab7418d7b75983035ec36a4344aef45c307c81135ac86227ae8c4f56a4b7"
+  },
+  {
+    "path": "editor/public/audio/05.wav",
+    "bytes": 4608078,
+    "sha256": "53dec7f888fc4169f64aa1596f4a0b9bbd788a6e4f2beabb1ce5a84d268ad402"
+  },
+  {
+    "path": "editor/public/audio/06.wav",
+    "bytes": 4608078,
+    "sha256": "41d7aac9e7a8c926112d512896281ffdf315e0518cc47ccfe078992e8a123f57"
+  },
+  {
+    "path": "editor/public/audio/07.wav",
+    "bytes": 4608078,
+    "sha256": "3546c96aeda8399535e4812057462a7eed05849195de4920b670853bfd12ea79"
+  },
+  {
+    "path": "editor/public/audio/08.wav",
+    "bytes": 4608078,
+    "sha256": "9a5c9f0028fadbaa97f67c9c16589e8b9e581d341ef17e96eb21db448ebbbb0c"
+  },
+  {
+    "path": "editor/public/audio/09.wav",
+    "bytes": 4608078,
+    "sha256": "2ff7bb817c8a5ff1abf76c4fd62b5636da094cd403d4d3ed4ca591aab87722d3"
+  },
+  {
+    "path": "editor/public/audio/10.wav",
+    "bytes": 4608078,
+    "sha256": "b2d5e0cef91e5374368870e8dadecbcec3d451d515569605886329f987ff4c37"
+  },
+  {
+    "path": "editor/public/brand/logo.jpg",
+    "bytes": 93456,
+    "sha256": "5328d99d7b2ca4e87fde8f8a6b5eb8a201948e9d9effb1f418d98e689059f444"
+  },
+  {
+    "path": "editor/public/fonts/CORMORANT-OFL.txt",
+    "bytes": 4387,
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "path": "editor/public/fonts/INTER-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "path": "editor/public/fonts/cormorant-italic.ttf",
+    "bytes": 293312,
+    "sha256": "8ddad6fd245858b13f48aeb9977c0f2531469571ca6b7a98ef490d7f549ade58"
+  },
+  {
+    "path": "editor/public/fonts/cormorant-normal.ttf",
+    "bytes": 290392,
+    "sha256": "69e7ae35cba23d962227b86f99217c250e642e4c6f6104b4f3ec465039e4e2d8"
+  },
+  {
+    "path": "editor/public/fonts/cormorant-source.css",
+    "bytes": 511,
+    "sha256": "6a6307a4ea26b8753ed3e3b9588ec6421817d86a68c531344db53111541b72bb"
+  },
+  {
+    "path": "editor/public/fonts/inter-500.woff2",
+    "bytes": 24356,
+    "sha256": "a1eab7f4970e8a2f70137b1b7379ccad15fd227f2c9c0e65412f280ae9aad73c"
+  },
+  {
+    "path": "editor/public/fonts/inter-700.woff2",
+    "bytes": 24456,
+    "sha256": "ea90630996b19c80bec9dfe46cd52b9871705a8d6d89035cf18eddef24c82b74"
+  },
+  {
+    "path": "editor/public/fonts/inter-800.woff2",
+    "bytes": 24436,
+    "sha256": "713403e7d227a0fc231322cbd70e46601ceda4a514f08d19896a3029c2eefed9"
+  },
+  {
+    "path": "editor/public/media/azul-crema.jpg",
+    "bytes": 507163,
+    "sha256": "5d7f11141a92d1e75a6d9d2ed7116ea18f99b96796f29f15ca51a91dcb7b3d68"
+  },
+  {
+    "path": "editor/public/media/basica-beige.jpg",
+    "bytes": 45164,
+    "sha256": "d7b742263c26d6cd08efc85af5736275a16074ba8d13d32b1c86b9a243367154"
+  },
+  {
+    "path": "editor/public/media/blusa.jpg",
+    "bytes": 673432,
+    "sha256": "70c2255fe92fca8aac77e4eeed7a420c68c36ce5a96224ca7a81b65d9a70c75c"
+  },
+  {
+    "path": "editor/public/media/chaleco-a.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "path": "editor/public/media/chaleco-b.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "path": "editor/public/media/chocolate.jpg",
+    "bytes": 39958,
+    "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2"
+  },
+  {
+    "path": "editor/public/media/conjunto-beige.jpg",
+    "bytes": 775451,
+    "sha256": "ea664dbbf5e8c9f3d72297c7cff2aaa7b7cc8e60e2f4d53af5278e1da134d531"
+  },
+  {
+    "path": "editor/public/media/conjunto-marron.jpg",
+    "bytes": 656233,
+    "sha256": "8725865fba1ee842270fa35110b7127f85512076e7be0e0f23c32e8c1e29eacb"
+  },
+  {
+    "path": "editor/public/media/conjunto-uva.jpg",
+    "bytes": 493603,
+    "sha256": "0916960a921540dc2a2f831b85bcee9fa6c451829bef264a4d4c4f927b320c0c"
+  },
+  {
+    "path": "editor/public/media/jean-detalle.jpg",
+    "bytes": 52287,
+    "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a"
+  },
+  {
+    "path": "editor/public/media/jean-percha.mp4",
+    "bytes": 1796476,
+    "sha256": "cde2c207025e057c885d27856b13173653a618085705faea98088a7de4b6bf4f"
+  },
+  {
+    "path": "editor/public/media/manga-lila.mp4",
+    "bytes": 587795,
+    "sha256": "031c630cb692c0e0490bb0c7bb3f4c11e26afa8bca959f947c3d334984024ae6"
+  },
+  {
+    "path": "editor/public/media/manga-verde.mp4",
+    "bytes": 293816,
+    "sha256": "51e051239cda4d7ac3b5640cb0504dc4d73304c0a1c078a21e526adca1d647f3"
+  },
+  {
+    "path": "editor/public/media/mangas.jpg",
+    "bytes": 73068,
+    "sha256": "344afe0f06d2d7b0e3098d88f32a9466cca630c52f3381f5f707df8c36fecd4f"
+  },
+  {
+    "path": "editor/public/media/sastrero.jpg",
+    "bytes": 486926,
+    "sha256": "eedeefd8b8e2c0755084df6ca3ea95f02add317cdce47e1d847de43e3631ab38"
+  },
+  {
+    "path": "editor/public/media/verde.jpg",
+    "bytes": 94772,
+    "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85"
+  },
+  {
+    "path": "editor/remotion.config.ts",
+    "bytes": 332,
+    "sha256": "680114316c3f433b7ebee0f4badbedd162661ea7f86bfae17a8956dbf13f9629"
+  },
+  {
+    "path": "editor/scripts/control.py",
+    "bytes": 3489,
+    "sha256": "8769e469efd0dbcb342ab134f0fdf5bb21c2a62893779828fbcee388cf5d4176"
+  },
+  {
+    "path": "editor/scripts/empaquetar.py",
+    "bytes": 13582,
+    "sha256": "ea1f970a029ceb222d23035970d837d73720e6509d186c0adbd1f2af9dadea7f"
+  },
+  {
+    "path": "editor/scripts/musica.py",
+    "bytes": 13969,
+    "sha256": "b14ddab6ec442e152a7334037b4043ea967f8f9470187096c258d372bcc0cf42"
+  },
+  {
+    "path": "editor/scripts/preparar-recursos.sh",
+    "bytes": 668,
+    "sha256": "45cd0f99ef01e7c308717b5779b263a01ef694ee00855044427ad444b050ba18"
+  },
+  {
+    "path": "editor/scripts/render.mjs",
+    "bytes": 2167,
+    "sha256": "e56b41a011f10684c760eaa0f9916429ce689fee2509beed28675ad9bc2c080f"
+  },
+  {
+    "path": "editor/scripts/zip-entrega.py",
+    "bytes": 2665,
+    "sha256": "ad0b2ccd51b430df374c530e6bb9607eee1504d2f425c2e6069ba78e2aeda09e"
+  },
+  {
+    "path": "editor/src/Brand.tsx",
+    "bytes": 13554,
+    "sha256": "ceb3ce65177f08484f467338c18338f698846aea0336093853b7e985c9f49b67"
+  },
+  {
+    "path": "editor/src/CollectionA.tsx",
+    "bytes": 13148,
+    "sha256": "6870639976bf373008ab64093b53af9e4ea40963aa716971e05a7685913315cf"
+  },
+  {
+    "path": "editor/src/CollectionB.tsx",
+    "bytes": 13851,
+    "sha256": "32eecb2d8d388f6b69cdf78de6568ba7a8eae9f529c40d399c6a55478b198305"
+  },
+  {
+    "path": "editor/src/CollectionC.tsx",
+    "bytes": 10895,
+    "sha256": "02dd8723f307dcd2e5c761aae4609f1ae604326dc3995d185512b3a94585124a"
+  },
+  {
+    "path": "editor/src/Root.tsx",
+    "bytes": 2754,
+    "sha256": "87576fd871a15c2fbe45544e685b8264b1d534fdf1d8fdcd21b4825e10c59fb0"
+  },
+  {
+    "path": "editor/src/index.ts",
+    "bytes": 109,
+    "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+  },
+  {
+    "path": "editor/tsconfig.json",
+    "bytes": 368,
+    "sha256": "a6fbcf514dbfd3d116c3f7f78b72949c8c2ff45bdbe17aeff4c97e16bc1327fa"
+  },
+  {
+    "path": "finales/01-consulta.mp4",
+    "bytes": 1618619,
+    "sha256": "e3f6ffbedcc5872a09c75c4ae65a97d10ff25eab487d080f655b2dcdd1a80a3d"
+  },
+  {
+    "path": "finales/02-chalecos.mp4",
+    "bytes": 2471966,
+    "sha256": "77212f4899efe8b577a18923cf48fb73b73af596f0d48c3b8d4daac9839a23ba"
+  },
+  {
+    "path": "finales/03-basicas.mp4",
+    "bytes": 2241291,
+    "sha256": "a65f7e781ef21dcc3f4754de50d8aa6066bf35af075b92a673d7d84376440cac"
+  },
+  {
+    "path": "finales/04-mangas-largas.mp4",
+    "bytes": 1978286,
+    "sha256": "b9963daa237e16a9f07ea8004e094a4c2a890e83a455ca6142ef05842969f532"
+  },
+  {
+    "path": "finales/05-sastrero.mp4",
+    "bytes": 3042382,
+    "sha256": "eb8f665378286e7b72b771b953c48c16ebe91f2333ea079a97b140ccd3658ebe"
+  },
+  {
+    "path": "finales/06-blusa.mp4",
+    "bytes": 2891406,
+    "sha256": "d8a0b17f81cad673f11ac439f9ad5a8f2fc95c5da6849579bad3f01da7b653af"
+  },
+  {
+    "path": "finales/07-conjuntos.mp4",
+    "bytes": 3074081,
+    "sha256": "a2bc1deae63349341362c9574ac5f475677e1155ece51ad12cd002ff7ede2d28"
+  },
+  {
+    "path": "finales/08-cuellos.mp4",
+    "bytes": 4478899,
+    "sha256": "1bcb30bd61ef4b1160a7924a1e1e9f42c00f47eefb1fc4054a6530d6bb69a84a"
+  },
+  {
+    "path": "finales/09-azul-crema.mp4",
+    "bytes": 2363251,
+    "sha256": "2b5174bd8615013dc200c8e0ba22ee52f18748a055caa50f2d63c44cc16e1487"
+  },
+  {
+    "path": "finales/10-jeans.mp4",
+    "bytes": 3068317,
+    "sha256": "2fee9ab06439f51786cdf6649f98bf3b0fc35b4ff3d670d86d18a6ad6275d7c8"
+  },
+  {
+    "path": "fuentes.csv",
+    "bytes": 2860,
+    "sha256": "544481d70423195192432f121cad5eb6f8833d0b133bd68bd53d45ebe06dcd19"
+  },
+  {
+    "path": "index.html",
+    "bytes": 16196,
+    "sha256": "a1d1582da33d34304e1f3f618a1c087139002308401efaaf77732ec58dab903f"
+  },
+  {
+    "path": "indice.json",
+    "bytes": 10696,
+    "sha256": "374618335ad2e4ffbd2f6ea0c5d5851cf379d2a945bdce97ac40e3b9ebfc2b16"
+  },
+  {
+    "path": "licencia/origen.md",
+    "bytes": 2659,
+    "sha256": "bc89ece189ee799cbd7a2c323916f4906091a35f5601da59150b1e6e75058b47"
+  },
+  {
+    "path": "portadas/01-consulta.jpg",
+    "bytes": 232349,
+    "sha256": "f86a940e9febcc6184e9c387e81e1e3f3753dbd9e13f4e7f63eedf02020f8aeb"
+  },
+  {
+    "path": "portadas/02-chalecos.jpg",
+    "bytes": 183588,
+    "sha256": "3eec87f47bb9a4717738963ace9b82fb8eda52887e8c78ff67cc921cfbc1ba87"
+  },
+  {
+    "path": "portadas/03-basicas.jpg",
+    "bytes": 204520,
+    "sha256": "3be442d5136f796cf0c3878309d617660d3697733d051420c29d3d054293345b"
+  },
+  {
+    "path": "portadas/04-mangas-largas.jpg",
+    "bytes": 207631,
+    "sha256": "bd4b6dabf8bab67393d1a9110203ebe346a3e4fc21f10dc41f105b97cf557cec"
+  },
+  {
+    "path": "portadas/05-sastrero.jpg",
+    "bytes": 229719,
+    "sha256": "a4dcb857178db8ee641fc7aa8d8fa9e0c750e032506389cfeb8d47f36b6a853a"
+  },
+  {
+    "path": "portadas/06-blusa.jpg",
+    "bytes": 216348,
+    "sha256": "44dfca4b54ab1c77f881e30ce940df7b15d962483364c1564d7943b708d1fd0a"
+  },
+  {
+    "path": "portadas/07-conjuntos.jpg",
+    "bytes": 233366,
+    "sha256": "1830e35485b271ba26dc71c30c545e34cb82b0d0b399767a896eea712de16212"
+  },
+  {
+    "path": "portadas/08-cuellos.jpg",
+    "bytes": 342509,
+    "sha256": "f1721d8b35b6a42fde13103830efa0a54a9b50d4b64837739b405be6b0472c14"
+  },
+  {
+    "path": "portadas/09-azul-crema.jpg",
+    "bytes": 125213,
+    "sha256": "b1b5252c09df7fb361414ed82f5b2823cc6765219430776a887c78e1c5316cdc"
+  },
+  {
+    "path": "portadas/10-jeans.jpg",
+    "bytes": 222403,
+    "sha256": "09bf0bd5f13873d2ccf047500cb7c6734972f573d40f83f80a704400c8f84027"
+  },
+  {
+    "path": "qa/01-consulta-completo.jpg",
+    "bytes": 386158,
+    "sha256": "7cd44243fa15ea960fd3fe100d0401bd8593f22a262571b26bda4036b9ce5fe1"
+  },
+  {
+    "path": "qa/02-chalecos-completo.jpg",
+    "bytes": 391956,
+    "sha256": "9729d95ad6178c0bd3e949ed198807a8f1118f587538093017c6ce201a911ac6"
+  },
+  {
+    "path": "qa/03-basicas-completo.jpg",
+    "bytes": 380604,
+    "sha256": "f1c210882aca14794d04f8a2cf8c4b1647a5be2895e097bee70d8c4cbc9ee86b"
+  },
+  {
+    "path": "qa/04-mangas-largas-completo.jpg",
+    "bytes": 378052,
+    "sha256": "54253fea0bfdc7e9c29c611cf21ce3a6201a296ffd2e4e6574451c6b72669cf7"
+  },
+  {
+    "path": "qa/05-sastrero-completo.jpg",
+    "bytes": 430633,
+    "sha256": "4f28a5e636d195da18ece609cf8b04521c6c1e89be28c15528aee76c896b940b"
+  },
+  {
+    "path": "qa/06-blusa-completo.jpg",
+    "bytes": 413021,
+    "sha256": "d8564e7f9ac41c92d516903b13b25f69df89a9fae0c37aedaa7e8729586402eb"
+  },
+  {
+    "path": "qa/07-conjuntos-completo.jpg",
+    "bytes": 537175,
+    "sha256": "2f76d12fe6d2eaae1ebf1212c5818f03ff8d707f29d444d2b223d5964c4e3ccd"
+  },
+  {
+    "path": "qa/08-cuellos-completo.jpg",
+    "bytes": 418689,
+    "sha256": "2b755fe228684799d074850438a6a7c6185872c566f6278a64e233639752166a"
+  },
+  {
+    "path": "qa/09-azul-crema-completo.jpg",
+    "bytes": 408161,
+    "sha256": "06ce007481a08ba0dcea37e1aea7c8bf6185ff8a1c9f5b6814c32c4d06c720b2"
+  },
+  {
+    "path": "qa/10-jeans-completo.jpg",
+    "bytes": 464347,
+    "sha256": "fde7549aed58e22db37f8045f579b8887e8ec659ebaef5c2b5249c478c43bcad"
+  },
+  {
+    "path": "recursos-utilizados.json",
+    "bytes": 4264,
+    "sha256": "12531e110a52e16b8ce0e6ea4e52b038e5bb1624cde2b7c79eaf7accb00b53b6"
+  },
+  {
+    "path": "work/brand/indigo-logo-publico-original.jpg",
+    "bytes": 93456,
+    "sha256": "5328d99d7b2ca4e87fde8f8a6b5eb8a201948e9d9effb1f418d98e689059f444"
+  },
+  {
+    "path": "work/fuentes-nuevas/ig-09-DZ74Wm0RHDo-imagen-publica.jpg",
+    "bytes": 94772,
+    "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85"
+  },
+  {
+    "path": "work/fuentes-nuevas/ig-17-DYyDt18lhHE-imagen-publica.jpg",
+    "bytes": 52287,
+    "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a"
+  },
+  {
+    "path": "work/fuentes-nuevas/ig-19-DYc88YVRpAH-imagen-publica.jpg",
+    "bytes": 45164,
+    "sha256": "d7b742263c26d6cd08efc85af5736275a16074ba8d13d32b1c86b9a243367154"
+  },
+  {
+    "path": "work/fuentes-nuevas/ig-22-DYc74FaR_lG-imagen-publica.jpg",
+    "bytes": 39958,
+    "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2"
+  },
+  {
+    "path": "work/fuentes-nuevas/provenance.json",
+    "bytes": 43966,
+    "sha256": "c9917d7cacc5b8342552850fa1593ffe5fe898d75569c88b669d37edf96cfa30"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG02-cover-frame-original.jpg",
+    "bytes": 64587,
+    "sha256": "a9ad59a68795b9dca2ab4edbb48ac26763c512e9c011a030dd0af6360d46660a"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG03-azul-crema-original.webp",
+    "bytes": 78638,
+    "sha256": "0b6510ea514faf687a09e9d5e949f5e2948046e89ab7eb4b2a18b69964e7b600"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG10-cover-frame-original.jpg",
+    "bytes": 73068,
+    "sha256": "344afe0f06d2d7b0e3098d88f32a9466cca630c52f3381f5f707df8c36fecd4f"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG13-blusa-pantalon-original.webp",
+    "bytes": 87298,
+    "sha256": "680f9f875e71188fc28997ac0abce4f0c1d1c8ffee02480acded65b78ab5e87a"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG14-morley-pantalon-original.webp",
+    "bytes": 197808,
+    "sha256": "5c8a807422e4fe1f2a60ed0b27cd3885bbae587cc1b82d0970a825d49ec03102"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG15-conjunto-original.webp",
+    "bytes": 144128,
+    "sha256": "c76475cb1f317fbe7bbc16b2cfd37823f1dae9be780190a2730740ae6b0bb79d"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG20-pantalon-sastrero-original.webp",
+    "bytes": 147322,
+    "sha256": "0003eec3cc95c48482d3cc034dc78f039750d17f8cf33621319f85ca6090f242"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/IG21-blusa-sin-mangas-original.webp",
+    "bytes": 202748,
+    "sha256": "e3f083aca78064a43e2cf551fe489c8170902aee5927276d66b6911aab157db0"
+  },
+  {
+    "path": "work/fuentes-nuevas-ui/provenance-ui.json",
+    "bytes": 4079,
+    "sha256": "a41e80eb1241838abf26a1df98da71e3918219e85c39e7194a337fbccfe7aafa"
+  },
+  {
+    "path": "work/originales/IG04-looks-original.mp4",
+    "bytes": 3134549,
+    "sha256": "9cabd01ef69df1a5791fbfd110c0e849712a898f5dd1313a1612707c4f804029"
+  },
+  {
+    "path": "work/originales/IG06-jeans-original.mp4",
+    "bytes": 1089919,
+    "sha256": "2ad35f1e23cd508339ab6e0ac4a12255ffc48a777ca0ffb600572a5bcfe3778b"
+  },
+  {
+    "path": "work/originales/PROCEDENCIA.md",
+    "bytes": 928,
+    "sha256": "9765e940541e6748f4fca5686cdba3f11f2f43976cd4f83d92dc5bb26a6e3507"
+  }
+]

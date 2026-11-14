@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "OLIVO-01",
+    "titulo": "Tu estampa, tu sello",
+    "categoria": "Remeronas",
+    "hook": "¿Qué estampa va con vos?",
+    "duracion": 20,
+    "concepto_visual": "Revelado por bandas que convierte la estampa en protagonista; no simple slideshow.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "¿Qué estampa\nva con vos?",
+        "prenda": "Remerona estampada de IG-01",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-01"
+          ],
+          "publicaciones": [
+            "IG-01"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/"
+          ],
+          "hecho_visual": "Remeronas con estampas varias observadas.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Foto ocupa todo el fondo y detalle de estampa cruza el centro.",
+          "entrada": "Tres bandas horizontales se separan 40 px en 350 ms y dejan ver la estampa; hook aparece de una vez a 180 ms.",
+          "sostenido": "Acercamiento de 100% a 104% sin deformación."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "PONÉ TU SELLO",
+        "prenda": "La misma remerona, vista completa",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-01"
+          ],
+          "publicaciones": [
+            "IG-01"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/"
+          ],
+          "hecho_visual": "Usar encuadre completo de la misma foto; no inventar reverso ni otra vista.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "La foto pasa a una tarjeta vertical crema con marco fino olivo.",
+          "entrada": "Las tres bandas vuelven a alinearse en 500 ms para mostrar la prenda entera.",
+          "sostenido": "Tarjeta estable 2,8 s; palabra SELLO subrayada con un trazo de 700 ms."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "La estampa\nes el detalle",
+        "prenda": "Estampa visible de IG-01",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-01"
+          ],
+          "publicaciones": [
+            "IG-01"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/"
+          ],
+          "hecho_visual": "Solo recorte de detalle real visible.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Detalle a izquierda, prenda completa en ventana pequeña a derecha.",
+          "entrada": "La ventana de detalle crece de 35% a 62% de ancho en 600 ms.",
+          "sostenido": "Una línea olivo une las dos ventanas; sin flechas de calidad o composición."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 16
+        },
+        "texto": "REMERONAS\nA TU MANERA",
+        "prenda": "Una o dos remeronas publicadas en IG-01",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-01"
+          ],
+          "publicaciones": [
+            "IG-01"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/"
+          ],
+          "hecho_visual": "No duplicar una foto simulando estampas distintas.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos tarjetas escalonadas si hay dos prendas; una tarjeta grande si hay solo una.",
+          "entrada": "Tarjetas entran desde lados opuestos en 550 ms; inclinación máxima 3 grados.",
+          "sostenido": "Balanceo máximo 1 grado; tipo y foto permanecen legibles."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 16,
+          "fin_seg": 20
+        },
+        "texto": "Escribinos REMERONA\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-01"
+          ],
+          "publicaciones": [
+            "IG-01"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos REMERONA por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20REMERONA.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "REMERONA",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Una estampa puede darle otro tono al look. Escribinos REMERONA por WhatsApp con tu talle y ciudad para consultar opciones y disponibilidad actual. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "Foto real o fotogramas de IG-01; mínimo una remerona con estampa visible. Si hay una sola foto, usar detalle y vista completa de esa misma toma."
+    ],
+    "limites_de_claims": [
+      "No mencionar algodón, talles M–XG ni stock actual; no inferir calce oversize."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-02",
+    "titulo": "Una capa cambia la idea",
+    "categoria": "Chalecos",
+    "hook": "Una capa. Otra idea.",
+    "duracion": 21,
+    "concepto_visual": "Profundidad por marcos superpuestos y un zoom de cuello a look; metáfora de capas sin crear prendas.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "UNA CAPA.\nOTRA IDEA.",
+        "prenda": "Chaleco sobre camisa en IG-02",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-02"
+          ],
+          "publicaciones": [
+            "IG-02"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+          ],
+          "hecho_visual": "Chalecos sobre camisas en publicación.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda sobre camisa en fondo real, marco crema lateral.",
+          "entrada": "Panel olivo corre de izquierda a derecha en 400 ms revelando el chaleco; texto entra por máscara vertical.",
+          "sostenido": "Fotograma legible hasta el segundo 2."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "EMPEZÁ POR\nLA CAMISA",
+        "prenda": "Camisa visible bajo el chaleco de la misma referencia",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-02"
+          ],
+          "publicaciones": [
+            "IG-02"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+          ],
+          "hecho_visual": "Camisa ya visible en el look; el movimiento se limita al encuadre.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Detalle real de camisa; no fabricar una foto de la camisa sin chaleco.",
+          "entrada": "Recorte se desplaza a cuello y manga en 700 ms.",
+          "sostenido": "Una línea fina enmarca el cuello, sin ocultarlo."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "SUMÁ\nEL CHALECO",
+        "prenda": "Look con chaleco completo de IG-02",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-02"
+          ],
+          "publicaciones": [
+            "IG-02"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+          ],
+          "hecho_visual": "El chaleco no se añade digitalmente; está en la toma real.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "La ventana vuelve al encuadre amplio del look.",
+          "entrada": "Zoom out de 125% a 100% en 800 ms; segundo marco crema se desliza detrás como metáfora de capa.",
+          "sostenido": "Look entero de la fuente; si video, usar movimiento real de la toma."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 17
+        },
+        "texto": "LAS CAPAS\nTAMBIÉN CUENTAN",
+        "prenda": "Chaleco sobre camisa real",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-02"
+          ],
+          "publicaciones": [
+            "IG-02"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+          ],
+          "hecho_visual": "Inspiración de combinación ya publicada.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos marcos se superponen con 24 px de desplazamiento; foto en marco frontal.",
+          "entrada": "Marcos cambian de profundidad en 650 ms mientras la foto conserva continuidad.",
+          "sostenido": "Texto y prenda quietos 5 s; borde olivo recorre solo el marco."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 17,
+          "fin_seg": 21
+        },
+        "texto": "Escribinos CHALECO\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-02"
+          ],
+          "publicaciones": [
+            "IG-02"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos CHALECO por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20CHALECO.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "CHALECO",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "El chaleco puede ser el punto de partida para pensar una combinación en capas. Escribinos CHALECO por WhatsApp con tu talle y ciudad para consultar opciones actuales. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-02: video o imagen real de chaleco sobre camisa. Si solo hay imagen, todos los cambios son encuadres de la misma foto."
+    ],
+    "limites_de_claims": [
+      "No prometer chalecos P/M disponibles ni ajuste a cualquier cuerpo; no simular vestir una prenda."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-03",
+    "titulo": "La base que elegís",
+    "categoria": "Básicas",
+    "hook": "Tu look empieza acá.",
+    "duracion": 18,
+    "concepto_visual": "Grilla modular: una base organiza la composición; movimiento geométrico sobrio.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "TU LOOK\nEMPIEZA ACÁ",
+        "prenda": "Básica de IG-11",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-07"
+          ],
+          "publicaciones": [
+            "IG-11"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/"
+          ],
+          "hecho_visual": "Variedad de básicas en publicación.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Una foto real centrada en grilla de cuatro módulos crema/olivo.",
+          "entrada": "Los módulos vacíos se contraen hacia la foto en 450 ms; hook aparece por palabras, completo a 500 ms.",
+          "sostenido": "Sin cambio de prenda."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "PRIMERO,\nLA BASE",
+        "prenda": "La misma básica de referencia",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-07"
+          ],
+          "publicaciones": [
+            "IG-11"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/"
+          ],
+          "hecho_visual": "No inferir tejido ni escote que no se vea.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Foto grande a derecha; BASE en columna izquierda.",
+          "entrada": "Grilla se convierte en dos columnas en 550 ms.",
+          "sostenido": "Pan vertical de 15 px para conservar el movimiento."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "DESPUÉS,\nTU ESTILO",
+        "prenda": "Una segunda básica publicada, o la misma si no hay otra",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-07"
+          ],
+          "publicaciones": [
+            "IG-11"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/"
+          ],
+          "hecho_visual": "Las variantes son visuales publicadas, no inventario.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos fotos distintas alineadas cuando estén verificadas; si no, una foto y un bloque tipográfico.",
+          "entrada": "Segundo módulo se expande horizontalmente de 0 a 45% en 600 ms.",
+          "sostenido": "No cambiar el color de la foto para aparentar otra variante."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 14
+        },
+        "texto": "BÁSICAS\nPARA COMBINAR",
+        "prenda": "Básicas reales de IG-11",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-07"
+          ],
+          "publicaciones": [
+            "IG-11"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/"
+          ],
+          "hecho_visual": "Mensaje de inspiración, sin versatilidad cuantificada.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Módulos se reúnen como portada editorial de dos o tres paneles.",
+          "entrada": "Los paneles se alinean en 500 ms sin rotar prendas.",
+          "sostenido": "Texto máximo dos líneas, prenda visible 3 s."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 14,
+          "fin_seg": 18
+        },
+        "texto": "Escribinos BÁSICA\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-07"
+          ],
+          "publicaciones": [
+            "IG-11"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos BÁSICA por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20B%C3%81SICA.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "BÁSICA",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Una básica puede ser el inicio de una combinación propia. Escribinos BÁSICA por WhatsApp con tu talle y ciudad para consultar los modelos y colores que podamos confirmar. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-11: foto o fotogramas de básicas. Dos prendas diferentes solo si aparecen realmente en la fuente."
+    ],
+    "limites_de_claims": [
+      "No repetir precio histórico desde G.30.000 ni talles P–G como vigentes; no afirmar composición."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-04",
+    "titulo": "Manga larga a tu manera",
+    "categoria": "Básicas mangas largas",
+    "hook": "MANGA LARGA. TU ESTILO.",
+    "duracion": 19,
+    "concepto_visual": "Cintas verticales y paneles contrapuestos siguen la dirección de las mangas; ritmo distinto de la grilla.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "MANGA LARGA.\nTU ESTILO.",
+        "prenda": "Básica manga larga de IG-10",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-06"
+          ],
+          "publicaciones": [
+            "IG-10"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+          ],
+          "hecho_visual": "Categoría mangas largas y colores varios según publicación.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda real amplia con tipografía vertical a un lado.",
+          "entrada": "Dos cintas olivo bajan en direcciones opuestas 400 ms y destapan las mangas.",
+          "sostenido": "Hook completo desde 250 ms."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "LÍNEAS\nQUE SE ENCUENTRAN",
+        "prenda": "Mangas y cuerpo de la prenda real",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-06"
+          ],
+          "publicaciones": [
+            "IG-10"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+          ],
+          "hecho_visual": "Verificar manga larga visible en material.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Recorte de manga a izquierda y prenda completa a derecha.",
+          "entrada": "Ambos paneles deslizan 100 px en sentidos contrarios, 650 ms.",
+          "sostenido": "Se detienen alineados a los 700 ms; no se altera largo ni proporción."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "UN COLOR.\nOTRA IDEA.",
+        "prenda": "Uno o dos colores visibles en IG-10",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-06"
+          ],
+          "publicaciones": [
+            "IG-10"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+          ],
+          "hecho_visual": "Publicación menciona colores varios; solo mostrar los recuperados visualmente.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Paneles de color gráfico toman tonos del material real, con una foto de cada variante cuando exista.",
+          "entrada": "Cortina vertical revela segunda foto en 550 ms; si una sola, otro recorte de la misma.",
+          "sostenido": "Los bloques gráficos no tintan las prendas."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 15
+        },
+        "texto": "MANGAS LARGAS\nA TU MANERA",
+        "prenda": "Referencia de manga larga completa",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-06"
+          ],
+          "publicaciones": [
+            "IG-10"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+          ],
+          "hecho_visual": "Evitar promesas de abrigo o temporada.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Foto grande con borde olivo que recorre la esquina superior e inferior.",
+          "entrada": "Paneles laterales cierran y la foto crece a 88% de ancho en 500 ms.",
+          "sostenido": "Leve zoom 100% a 103% durante 4 s."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 15,
+          "fin_seg": 19
+        },
+        "texto": "Escribinos MANGA LARGA\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-06"
+          ],
+          "publicaciones": [
+            "IG-10"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos MANGA LARGA por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20MANGA%20LARGA.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "MANGA LARGA",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Mangas largas, una referencia para construir tu look. Escribinos MANGA LARGA por WhatsApp con tu talle y ciudad para consultar modelos, colores y disponibilidad actual. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-10: prendas con manga larga visible; variantes solo si realmente aparecen en fotos o video recuperados."
+    ],
+    "limites_de_claims": [
+      "No precio G.50.000 ni talles P–G vigentes; no decir abriga, fresco, liviano o ideal para una estación."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-05",
+    "titulo": "Un sastrero, tres ideas",
+    "categoria": "Pantalones sastreros",
+    "hook": "UN SASTRERO. TRES IDEAS.",
+    "duracion": 22,
+    "concepto_visual": "Acordeón de tres looks realmente publicados; comparación visual sin aconsejar calce.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "UN SASTRERO.\nTRES IDEAS.",
+        "prenda": "Pantalón de IG-23",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-23"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/"
+          ],
+          "hecho_visual": "Reel observado: un pantalón sastrero, tres formas de llevarlo.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Tres columnas que contienen los tres looks reales del reel; números 1, 2 y 3 pequeños.",
+          "entrada": "Columnas aparecen con 120 ms de desfase, completas en 500 ms.",
+          "sostenido": "Hook completo al primer segundo."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "IDEA 01",
+        "prenda": "Primer look real del reel IG-23",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-23"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/"
+          ],
+          "hecho_visual": "No sustituir por pantalón de otra publicación.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Primera columna crece al 84% de ancho; otras dos quedan como pestañas.",
+          "entrada": "Expansión de 34% a 84% en 600 ms con máscara.",
+          "sostenido": "Movimiento original de la toma o pan lento del fotograma."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "IDEA 02",
+        "prenda": "Segundo look real del mismo reel",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-23"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/"
+          ],
+          "hecho_visual": "Segundo look identificable en el reel.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Segunda pestaña ocupa centro; misma escala del pantalón.",
+          "entrada": "Transición por acordeón en 600 ms.",
+          "sostenido": "Cambio real de combinación; no inventar prendas añadidas."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 18
+        },
+        "texto": "IDEA 03\nEL LOOK LO ELEGÍS VOS",
+        "prenda": "Tercer look real del mismo reel",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-23"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/"
+          ],
+          "hecho_visual": "Tercer look del reel, más recap de los tres.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Tercera pestaña se expande; al segundo 15 las tres vuelven a una tira resumen.",
+          "entrada": "Acordeón 600 ms; reunión en tres columnas de 650 ms a los 15 s.",
+          "sostenido": "Cada combinación visible antes del cierre; no decir tres ocasiones específicas."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 18,
+          "fin_seg": 22
+        },
+        "texto": "Escribinos SASTRERO\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-23"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos SASTRERO por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20SASTRERO.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "SASTRERO",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Tres referencias de combinación para mirar el pantalón sastrero desde otra idea. Escribinos SASTRERO por WhatsApp con tu talle y ciudad para consultar opciones actuales. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-23: los tres looks del reel deben recuperarse e identificarse. Si la fuente no contiene tres encuadres utilizables, reducir el concepto a «Sastrero, a tu manera» usando CAT-14 como inspiración; cambiar hook y retirar numeración antes de producir."
+    ],
+    "limites_de_claims": [
+      "La versión de tres ideas requiere tres looks reales de IG-23. CAT-14 fue marcado vendido: su alternativa es inspiración, sin afirmar reposición."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-06",
+    "titulo": "El detalle fruncido",
+    "categoria": "Blusas sin mangas",
+    "hook": "EL DETALLE ESTÁ ACÁ.",
+    "duracion": 20,
+    "concepto_visual": "Foco óptico que parte del detalle y abre el encuadre; ritmo lento para apreciar una prenda.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "EL DETALLE\nESTÁ ACÁ.",
+        "prenda": "Detalle fruncido de blusa IG-21",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-15"
+          ],
+          "publicaciones": [
+            "IG-21"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+          ],
+          "hecho_visual": "Blusa sin mangas con detalle fruncido según catálogo.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Recorte cercano real, dentro de óvalo crema sobre olivo.",
+          "entrada": "Óvalo abre de 25% a 88% de ancho en 500 ms; texto aparece a 200 ms.",
+          "sostenido": "Fruncido visible desde el inicio."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "MIRÁ\nEL FRUNCIDO",
+        "prenda": "Mismo detalle de la blusa",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-15"
+          ],
+          "publicaciones": [
+            "IG-21"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+          ],
+          "hecho_visual": "Recorte exacto de detalle visible.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Línea fina dibuja un arco alrededor del detalle, sin señalar zonas del cuerpo.",
+          "entrada": "Trazo de 700 ms, acompañado de zoom 100% a 106%.",
+          "sostenido": "No enfatizar transparencia, soporte, elasticidad o calidad."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "AHORA,\nEL LOOK COMPLETO",
+        "prenda": "Encuadre amplio original de la blusa IG-21",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-15"
+          ],
+          "publicaciones": [
+            "IG-21"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+          ],
+          "hecho_visual": "El rótulo look completo solo se usa si el material realmente lo muestra.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Óvalo se transforma en rectángulo de esquinas suaves y deja ver toda la foto.",
+          "entrada": "Apertura de recorte en 700 ms; no completar partes de prenda fuera de imagen.",
+          "sostenido": "Si solo hay plano medio, titular «Ahora, la blusa» en lugar de look completo."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 16
+        },
+        "texto": "BLUSAS\nCON SU PROPIO DETALLE",
+        "prenda": "Blusa real sin mangas",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-15"
+          ],
+          "publicaciones": [
+            "IG-21"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+          ],
+          "hecho_visual": "No pluralizar variantes visuales si solo hay una; el plural nombra categoría.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Ventana amplia con palabra DETALLE en vertical pequeña a un lado.",
+          "entrada": "Óvalo residual sale por esquina en 550 ms; foto permanece.",
+          "sostenido": "Pan vertical suave 12 px; sin simular tela en movimiento."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 16,
+          "fin_seg": 20
+        },
+        "texto": "Escribinos BLUSA\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-15"
+          ],
+          "publicaciones": [
+            "IG-21"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc8VybRql_/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos BLUSA por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20BLUSA.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "BLUSA",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "El detalle fruncido es el protagonista de esta referencia de blusa sin mangas. Escribinos BLUSA por WhatsApp con tu talle y ciudad para consultar opciones y disponibilidad. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-21: foto de blusa sin mangas con fruncido visible. Utilizar crop de la misma fuente; no generar vista completa ausente."
+    ],
+    "limites_de_claims": [
+      "No decir favorece, estiliza, calce perfecto, tela premium ni medidas; confirmar rótulo del encuadre amplio."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-07",
+    "titulo": "Dos prendas, una idea",
+    "categoria": "Conjuntos",
+    "hook": "DOS PRENDAS. UNA IDEA.",
+    "duracion": 21,
+    "concepto_visual": "Díptico superior/inferior que termina en la combinación real; historia de dos prendas, no venta de un pack.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "DOS PRENDAS.\nUNA IDEA.",
+        "prenda": "Conjunto básica + pantalón de vestir de IG-15",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-12"
+          ],
+          "publicaciones": [
+            "IG-15"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+          ],
+          "hecho_visual": "Conjunto morley + pantalón publicado y marcado vendido.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Foto real del conjunto partida en dos ventanas sin separar artificialmente prendas del cuerpo.",
+          "entrada": "Ventanas se acercan desde 80 px de distancia y se alinean en 450 ms.",
+          "sostenido": "Rótulo pequeño «Inspiración de looks» visible."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "ARRIBA,\nUNA BÁSICA",
+        "prenda": "Parte superior de la foto real IG-15",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-12"
+          ],
+          "publicaciones": [
+            "IG-15"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+          ],
+          "hecho_visual": "Básica de la misma imagen.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Ventana superior se expande; parte del pantalón se conserva abajo.",
+          "entrada": "Máscara horizontal abre 500 ms sin deformar foto.",
+          "sostenido": "Encuadre fiel del conjunto publicado."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "ABAJO,\nUN PANTALÓN",
+        "prenda": "Pantalón de vestir de la misma foto",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-12"
+          ],
+          "publicaciones": [
+            "IG-15"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+          ],
+          "hecho_visual": "Componente del conjunto; no inventario separado.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Ventana inferior crece y superior vuelve a banda pequeña.",
+          "entrada": "Cambio de proporción de ventanas en 550 ms.",
+          "sostenido": "No reemplazar por otro modelo ni atribuir talle conjunto."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 17
+        },
+        "texto": "JUNTAS,\nUNA COMBINACIÓN",
+        "prenda": "Conjunto real completo dentro del encuadre disponible",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-12"
+          ],
+          "publicaciones": [
+            "IG-15"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+          ],
+          "hecho_visual": "Referente visual histórico, no oferta del conjunto exacto.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos ventanas encajan como díptico y luego se unen sin corte a foto original.",
+          "entrada": "Ensamblado de 700 ms; rótulo inspiración permanece.",
+          "sostenido": "Foto completa y copy quietos 5 s."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 17,
+          "fin_seg": 21
+        },
+        "texto": "Escribinos CONJUNTO\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-12"
+          ],
+          "publicaciones": [
+            "IG-15"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos CONJUNTO por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20CONJUNTO.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "CONJUNTO",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Una combinación publicada por Índigo como inspiración: básica y pantalón de vestir. Escribinos CONJUNTO por WhatsApp con tu talle y ciudad para consultar opciones actuales. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-15: foto real del conjunto. Mantener rótulo inspiración porque aparece marcado vendido. No usar precios históricos."
+    ],
+    "limites_de_claims": [
+      "No paquete con descuento, combo disponible, talles compatibles ni reposición; no duplicar inventario de componentes."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-08",
+    "titulo": "El cuello marca la línea",
+    "categoria": "Básicas cuello alto",
+    "hook": "MIRÁ EL CUELLO.",
+    "duracion": 20,
+    "concepto_visual": "Arcos alrededor del cuello y barrido curvo entre referencias; comparación del detalle sin prometer fit.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "MIRÁ\nEL CUELLO.",
+        "prenda": "Cuello alto verde de IG-09",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-08"
+          ],
+          "publicaciones": [
+            "IG-09"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/"
+          ],
+          "hecho_visual": "Cuello alto verde publicado.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Cuello visible centrado; gran arco tipográfico encima, sin cubrir la prenda.",
+          "entrada": "Línea dibuja semicircunferencia en 450 ms; hook aparece por máscara al mismo tiempo.",
+          "sostenido": "Recorte mantiene color verde real."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "VERDE",
+        "prenda": "Prenda verde real de IG-09",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-08"
+          ],
+          "publicaciones": [
+            "IG-09"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/"
+          ],
+          "hecho_visual": "Color verde consta en referencia.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Recorte de cuello se abre a foto completa; chip de color muestreado de la foto, fuera del producto.",
+          "entrada": "Apertura de ventana en 600 ms.",
+          "sostenido": "Sin llamarlo verde olivo a menos que se confirme visualmente."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "CHOCOLATE",
+        "prenda": "Cuello alto marrón chocolate de IG-22",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-16"
+          ],
+          "publicaciones": [
+            "IG-22"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+          ],
+          "hecho_visual": "Marrón chocolate según publicación; marcado vendido.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Cambio por barrido curvo a la segunda foto real; rótulo inspiración pequeño.",
+          "entrada": "Barrido de 600 ms; texto CHOCOLATE desde 650 ms.",
+          "sostenido": "No alterar saturación de prenda para combinar con diseño olivo."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 16
+        },
+        "texto": "DOS REFERENCIAS.\nTU ELECCIÓN.",
+        "prenda": "Verde y chocolate como referencias separadas",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-08",
+            "CAT-16"
+          ],
+          "publicaciones": [
+            "IG-09",
+            "IG-22"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+            "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+          ],
+          "hecho_visual": "Son dos publicaciones; no afirmar variantes de un mismo SKU.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos ventanas verticales con etiquetas VERDE y CHOCOLATE.",
+          "entrada": "Ventanas se abren desde el centro en 600 ms.",
+          "sostenido": "Rótulo inspiración se aplica al conjunto de referencias; no indicar mismo modelo."
+        },
+        "rotulo_secundario": "Inspiración de looks"
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 16,
+          "fin_seg": 20
+        },
+        "texto": "Escribinos CUELLO ALTO\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-08",
+            "CAT-16"
+          ],
+          "publicaciones": [
+            "IG-09",
+            "IG-22"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+            "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos CUELLO ALTO por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20CUELLO%20ALTO.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "CUELLO ALTO",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Dos referencias de cuello alto para mirar el detalle: verde y marrón chocolate. Escribinos CUELLO ALTO por WhatsApp con tu talle y ciudad para consultar opciones actuales. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-09 e IG-22: fotos reales de verde y marrón chocolate. Si falta la segunda, conservar «Mirá el cuello» y hacer monográfico del verde; retirar comparación y caption de dos colores."
+    ],
+    "limites_de_claims": [
+      "No mismo SKU, talles, tejido, abrigo o reposición; el chocolate se muestra como inspiración histórica."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-09",
+    "titulo": "Azul y crema en diálogo",
+    "categoria": "Combinaciones de color",
+    "hook": "AZUL + CREMA.",
+    "duracion": 18,
+    "concepto_visual": "Diálogo de dos colores que intercambia espacio y vuelve al look; olivo solo en identidad gráfica.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "AZUL\n+ CREMA",
+        "prenda": "Look o prendas azul + crema de IG-03",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-03"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+          ],
+          "hecho_visual": "Publicación de combinación azul + crema.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Foto real cruzada por dos franjas gráficas pequeñas: azul y crema; fondo general olivo.",
+          "entrada": "El signo + aparece por escala 70% a 100% en 300 ms; franjas entran desde esquinas.",
+          "sostenido": "Hook completo a 400 ms; color del producto intacto."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 6
+        },
+        "texto": "AZUL",
+        "prenda": "Parte azul visible en la fuente IG-03",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-03"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+          ],
+          "hecho_visual": "Enfocar solo componente real azul.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Ventana grande sobre panel crema, un chip de color a un lado.",
+          "entrada": "Encuadre panea a zona azul en 650 ms, sin cortar contexto que identifica la prenda.",
+          "sostenido": "No nombrar jean si la imagen no confirma esa categoría."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 6,
+          "fin_seg": 10
+        },
+        "texto": "CREMA",
+        "prenda": "Parte crema de la misma combinación",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-03"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+          ],
+          "hecho_visual": "Enfocar componente crema real.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Se intercambian proporciones de foto y panel; foco en prenda crema.",
+          "entrada": "Desplazamiento lateral de 80 px en 600 ms.",
+          "sostenido": "No recolorear otra prenda para completar la paleta."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 10,
+          "fin_seg": 14
+        },
+        "texto": "EN EL MISMO LOOK",
+        "prenda": "Combinación original de IG-03",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-03"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+          ],
+          "hecho_visual": "Solo la combinación realmente publicada.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Dos chips se unen por el signo + y la foto vuelve al encuadre original.",
+          "entrada": "Recap de 500 ms, alineado al beat.",
+          "sostenido": "Look y texto quietos 3 s."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 14,
+          "fin_seg": 18
+        },
+        "texto": "Escribinos AZUL + CREMA\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [],
+          "publicaciones": [
+            "IG-03"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos AZUL + CREMA por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20AZUL%20%2B%20CREMA.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "AZUL + CREMA",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Azul y crema: una combinación publicada por Índigo para inspirar otro look. Escribinos AZUL + CREMA por WhatsApp con tu talle y ciudad para consultar opciones actuales. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-03: foto original de azul + crema. No usar antiguas afirmaciones de temporada o tendencia."
+    ],
+    "limites_de_claims": [
+      "No colores tendencia hoy, combinación que no falla, prendas exactas disponibles ni tonos inventados."
+    ],
+    "estado": "Propuesta para producción"
+  },
+  {
+    "id": "OLIVO-10",
+    "titulo": "Tres referencias de jeans",
+    "categoria": "Jeans Mom / Flare / Wide Leg",
+    "hook": "MOM. FLARE. WIDE LEG.",
+    "duracion": 24,
+    "concepto_visual": "Índices de catálogo y cambio de página con tres modelos identificados; evita repetir la narrativa JEANS de v5.",
+    "direccion_visual": {
+      "paleta": "Olivo + crema + tinta oscura. Los valores definitivos, logo y tipografías los confirma el agente de marca.",
+      "formato": "Vertical 1080×1920, sin voz necesaria; textos breves con música instrumental.",
+      "reglas": "Foto o video real de Índigo, sin recrear prendas. Conservar color y proporción. Zona de textos principal: x=90–910, y=240–1480; no cubrir rostros ni detalle central de prenda. En cada cambio, un gesto principal y suficiente reposo para leer."
+    },
+    "scenes": [
+      {
+        "tiempo": {
+          "inicio_seg": 0,
+          "fin_seg": 2
+        },
+        "texto": "MOM.\nFLARE.\nWIDE LEG.",
+        "prenda": "Las tres referencias verificadas por su fuente",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-03",
+            "CAT-04",
+            "CAT-05"
+          ],
+          "publicaciones": [
+            "IG-06",
+            "IG-18"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/",
+            "https://www.instagram.com/indigopy_/reel/DYyCwo-RDcn/"
+          ],
+          "hecho_visual": "Mom y Flare en IG-06; Wide Leg en IG-18.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Tres nombres en líneas escalonadas junto a una tira de imágenes reales pequeñas.",
+          "entrada": "Cada palabra sube 24 px por máscara con 140 ms de desfase; todas visibles a 550 ms.",
+          "sostenido": "No asignar etiqueta a prenda todavía no identificada."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 2,
+          "fin_seg": 7
+        },
+        "texto": "MOM",
+        "prenda": "Jean Mom identificado en IG-06",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-03"
+          ],
+          "publicaciones": [
+            "IG-06"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/"
+          ],
+          "hecho_visual": "Debe identificarse Mom por fuente, no por suposición visual.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Ventana vertical ocupa 70% de ancho, índice 01 en columna crema.",
+          "entrada": "Tarjeta entra 90 px desde abajo en 600 ms.",
+          "sostenido": "Movimiento original o pan lento; nunca atribuir calce del cuerpo."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 7,
+          "fin_seg": 12
+        },
+        "texto": "FLARE",
+        "prenda": "Jean Flare identificado en IG-06",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-04"
+          ],
+          "publicaciones": [
+            "IG-06"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/"
+          ],
+          "hecho_visual": "Debe identificarse Flare por fuente o texto público.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Índice 02 en lado opuesto; tamaño de ventana equivalente al Mom.",
+          "entrada": "Cambio tipo página: máscara vertical de 650 ms, sin deformar tela.",
+          "sostenido": "Sin comparación de comodidad, altura o efecto visual."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 12,
+          "fin_seg": 18
+        },
+        "texto": "WIDE LEG",
+        "prenda": "Jean Wide Leg real de IG-18",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-05"
+          ],
+          "publicaciones": [
+            "IG-18"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DYyCwo-RDcn/"
+          ],
+          "hecho_visual": "Wide Leg según publicación; precios y talles históricos excluidos.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Índice 03 arriba; foto amplia sin recortar artificialmente el ancho del pantalón.",
+          "entrada": "Máscara horizontal abre 700 ms.",
+          "sostenido": "Encuadre conserva silueta real; si plano parcial, no afirmar largo completo."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 18,
+          "fin_seg": 20
+        },
+        "texto": "TRES REFERENCIAS\nDE JEANS",
+        "prenda": "Tres fotos distintas verificadas",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-03",
+            "CAT-04",
+            "CAT-05"
+          ],
+          "publicaciones": [
+            "IG-06",
+            "IG-18"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/",
+            "https://www.instagram.com/indigopy_/reel/DYyCwo-RDcn/"
+          ],
+          "hecho_visual": "Comparación de referencias del catálogo, no inventario actual.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Tres tarjetas pequeñas con etiquetas legibles, sin hacerlas parecer variantes de mismo SKU.",
+          "entrada": "Tarjetas se juntan 400 ms.",
+          "sostenido": "Copy breve y foto estable hasta cierre."
+        },
+        "rotulo_secundario": null
+      },
+      {
+        "tiempo": {
+          "inicio_seg": 20,
+          "fin_seg": 24
+        },
+        "texto": "Escribinos JEANS\npor WhatsApp",
+        "prenda": "Última prenda de referencia en segundo plano, sin transformar sus colores",
+        "evidencia_catalogo": {
+          "referencias": [
+            "CAT-03",
+            "CAT-04",
+            "CAT-05"
+          ],
+          "publicaciones": [
+            "IG-06",
+            "IG-18"
+          ],
+          "urls": [
+            "https://www.instagram.com/indigopy_/reel/DaLWZEhRP8A/",
+            "https://www.instagram.com/indigopy_/reel/DYyCwo-RDcn/"
+          ],
+          "hecho_visual": "La prenda sigue siendo una referencia para consultar, no una promesa de disponibilidad.",
+          "limite": "Referencia pública de prendas o inspiración; no acredita stock, precio, talle disponible ni reposición actuales."
+        },
+        "motion": {
+          "layout": "Prenda en ventana superior; fondo olivo y marca en cierre inferior. Texto principal en dos o tres líneas y teléfono pequeño debajo.",
+          "entrada": "La ventana de prenda se reduce de 92% a 62% de ancho en 550 ms. La CTA sube 60 px y aparece con máscara en 450 ms.",
+          "sostenido": "CTA y teléfono quietos al menos 3 s; leve desplazamiento continuo de la foto de 10 px.",
+          "salida": "Sin fade a negro; último frame legible."
+        },
+        "rotulo_secundario": null
+      }
+    ],
+    "CTA": "Escribinos JEANS por WhatsApp",
+    "whatsapp": {
+      "numero_observado": "595973434868",
+      "url": "https://wa.me/595973434868",
+      "url_con_mensaje": "https://wa.me/595973434868?text=Hola%2C%20me%20interesa%20JEANS.%20Mi%20talle%20es%20___%20y%20mi%20ciudad%20es%20___.%20%C2%BFQu%C3%A9%20opciones%20hay%3F",
+      "palabra": "JEANS",
+      "verificacion": "Contacto observado en catálogo y guiones v5; confirmar con agente de marca antes del render definitivo."
+    },
+    "caption": "Mom, Flare y Wide Leg: tres referencias de jeans publicadas por Índigo. Escribinos JEANS por WhatsApp con tu talle y ciudad para consultar modelos y disponibilidad actual. Índigo Py · Ciudad del Este.",
+    "material_requerido": [
+      "IG-06: material distinguible de Mom y Flare. IG-18: Wide Leg. Si no se identifican las tres prendas por la fuente, sustituir todo el guion por monográfico del modelo verificable y no conservar el hook de tres modelos."
+    ],
+    "limites_de_claims": [
+      "No decir cuál favorece, estiliza o queda mejor; no talles 38–44 ni precio desde G.100.000 como actuales."
+    ],
+    "estado": "Propuesta para producción"
+  }
+]

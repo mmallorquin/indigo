@@ -1,0 +1,417 @@
+[
+  {
+    "path": "CONTROL-DE-CALIDAD.md",
+    "bytes": 2259,
+    "sha256": "11b42d9ea6bc0332c4644e2276cdeadd0f1f5e77680699ed01c93dcb01b333d8"
+  },
+  {
+    "path": "ENLACES-EDITABLES.json",
+    "bytes": 767,
+    "sha256": "de60a29f2ed61af1a83fd17d6f331fdd2a14dd041e4aaf4221716c531bf1fa78"
+  },
+  {
+    "path": "INDICE.json",
+    "bytes": 1974,
+    "sha256": "efaf855a84cc48ba67f412c602a4650ffe1d4e8c27e4de30cc3dc658185a8d01"
+  },
+  {
+    "path": "INDICE.md",
+    "bytes": 1909,
+    "sha256": "1621583dc7db70756151bec77b35b896b3a55867ff24966ca919ca0acb84c442"
+  },
+  {
+    "path": "LEEME.md",
+    "bytes": 3056,
+    "sha256": "fa102336cc5959cf3db8f32ef0ff27cd8c9ef7c84e2db7f9c20d81558959ae20"
+  },
+  {
+    "path": "PROMPT-DIRECCION-CREATIVA.md",
+    "bytes": 4869,
+    "sha256": "41bcdaa1c20a0752631aa1a89b70999651e6eed28cc6b0fa831263e8b8f9c76a"
+  },
+  {
+    "path": "captions/neutros.txt",
+    "bytes": 237,
+    "sha256": "50f38a27598543b0b0e137d531f28c5202fdc3e93cfcd4767d900e1d33e02b48"
+  },
+  {
+    "path": "captions/pantalones.txt",
+    "bytes": 282,
+    "sha256": "39fcb994904be941cb67f1d7217875619a3bd7f8a21c6dc80fc5e4db84ca6a2c"
+  },
+  {
+    "path": "carruseles/neutros/neutros-01.png",
+    "bytes": 726208,
+    "sha256": "3fd06e443a4c1b357f2c70963514f01fd4126aec06fc36da0514584dfaf29a6e"
+  },
+  {
+    "path": "carruseles/neutros/neutros-02.png",
+    "bytes": 618809,
+    "sha256": "416155b385b662dc741722ec8602317001d276c98086ad6dca84d01260816234"
+  },
+  {
+    "path": "carruseles/neutros/neutros-03.png",
+    "bytes": 948290,
+    "sha256": "33a9b9f97d6c45acf205d2b670d6f171d017604aa437ebcfacbf0dfb52d39f89"
+  },
+  {
+    "path": "carruseles/neutros/neutros-04.png",
+    "bytes": 832315,
+    "sha256": "76644a514cadb13c4d46a97bba166238e379e61f1503f5d8e4d5179e3b7cbef8"
+  },
+  {
+    "path": "carruseles/neutros/neutros-05.png",
+    "bytes": 617466,
+    "sha256": "19ddc0c922d8c45e939e90a685bccdfbb62a3b4669178d1833649c8bb7efb23d"
+  },
+  {
+    "path": "carruseles/pantalones/pantalones-01.png",
+    "bytes": 873726,
+    "sha256": "bbcbdf7ccf4715494e1897a44a29b9622a7ceb9bf940da51c41476031148e939"
+  },
+  {
+    "path": "carruseles/pantalones/pantalones-02.png",
+    "bytes": 747991,
+    "sha256": "05e3519b3d6b32a5d3eb7ad09efc7efdcf8264d84be347fd2b4d1e3378d23690"
+  },
+  {
+    "path": "carruseles/pantalones/pantalones-03.png",
+    "bytes": 805318,
+    "sha256": "695df27471a78b28d35963b47cbefaf8b451eef7a3cd354eb7f3a35fa69bdb7f"
+  },
+  {
+    "path": "carruseles/pantalones/pantalones-04.png",
+    "bytes": 105887,
+    "sha256": "719e0343b29285c3492117a96c7bdd5485f693c5d7ce1c822d0d85dda3c12977"
+  },
+  {
+    "path": "carruseles/pantalones/pantalones-05.png",
+    "bytes": 593522,
+    "sha256": "9047b8fc7c7b62b15472ff1e5507606ddf7486185ed9ce0ef71ba8bcdde7c36b"
+  },
+  {
+    "path": "datos-tecnicos.json",
+    "bytes": 9667,
+    "sha256": "80bf1a13c812bc60311918ce9682312fb9e035dc5735ee9700d9146a279623ed"
+  },
+  {
+    "path": "editables/neutros-canva.html",
+    "bytes": 7094391,
+    "sha256": "3ff4e4ca6da9f059afcb3ef37c6d18dd49c125d9ffbf39840119efb3694a48fd"
+  },
+  {
+    "path": "editables/neutros-canva.pdf",
+    "bytes": 2565860,
+    "sha256": "41663af3e213a7eb21a390e081cc3a6109a70f7b2f927e0f3fea372d7af554a2"
+  },
+  {
+    "path": "editables/pantalones-canva.html",
+    "bytes": 2610214,
+    "sha256": "26915816f61c62852aef2ace65a69f1522215abde20f6d0f685ed41151987e20"
+  },
+  {
+    "path": "editables/pantalones-canva.pdf",
+    "bytes": 829272,
+    "sha256": "6847b0ad065504db39182065b2fbb297158251cd5aaaa922a483980226f9e6f2"
+  },
+  {
+    "path": "editables/svg/neutros-01.svg",
+    "bytes": 1001839,
+    "sha256": "ec077b9b3c3e86a48fe6cacc982a058b93afda0d9a783f7bde790970c4851071"
+  },
+  {
+    "path": "editables/svg/neutros-02.svg",
+    "bytes": 651186,
+    "sha256": "e56a1ca64c012578187f604eb699428dbdd6ec05bef7ccd129f6fa00570d77b8"
+  },
+  {
+    "path": "editables/svg/neutros-03.svg",
+    "bytes": 876557,
+    "sha256": "a02f40c39c1ee7f875e5093e7ccb6f9cd90741db4bf31f76f30f12d1666cde3c"
+  },
+  {
+    "path": "editables/svg/neutros-04.svg",
+    "bytes": 1035835,
+    "sha256": "7595bdc9f4214fae7357bb40dc4fc038d9a3f65b84b7853403997236e6a996a5"
+  },
+  {
+    "path": "editables/svg/neutros-05.svg",
+    "bytes": 2685163,
+    "sha256": "002fb16a8b61974dc2f0bef219a519ecdaa3528715c7a3547ce25d91fba7c25f"
+  },
+  {
+    "path": "editables/svg/pantalones-01.svg",
+    "bytes": 720907,
+    "sha256": "bcdbb91a1ede25e0c492cd2c8aafc9aa56dbcf9d2e70f9bb04d8a485c4909945"
+  },
+  {
+    "path": "editables/svg/pantalones-02.svg",
+    "bytes": 650856,
+    "sha256": "ea035d71ce482efd2ebeea9a48cbbd869665e5cd66c0e0f84269f9bdf18abdc5"
+  },
+  {
+    "path": "editables/svg/pantalones-03.svg",
+    "bytes": 71450,
+    "sha256": "44522cf15021c3b198d3eab5d97663d4e8ce46b92d4ec4e04e96ab8129e85d3d"
+  },
+  {
+    "path": "editables/svg/pantalones-04.svg",
+    "bytes": 2210,
+    "sha256": "3e71a77f43d9a4760c9d6ad9555b0cc96b44b05a31aaf7420decdec287ba0c5a"
+  },
+  {
+    "path": "editables/svg/pantalones-05.svg",
+    "bytes": 845873,
+    "sha256": "45ca1e22c862d691b7727813382c64d96413d58c874540e310364a5bdd32ce88"
+  },
+  {
+    "path": "editor/.prettierrc",
+    "bytes": 66,
+    "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+  },
+  {
+    "path": "editor/eslint.config.mjs",
+    "bytes": 79,
+    "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+  },
+  {
+    "path": "editor/package-lock.json",
+    "bytes": 193099,
+    "sha256": "5d3a3bb2c5bc7f89da5f4a497ab1ceb27ad1092d8ab83dfd0fdf756d51b25f15"
+  },
+  {
+    "path": "editor/package.json",
+    "bytes": 748,
+    "sha256": "98c3dbcd1a733c5146d105834ecd7f31e41c5f409987072d3264569d7b72bd4a"
+  },
+  {
+    "path": "editor/public/audio/03.wav",
+    "bytes": 4608078,
+    "sha256": "46a5c0c8f3149c8d4a726ab83985ce608e8f2a78762f61cf48af2798ee9304f5"
+  },
+  {
+    "path": "editor/public/audio/07.wav",
+    "bytes": 4608078,
+    "sha256": "3546c96aeda8399535e4812057462a7eed05849195de4920b670853bfd12ea79"
+  },
+  {
+    "path": "editor/public/brand/logo.jpg",
+    "bytes": 93456,
+    "sha256": "5328d99d7b2ca4e87fde8f8a6b5eb8a201948e9d9effb1f418d98e689059f444"
+  },
+  {
+    "path": "editor/public/fonts/CORMORANT-OFL.txt",
+    "bytes": 4387,
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "path": "editor/public/fonts/INTER-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "path": "editor/public/fonts/cormorant-italic.ttf",
+    "bytes": 293312,
+    "sha256": "8ddad6fd245858b13f48aeb9977c0f2531469571ca6b7a98ef490d7f549ade58"
+  },
+  {
+    "path": "editor/public/fonts/cormorant-normal.ttf",
+    "bytes": 290392,
+    "sha256": "69e7ae35cba23d962227b86f99217c250e642e4c6f6104b4f3ec465039e4e2d8"
+  },
+  {
+    "path": "editor/public/fonts/inter-500.ttf",
+    "bytes": 66672,
+    "sha256": "81ebf2d80e91568b059efa4a4fd205b8c496bb2d38cd8607402881d81fc88c8c"
+  },
+  {
+    "path": "editor/public/fonts/inter-500.woff2",
+    "bytes": 24356,
+    "sha256": "a1eab7f4970e8a2f70137b1b7379ccad15fd227f2c9c0e65412f280ae9aad73c"
+  },
+  {
+    "path": "editor/public/fonts/inter-700.ttf",
+    "bytes": 66760,
+    "sha256": "9d288afe2879c7d709128152981a4952a726426e48bd165213379b4238bf4779"
+  },
+  {
+    "path": "editor/public/fonts/inter-700.woff2",
+    "bytes": 24456,
+    "sha256": "ea90630996b19c80bec9dfe46cd52b9871705a8d6d89035cf18eddef24c82b74"
+  },
+  {
+    "path": "editor/public/fonts/inter-800.woff2",
+    "bytes": 24436,
+    "sha256": "713403e7d227a0fc231322cbd70e46601ceda4a514f08d19896a3029c2eefed9"
+  },
+  {
+    "path": "editor/public/media/conjunto-beige.jpg",
+    "bytes": 775451,
+    "sha256": "ea664dbbf5e8c9f3d72297c7cff2aaa7b7cc8e60e2f4d53af5278e1da134d531"
+  },
+  {
+    "path": "editor/public/media/conjunto-marron.jpg",
+    "bytes": 656233,
+    "sha256": "8725865fba1ee842270fa35110b7127f85512076e7be0e0f23c32e8c1e29eacb"
+  },
+  {
+    "path": "editor/public/media/jean-detalle.jpg",
+    "bytes": 52287,
+    "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a"
+  },
+  {
+    "path": "editor/public/media/sastrero-cintura.jpg",
+    "bytes": 92714,
+    "sha256": "a26c5c145ef4e678f483907b352cb7912a1321412b3df562c88b72a8d2dc5d21"
+  },
+  {
+    "path": "editor/public/media/sastrero.jpg",
+    "bytes": 486926,
+    "sha256": "eedeefd8b8e2c0755084df6ca3ea95f02add317cdce47e1d847de43e3631ab38"
+  },
+  {
+    "path": "editor/remotion.config.ts",
+    "bytes": 332,
+    "sha256": "680114316c3f433b7ebee0f4badbedd162661ea7f86bfae17a8956dbf13f9629"
+  },
+  {
+    "path": "editor/requirements.txt",
+    "bytes": 46,
+    "sha256": "27e353f6c9e1e18f31ae7abb89238d3aa7a6927c56401c80e48f83db9479f221"
+  },
+  {
+    "path": "editor/scripts/contenido.py",
+    "bytes": 6894,
+    "sha256": "ef5533cd992ef50ea14e5f7179cc1561b90c6888ad9e3929027caba025c454df"
+  },
+  {
+    "path": "editor/scripts/control.py",
+    "bytes": 3893,
+    "sha256": "ba62497fb8fb90e80014fb9b1b867f0536cc251f07de007e0f432b2ce5ab5d93"
+  },
+  {
+    "path": "editor/scripts/empaquetar.py",
+    "bytes": 2529,
+    "sha256": "bcf0407d80320251af3de6bd09dc479ff3c51316eba8b2a218a46aa8d877307d"
+  },
+  {
+    "path": "editor/scripts/entrega.py",
+    "bytes": 7327,
+    "sha256": "bb2b470f976b2ae6c2ab891d0e7ff833fb1013d5119059284ee893ddcbff62c4"
+  },
+  {
+    "path": "editor/scripts/exportar_editables.py",
+    "bytes": 5073,
+    "sha256": "ce77dadec630475de1df2880f28366607e24f76ab6e3b66aaf13b46e0ec5c98d"
+  },
+  {
+    "path": "editor/scripts/exportar_html.py",
+    "bytes": 3120,
+    "sha256": "c873bc831cb9f690f110a23b34d3d242967854c04ce59cf5db8f2363ceab96e7"
+  },
+  {
+    "path": "editor/scripts/master.py",
+    "bytes": 1376,
+    "sha256": "3ded4da1cec67416ac1d4083ad951ab21aac61aaacaced84d012e5620ea61232"
+  },
+  {
+    "path": "editor/scripts/musica.py",
+    "bytes": 13969,
+    "sha256": "b14ddab6ec442e152a7334037b4043ea967f8f9470187096c258d372bcc0cf42"
+  },
+  {
+    "path": "editor/scripts/render.mjs",
+    "bytes": 2225,
+    "sha256": "51351b8337e965cee355b118e9a04ea605d4035628c585838fda92be98c335e0"
+  },
+  {
+    "path": "editor/src/Artwork.tsx",
+    "bytes": 7640,
+    "sha256": "e1a523c868e26f6ac4f9511ed591c48060e2af079bfb1c57d917381a5a8ecb91"
+  },
+  {
+    "path": "editor/src/Root.tsx",
+    "bytes": 7507,
+    "sha256": "2a65ff55668d768f007254c02a8ec54637e4bbb7c1c6f75ee9202f5f36da85c2"
+  },
+  {
+    "path": "editor/src/contenido.json",
+    "bytes": 51313,
+    "sha256": "e1b61d68478129a371ba84a35d05729f431e6ed90339993520ee60a2fac68f59"
+  },
+  {
+    "path": "editor/src/index.ts",
+    "bytes": 109,
+    "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+  },
+  {
+    "path": "editor/tsconfig.json",
+    "bytes": 368,
+    "sha256": "a6fbcf514dbfd3d116c3f7f78b72949c8c2ff45bdbe17aeff4c97e16bc1327fa"
+  },
+  {
+    "path": "index.html",
+    "bytes": 8446,
+    "sha256": "94765765ad04db84f442150e9c0eed2643bf639c22d78162c9577691db741744"
+  },
+  {
+    "path": "licencia/origen-musica.md",
+    "bytes": 2659,
+    "sha256": "bc89ece189ee799cbd7a2c323916f4906091a35f5601da59150b1e6e75058b47"
+  },
+  {
+    "path": "portadas/14-Neutros.png",
+    "bytes": 856763,
+    "sha256": "84da9335dd23aeedad7719101239269f8354c171a327dfd425c5666dffa5f998"
+  },
+  {
+    "path": "portadas/15-Pantalones.png",
+    "bytes": 909499,
+    "sha256": "aa8a6908ae1249f309d0781d1e9efe7e1f69073c6eedffaa5c4b469f9bc00743"
+  },
+  {
+    "path": "qa/14-Neutros-40-fotogramas.jpg",
+    "bytes": 728078,
+    "sha256": "731a5a6ad86b06226f25c4887fb8b4cb27dccac10f7fb91161e219574a542e2c"
+  },
+  {
+    "path": "qa/14-Neutros-master.json",
+    "bytes": 769,
+    "sha256": "68b987d104e69d3cdee0301eec0aba78f39abdb235378138a7d70be361b27bc0"
+  },
+  {
+    "path": "qa/15-Pantalones-40-fotogramas.jpg",
+    "bytes": 722703,
+    "sha256": "741b538d40c19a11b9a7ec54121c70837ca0c8ed61198b618a00aee75a731800"
+  },
+  {
+    "path": "qa/15-Pantalones-master.json",
+    "bytes": 767,
+    "sha256": "4776d1b50476259a43b3416210eb58bc9120291c9efb1374b87e0d36fa40aa3a"
+  },
+  {
+    "path": "qa/canva-html-neutros-contacto.jpg",
+    "bytes": 217152,
+    "sha256": "8449fa347548fd7aae190d237e8455c85a6e1c66dd6b335f992f64bf6d931fb2"
+  },
+  {
+    "path": "qa/canva-html-pantalones-contacto.jpg",
+    "bytes": 224627,
+    "sha256": "f909effaed4b1ec5d600073818ec8d42257bc1031ebf164dcc64c547965d131e"
+  },
+  {
+    "path": "qa/carruseles-contacto.jpg",
+    "bytes": 367801,
+    "sha256": "6782f66d1535fa6ca460249c58f34dab2038932c4492133f1cf4eeb29537ff58"
+  },
+  {
+    "path": "reels/14-Neutros.mp4",
+    "bytes": 4061794,
+    "sha256": "4a960d38a57d7b8d3b0a6f1e449e2e8b26a8212f823b082280d7b8f88174ba43"
+  },
+  {
+    "path": "reels/15-Pantalones.mp4",
+    "bytes": 3422868,
+    "sha256": "4c689a1eb6faee71efdf0bb4e859309c90af821c8afb568bb7742c38d039808b"
+  }
+]

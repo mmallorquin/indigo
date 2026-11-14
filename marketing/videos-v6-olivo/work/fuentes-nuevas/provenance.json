@@ -1,0 +1,647 @@
+{
+  "fecha_utc": "2026-10-11T04:38:13.159874+00:00",
+  "politica": "Sólo HTML y medios públicos enlazados por og:image; no elusión de login/bloqueos, no API privada ni oculta. Archivos descargados sin alterar.",
+  "yt_dlp_disponible": false,
+  "fuentes": [
+    {
+      "id": "IG-01",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/",
+      "categoria_catalogo": "Remeronas",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:08.467832+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/Dcty3qwljHI/",
+      "description_publica": "17 likes, 0 comments - indigopy_ on August 31, 2026: \"Remeronas de algodón disponibles del M al XG✨️🤍\nEstampas varias🤩\n\n#remeras #estampas #tiendaonline #girlsfashıon #cde\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Remeronas de algodón disponibles del M al XG✨️🤍\nEstampas varias🤩\n\n#remeras #estampas #tiendaonline #girlsfashıon #cde\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/791045397_18108274001171452_6400859858225948763_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=llqZ1sf7AN0Q7kNvwGzqTXa&_nc_oc=Adrt_ePAlJhdVc3UsXxeEFmSxvv8lYDSCwLrHh-V1WDeXofTaLTRJfNb8VS-Oov66RMLpTew8xe9T55AzZGsDHnd&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=GWZRsPu1zLN4Z2-4uqxzEg&_nc_ss=7f60f&oh=00_AQOKTuUZixELZLE1Er6X7jU-BiMFaDXMCwcHSebJwg2OiQ&oe=6AD0E6D1",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "8b9d624bb6b667c44086f4505c1e1e34d22cbe9f48a6234bbac2403efa28b45f",
+      "bytes": 42336,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-01-Dcty3qwljHI-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "Auditoría de 2026-10-09 registró etiqueta AI content en carrusel: pendiente de validación humana de fidelidad; no usar como prueba de calce real."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Persona con remerona blanca estampada y parte superior del jean.",
+        "uso_sugerido": "excluir_hasta_validacion_humana",
+        "limites_especificos": [
+          "La auditoría registró etiqueta AI content en este carrusel. No usar como prueba de producto o calce real sin validación de fidelidad.",
+          "Sólo primera imagen cuadrada del carrusel; no demuestra otras estampas."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-01"
+      ]
+    },
+    {
+      "id": "IG-02",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/",
+      "categoria_catalogo": "Chalecos",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "video",
+      "downloaded_at_utc": "2026-10-11T04:38:08.468204+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/",
+      "description_publica": "8 likes, 0 comments - indigopy_ on July 12, 2026: \"✨️Chalecos en P/M\nIdeales para usarlos sobre camisas, en este invierno\n\n📱0973 434868\n\n#paraguay #fashionstyle #winterwear #tiendaonline\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"✨️Chalecos en P/M\nIdeales para usarlos sobre camisas, en este invierno\n\n📱0973 434868\n\n#paraguay #fashionstyle #winterwear #tiendaonline\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/744316635_18103094945171452_3814953792127909456_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=N0VabsK3NeoQ7kNvwGx_AzI&_nc_oc=Adql10S6Xf1D5IVtZFjnIYDtWoXfoMDDpnwXKorMwwuBFCtna57zz2hqbrlvrInBInmKd9W-bzBz-JFr8HDfhnwQ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ohbOFCOEQmPM4jQXnBO6UA&_nc_ss=7f60f&oh=00_AQOMB88_s1GQmeN0ABZIyMZNJ4xjRrU1yNwIPYO8VpRsgA&oe=6AD0F76F",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 360,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "7209ed0b9676665907c5ebd421e6df69658d5e1dd22ea329d75a61067dd98f05",
+      "bytes": 22776,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-02-DaszDt2xnFK-poster.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "poster_del_reel",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Chalecos claros, negro y bicolor colgados; play incrustado sobre una prenda.",
+        "uso_sugerido": "evaluacion_solo",
+        "limites_especificos": [
+          "Botón play incrustado; no usar como imagen final ni eliminarlo con IA.",
+          "La categoría queda apoyada por catálogo y poster; video a recuperar por otro agente."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-02"
+      ]
+    },
+    {
+      "id": "IG-09",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+      "categoria_catalogo": "Básicas cuello alto",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:08.468381+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+      "description_publica": "3 likes, 0 comments - indigopy_ on June 23, 2026: \"Cuello alto en verde divino💚\n📱0973 434 868\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Cuello alto en verde divino💚\n📱0973 434 868\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/729754680_18101143424171452_6575775823135495509_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tIaiTyZAWfQQ7kNvwFm-0cn&_nc_oc=AdpPd96xsUc9O06M3nwV7wR36IH2NfnEamWsBlRNBC1oMbiLZqpSva3Ge5bTwbXYU0j5PEXFpQxTqhOVq26oyBcz&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=BndZxVmAGuEFgDHq8RgDJQ&_nc_ss=7f60f&oh=00_AQM2E4LSCo7jBDp3tJNK1rHTgv3YrNlGiN9Q6dipQd_iRw&oe=6AD0C9EE",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "fa9856355c60c2cece59722bd8e35f56802f26918a136660f195bec62b25af85",
+      "bytes": 94772,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-09-DZ74Wm0RHDo-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Detalle de cuello y tela de una parte superior verde en percha.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "No es vista completa ni muestra calce.",
+          "Foto cuadrada de detalle; no recolorear a oliva para hacer coincidir la marca."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-08"
+      ]
+    },
+    {
+      "id": "IG-10",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/",
+      "categoria_catalogo": "Básicas mangas largas",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "video",
+      "downloaded_at_utc": "2026-10-11T04:38:08.468598+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/reel/DZ3YJ1WReAq/",
+      "description_publica": "23 likes, 0 comments - indigopy_ on June 21, 2026: \"🤩Nuevos ingresos de básicas mangas largas en colores varios, del P al G.\nG. 50mil.\n📱0973 434 868 \n\n#fashionstyle #otoñoinvierno #paraguay #modaparaguay #chicas\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"🤩Nuevos ingresos de básicas mangas largas en colores varios, del P al G.\nG. 50mil.\n📱0973 434 868 \n\n#fashionstyle #otoñoinvierno #paraguay #modaparaguay #chicas\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/727551051_18100966529171452_6705613469148514280_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Hw28YP0TBrUQ7kNvwHdnSG2&_nc_oc=AdrU1pmB-Fl-6VACQf1PHhigqQ2KIcZ7Pq5EpItP5Ggbs8wGnKyLaVu04l7Lgl6ILhBv9MnsD-cnGWwwrpzg7Z9F&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=auGMj9ODIVIdYj1EmZ6yIg&_nc_ss=7f60f&oh=00_AQPjI1psCMJxf9TvDR0kBR7XugkByzBZHJq-V51GiANNig&oe=6AD0E249",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 360,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "8bff008e7977a98b0b46d73f9d1d7d7331461455da6951c3fb5864225e40c91f",
+      "bytes": 28345,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-10-DZ3YJ1WReAq-poster.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "poster_del_reel",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Perchero con varias partes superiores de mangas largas, múltiples tonos; play central.",
+        "uso_sugerido": "evaluacion_solo",
+        "limites_especificos": [
+          "Botón play incrustado; no usar como imagen final ni eliminarlo con IA."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-06"
+      ]
+    },
+    {
+      "id": "IG-11",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/",
+      "categoria_catalogo": "Básicas",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "video",
+      "downloaded_at_utc": "2026-10-11T04:38:09.495842+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/reel/DZpObDsRtkZ/",
+      "description_publica": "5 likes, 0 comments - indigopy_ on June 16, 2026: \"Básicas del P al G., desde G.30mil\n📱0973434868\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Básicas del P al G., desde G.30mil\n📱0973434868\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.71878-15/723852833_1318863273123423_6933087112464095413_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=x3gBxc9EMioQ7kNvwHyzKqo&_nc_oc=AdpcnuHMXhTPFmqwtxTu5QvEdDrw0WzQgl4r7O8zrMrSmlbXfIpp3ZNH7Rx4yU0urlGbxgAwTqKMzGTSIyk_SuyV&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=me1GpVS5Ht3xKFMgSWdEAg&_nc_ss=7f60f&oh=00_AQO0yzOiFkMxTSvcD6NhxZlS8HeOaF60OY7VMEUI4_W3Hg&oe=6AD0E29C",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 361,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "79edc8266293cebe02a8db0ba564057c0d041840019335ac4aaf24d7cf0bb8d9",
+      "bytes": 30458,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-11-DZpObDsRtkZ-poster.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "poster_del_reel",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Perchero y bolsos; texto histórico de precio, talles y teléfono; play central.",
+        "uso_sugerido": "evaluacion_solo",
+        "limites_especificos": [
+          "Botón play y precio histórico incrustados; descartar para finales.",
+          "El poster no demuestra las básicas completas."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-07"
+      ]
+    },
+    {
+      "id": "IG-13",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/",
+      "categoria_catalogo": "Blusa / pantalón",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:09.701401+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/",
+      "description_publica": "9 likes, 0 comments - indigopy_ on June 13, 2026: \"Blusa vendida ❌️\nPantalón disponible ✅️\nUna combinación divina que eleva tu imagen😍\nElegancia y comodidad por G. 100mil💜❤️\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Blusa vendida ❌️\nPantalón disponible ✅️\nUna combinación divina que eleva tu imagen😍\nElegancia y comodidad por G. 100mil💜❤️\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/723126746_18100137581171452_6653154104444203101_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DHp73rbZ09QQ7kNvwFibg8Q&_nc_oc=AdrnE-qByNTXUFnNg2an6a9xSEKQ1x5QGyRkxQlLtKb5tIHAuzL6VtdbI1VRO8d2CcteitHjtNzYQO14cvQDkShS&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=V7wScohgQ2YnosmrrzV8hg&_nc_ss=7f60f&oh=00_AQONvMjtbo5UIdSsHFUVpSr-QWiHeG-JGYH_c24j26t8iQ&oe=6AD0F8C8",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "9e833ec1b64bd23c0482b7dca16a1c0cb263ef8846dcddd6ac0dc6417838a833",
+      "bytes": 27750,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-13-DZisj6QFh5H-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Torso con blusa bordó y apenas inicio de pantalón violeta.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "Recorte cuadrado; pantalón casi fuera. No presentarlo como conjunto completo.",
+          "La descripción indica blusa vendida en la publicación histórica; no inferir reposición."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-11"
+      ]
+    },
+    {
+      "id": "IG-14",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/",
+      "categoria_catalogo": "Básica morley / pantalón",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:09.770395+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/",
+      "description_publica": "4 likes, 0 comments - indigopy_ on June 13, 2026: \"👚Vendida❌️Básica de morley beige viste hasta M. G.30mil\n👖Pantalón de vestir negro G.70mil\n📱Pedílos al 0973 434 868\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"👚Vendida❌️Básica de morley beige viste hasta M. G.30mil\n👖Pantalón de vestir negro G.70mil\n📱Pedílos al 0973 434 868\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/723904600_18100137173171452_8303277216892319317_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vuXFPHJQmwwQ7kNvwGkqDNH&_nc_oc=AdrRlCZAEJbqtCDrmZPSu1GB3qzEly1kSMvLyToE4-1736reIa5opvpMpuGTDln5vYcXq51atVcKWHlCJyOhCRDP&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=EbBpAhJab7j1PyvpLc3Ebg&_nc_ss=7f60f&oh=00_AQM3twZPaUntUv2_sbtxYC5YAnD2_6ef7e73iabSZnOcww&oe=6AD0F2E5",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "67214045e885e723f44dde8930a823b6fc6bd66da12d631933270e5bea581abb",
+      "bytes": 44877,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-14-DZirs6Clrw8-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Torso de básica beige en persona; el pantalón negro no aparece en este recorte.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "No usar como imagen del pantalón negro ni como calce completo.",
+          "Básica marcada vendida en descripción histórica."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-09",
+        "CAT-10"
+      ]
+    },
+    {
+      "id": "IG-15",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/",
+      "categoria_catalogo": "Conjuntos",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:10.867192+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/",
+      "description_publica": "17 likes, 0 comments - indigopy_ on June 13, 2026: \"Vendido❌️El color de la temporada en un conjunto😍🤎\nBásica de morley viste hasta M + pantalón de vestir, a G.100.000 el conjunto.\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Vendido❌️El color de la temporada en un conjunto😍🤎\nBásica de morley viste hasta M + pantalón de vestir, a G.100.000 el conjunto.\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/723137653_18100136669171452_8737856966480765291_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nIv2Hf5RECYQ7kNvwExYiwF&_nc_oc=Ado8rOuYmAiT7vv-sWdxqvsKoywVg6fVxsgkoq0e5cN5oc42Q5703G0_EnOWs4CdRXtkaWRTEx5HNWBavedVovYu&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bUSzdzKyQOxHfiDEttiGQw&_nc_ss=7f60f&oh=00_AQMDqqcqeLPSTtWFJQzVoS_s4wSKzOgoqm3sr1WQUeJh6Q&oe=6AD10039",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "7711a9f8ef16c15792948a00fa1872e159944c8c28a6ac5bb53d4796260ea875",
+      "bytes": 34951,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-15-DZirEg3FlK3-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Parte superior marrón de cuello alto en persona; pantalón fuera del recorte.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "No demuestra conjunto completo aunque la descripción sea de conjunto.",
+          "Publicación marcada vendida; disponibilidad actual pendiente."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-12"
+      ]
+    },
+    {
+      "id": "IG-19",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc88YVRpAH/",
+      "categoria_catalogo": "Básicas",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:11.026260+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DYc88YVRpAH/",
+      "description_publica": "5 likes, 0 comments - indigopy_ on May 17, 2026: \"Vendido❌️ Menos es más cuando tenés el básico correcto. 🍂\n​Un tono beige que transmite calma, delicadeza y elegancia🥰\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Vendido❌️ Menos es más cuando tenés el básico correcto. 🍂\n​Un tono beige que transmite calma, delicadeza y elegancia🥰\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/700871177_18097259045171452_1014726482794968136_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pb1g0NYSCqUQ7kNvwEAiT9P&_nc_oc=Adr_jJ6AvdTJtv4IjgRmf00-x5ZREv1uhM7sWBCzV6skalrkDp_P_EVv3h5odBCGo6pQJMf_EKyCyFO05qUvPRFw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Ahhcd1O3L377_gc3aJT3Lg&_nc_ss=7f60f&oh=00_AQOklxA681KCIByWRx_ze6VMnKWpbt20Ravl3Hy1mEeopA&oe=6AD0DF7A",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "d7b742263c26d6cd08efc85af5736275a16074ba8d13d32b1c86b9a243367154",
+      "bytes": 45164,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-19-DYc88YVRpAH-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Básica beige acanalada de cuello alto y manga larga en percha.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "Recorte cuadrado de torso; no muestra largo total ni calce.",
+          "Publicación marcada vendida; no inferir reposición."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-13"
+      ]
+    },
+    {
+      "id": "IG-20",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc8sVjxNN5/",
+      "categoria_catalogo": "Pantalón sastrero",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:11.032744+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DYc8sVjxNN5/",
+      "description_publica": "5 likes, 0 comments - indigopy_ on May 17, 2026: \"Vendido❌️​La pieza central de tu armario cápsula🤎✨\n​Este pantalón sastrero de corte amplio combina un calce impecable con una caída fluida que estiliza cada movimiento. El tono neutro perfecto para crear desde looks de oficina súper profesionales hasta opciones más relajadas para el fin de semana😉\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"Vendido❌️​La pieza central de tu armario cápsula🤎✨\n​Este pantalón sastrero de corte amplio combina un calce impecable con una caída fluida que estiliza cada movimiento. El tono neutro perfecto para crear desde looks de oficina súper profesionales hasta opciones más relajadas para el fin de semana😉\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/701643909_18097258955171452_2317878567416570571_n.webp?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1Ze8Mq6j1EQ7kNvwH92X9S&_nc_oc=Adp7yo_ds4d5yfZ08fm5iOHcZy1I2mAbURk5A9m9CT-1Xxl7sYIQeK3yCe6tHlBdX1LS2fsKK7uvh1fXcMUr9gIi&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=wUPrC0Wr84vZsvdKsos8tw&_nc_ss=7f60f&oh=00_AQOyhBA9mVyk4qJZizd9LaxXhqZHHccMoTw5YtEx0z0_HA&oe=6AD0F31D",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "bb6a54536c97dbd6025c9dfe5cd070683b00dbfbc765e89bb4ba9d76102ad079",
+      "bytes": 45007,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-20-DYc8sVjxNN5-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Cintura y tramo superior frontal de pantalón sastrero camel en percha.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "No muestra largo, ancho de bota ni caída completa.",
+          "Publicación marcada vendida; no inferir reposición."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-14"
+      ]
+    },
+    {
+      "id": "IG-21",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc8VybRql_/",
+      "categoria_catalogo": "Blusa sin mangas",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:11.558828+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DYc8VybRql_/",
+      "description_publica": "4 likes, 0 comments - indigopy_ on May 17, 2026: \"​Esta blusa sin mangas es el equilibrio perfecto entre lo clásico y lo moderno. El detalle fruncido eleva por completo una silueta básica, haciéndola ideal para llevar con blazers o lucirla sola.\n​👇 Dejanos un comentario o escribinos al DM para conocer disponibilidad.\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"​Esta blusa sin mangas es el equilibrio perfecto entre lo clásico y lo moderno. El detalle fruncido eleva por completo una silueta básica, haciéndola ideal para llevar con blazers o lucirla sola.\n​👇 Dejanos un comentario o escribinos al DM para conocer disponibilidad.\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/702179870_18097258694171452_3075679457639603002_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=X-U3W6Fgj_EQ7kNvwFw_4Zg&_nc_oc=AdpMYxjK4ef8Y388xK9OVP4HoYOeZjZ49zcrPKkc79-LknhygIlmyovnq8By8oSUwwmip-oS1DFoRmmPeuTGZBum&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=L1CZM9Yt6viS0dNUfDlxZg&_nc_ss=7f60f&oh=00_AQOv9rFJclDymfD6fJJ4Px7n82FB8m6UnGQWssXlxlv2SQ&oe=6AD0F949",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "e99f78d5610b2b8f279d9b3e48420ddd3f41bc6d71a17e18b1415c64bc1fa427",
+      "bytes": 36962,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-21-DYc8VybRql_-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Escote redondo y tramo superior de blusa clara sin mangas en percha.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "Fruncido y largo inferior quedan fuera; no anunciar prueba del fruncido o calce."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-15"
+      ]
+    },
+    {
+      "id": "IG-22",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/",
+      "categoria_catalogo": "Blusa cuello alto",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:12.068826+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/",
+      "description_publica": "4 likes, 0 comments - indigopy_ on May 17, 2026: \"❌️Vendido🤎​Nuestra blusa de cuello alto en tono marrón chocolate es esa pieza clave que necesitás para armar looks abrigados, cómodos y con mucha personalidad. El tejido acanalado le da ese toque sutil que eleva cualquier básico.\nEscribinos al DM para más info!\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"❌️Vendido🤎​Nuestra blusa de cuello alto en tono marrón chocolate es esa pieza clave que necesitás para armar looks abrigados, cómodos y con mucha personalidad. El tejido acanalado le da ese toque sutil que eleva cualquier básico.\nEscribinos al DM para más info!\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/701003979_18097258523171452_4931170016183122036_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2ocegpMy4GcQ7kNvwGMLJ1G&_nc_oc=Adpc0QXIJD-EV7EXtCC_edlsooAY8LmHeWjhFnSVUpZFEq7rC-4tOCIKLkae6y-FruMo6zMYrtFRLG7pSgIJ5FCt&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=FeSHpWYyBxt2zGuObWYkEw&_nc_ss=7f60f&oh=00_AQOUXVrei78R8ar6IfBLqYzEFsdUS0U2OltF80pwYTHL8Q&oe=6AD0FB3E",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "8bdaa771682038801f00cc55aca47af7be0fe1bc9f4cf2f609c96f90bcc5b5a2",
+      "bytes": 39958,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-22-DYc74FaR_lG-imagen-publica.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Cuello alto y torso de blusa marrón chocolate acanalada en percha.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "Recorte de detalle; no muestra calce ni largo completo.",
+          "Publicación marcada vendida; no inferir reposición."
+        ]
+      },
+      "catalogo_refs": [
+        "CAT-16"
+      ]
+    },
+    {
+      "id": "IG-23",
+      "source_page_url": "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/",
+      "categoria_catalogo": "Pantalón sastrero",
+      "public_access_only": true,
+      "method": "GET público de la página de publicación; descarga de URL exacta de meta og:image. Sin login, cookies previas, API ni reconstrucción de URL.",
+      "requested_media": "video",
+      "downloaded_at_utc": "2026-10-11T04:38:12.130071+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/reel/DYc6-1vRaIk/",
+      "description_publica": "7 likes, 2 comments - indigopy_ on May 17, 2026: \"El poder de un buen básico de sastrera. ✨ Un pantalón, tres formas de llevarlo con elegancia.\n​¿1, 2 o 3? Dejanos tu favorito en los comentarios. 👇🤎\n #IndigoPy #armariocapsula #modaparaguay\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"El poder de un buen básico de sastrera. ✨ Un pantalón, tres formas de llevarlo con elegancia.\n​¿1, 2 o 3? Dejanos tu favorito en los comentarios. 👇🤎\n #IndigoPy #armariocapsula #modaparaguay\"",
+      "mp4_expuesto_en_html_publico": false,
+      "download_url": "https://scontent.cdninstagram.com/v/t51.71878-15/674581852_2016364052292483_6944284772530120097_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8znsdeCa8xoQ7kNvwG7RYkx&_nc_oc=AdpFMR3WdCPmdUHbh2v02Whw2ckeE1z9Fw29XVa3FtTJIvEKV6XbJM8Db4zGGpXUDBlKvOxDZP_gFizYB7KgC3cL&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=blrh80tGACygSa4ajKUYjA&_nc_ss=7f60f&oh=00_AQO3G6iSLpUNI78nJVqp_VTzFBmp0F43j5-evG5rShJpIQ&oe=6AD10073",
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 361,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "d842151e604fbe029bb62f59ac41de2766272e324ee0ab03082d7c00eb8b8196",
+      "bytes": 26797,
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-23-DYc6-1vRaIk-poster.jpg",
+      "status": "descargada_sin_alterar",
+      "duracion_seg": null,
+      "tipo": "poster_del_reel",
+      "limits": [
+        "Una imagen pública; no recupera movimiento ni otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Resolución limitada al archivo expuesto en og:image; no se alteró URL, píxeles ni producto.",
+        "El video completo no estaba expuesto en HTML público; no se intentó una API oculta."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Parte superior clara sostenida junto a pantalón sastrero; play incrustado y texto de tres outfits.",
+        "uso_sugerido": "evaluacion_solo",
+        "limites_especificos": [
+          "Botón play incrustado; no usar como imagen final ni eliminarlo con IA."
+        ]
+      },
+      "catalogo_refs": []
+    },
+    {
+      "id": "IG-17",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DYyDt18lhHE/",
+      "categoria_catalogo": "Jeans Wide Leg",
+      "public_access_only": true,
+      "method": "GET público de publicación; descarga de URL exacta de meta og:image. Sin login, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:39.055670+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DYyDt18lhHE/",
+      "description_publica": "6 likes, 0 comments - indigopy_ on May 25, 2026: \"✅️Post para apreciar lo bien que visten nuestros jeans Wide Leg😍\n#paraguay #cde #jeans #modafeminina #girls\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"✅️Post para apreciar lo bien que visten nuestros jeans Wide Leg😍\n#paraguay #cde #jeans #modafeminina #girls\"",
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/708006348_18098116406171452_4153508438155786689_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CAH9RY3Pw5AQ7kNvwGldU0H&_nc_oc=Adp-xR1ZhH9hwCSSy44PtOxeI3qO0kd-GMnMkjO_oMpmMR9SdVamO0QXhRLvPtmTiSK89fJ_yfsBcmVfGVZkWUrc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=1OF345uu8OSsI-dPO_9mYw&_nc_ss=7f60f&oh=00_AQM0qvfWjRWpdYW7OmawkrYTnWx9hXdbodNSFebm0Zaqcg&oe=6AD0F60F",
+      "mp4_expuesto_en_html_publico": false,
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "550137cfdf685c69d94edc95aaeee02040b509f5d0b867c17fe8d71197ccd98a",
+      "bytes": 52287,
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "status": "descargada_sin_alterar",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-17-DYyDt18lhHE-imagen-publica.jpg",
+      "limits": [
+        "Una imagen pública; no recupera otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Archivo og:image original sin alterar."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Detalle posterior lateral de cadera, cintura y bolsillo de jean azul puesto.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "El nombre Wide Leg está apoyado por descripción; el recorte no muestra el ancho de pierna ni calce completo."
+        ]
+      },
+      "catalogo_refs": []
+    },
+    {
+      "id": "IG-03",
+      "source_page_url": "https://www.instagram.com/indigopy_/p/DaeBh6olslD/",
+      "categoria_catalogo": "Combinación azul y crema",
+      "public_access_only": true,
+      "method": "GET público de publicación; descarga de URL exacta de meta og:image. Sin login, API ni reconstrucción de URL.",
+      "requested_media": "photo",
+      "downloaded_at_utc": "2026-10-11T04:38:40.202610+00:00",
+      "page_http_status": 200,
+      "final_page_url": "https://www.instagram.com/indigopy_/p/DaeBh6olslD/",
+      "description_publica": "8 likes, 2 comments - indigopy_ on July 6, 2026: \"💙🤍Azul + crema, una combinación que no falla✨️\n\n#stylish #imagen #fashionistas #musthaves #modaparaguay\". ",
+      "og_title": "Índigo PY | Prendas femeninas on Instagram: \"💙🤍Azul + crema, una combinación que no falla✨️\n\n#stylish #imagen #fashionistas #musthaves #modaparaguay\"",
+      "download_url": "https://scontent.cdninstagram.com/v/t51.82787-15/741248672_18102516185171452_792839241052410760_n.webp?stp=c288.0.864.864a_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GdOBvfqGfCMQ7kNvwGqtnKX&_nc_oc=AdrtJN1AMo-Zww6UjfVJFKCVEcAZ2SUNVopjWVyWh1wcRH6Zmu_1o2i4ASSKPNbAEvCh0evQWvGrofh-EoHztyA0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Le6wSnPNiOT9_tba_nRKKQ&_nc_ss=7f60f&oh=00_AQOEPyd2U-wYloCqRnpkpNkT5Jk6dY__bMKsG_-DsWWABw&oe=6AD0F2D8",
+      "mp4_expuesto_en_html_publico": false,
+      "media_http_status": 200,
+      "media_content_type": "image/jpeg",
+      "width": 640,
+      "height": 640,
+      "format": "JPEG",
+      "sha256": "e13d9c5cdf6252ac127bf2fcbb1e92002b83319b71c3cd243856a695c26a0c23",
+      "bytes": 33608,
+      "duracion_seg": null,
+      "tipo": "imagen_publica_del_post",
+      "status": "descargada_sin_alterar",
+      "path": "/Users/marco.mallorquin/vibe_coding/indigo-py-marketing/videos-v6-olivo/work/fuentes-nuevas/ig-03-DaeBh6olslD-imagen-publica.jpg",
+      "limits": [
+        "Una imagen pública; no recupera otras láminas de carrusel.",
+        "Stock, talles, precio, composición y disponibilidad actuales no verificados.",
+        "Archivo og:image original sin alterar."
+      ],
+      "evaluacion_visual": {
+        "inspeccionado": true,
+        "visible": "Torso con parte superior azul y abrigo claro/crema.",
+        "uso_sugerido": "detalle_publico_condicionado",
+        "limites_especificos": [
+          "Recorte de torso; no demuestra outfit de cuerpo completo ni pantalón."
+        ]
+      },
+      "catalogo_refs": []
+    }
+  ]
+}

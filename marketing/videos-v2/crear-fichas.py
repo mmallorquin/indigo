@@ -1,0 +1,38 @@
+from PIL import Image, ImageDraw, ImageFont, ImageOps
+from pathlib import Path
+r=Path('/home/user/indigo-v2/referencias')
+font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+ink='#475139'; paper='#F7F4EC'
+def text(d,xy,s,size=28): d.text(xy,s,font=ImageFont.truetype(font,size),fill=ink)
+def imagepanel(board,file,box,crop=None):
+ im=Image.open(r/file)
+ if crop: im=im.crop(crop)
+ im=ImageOps.contain(im,(box[2]-box[0],box[3]-box[1]))
+ board.paste(im,(box[0]+(box[2]-box[0]-im.width)//2,box[1]+(box[3]-box[1]-im.height)//2))
+p=Image.new('RGB',(1200,1500),paper); d=ImageDraw.Draw(p)
+text(d,(55,50),'INDIGO PY / PERSONA REAL',38)
+text(d,(55,108),'CREADORA-REF-01 · Referencia de edición',28)
+text(d,(55,166),'Fotogramas originales; sin generación ni retoque corporal.',24)
+imagepanel(p,'fuente-1.jpg',(55,245,605,1240),(175,365,570,1210))
+imagepanel(p,'fuente-1.jpg',(655,245,1145,645),(295,385,500,655))
+imagepanel(p,'fuente-8.2.jpg',(655,720,1145,1240),(205,365,530,1210))
+text(d,(70,1260),'Frente / 1,0 s',25)
+text(d,(670,656),'Retrato / 1,0 s',25)
+text(d,(655,1260),'Tres cuartos / 8,2 s',25)
+text(d,(55,1340),'Identidad comercial y voz: no confirmadas. Solo montaje del reel.',24)
+text(d,(55,1380),'Pelo y cuerpo se conservan. No se atribuyen testimonios.',24)
+p.save(r/'ficha-persona.jpg',quality=90)
+p=Image.new('RGB',(1200,1500),paper); d=ImageDraw.Draw(p)
+text(d,(55,50),'INDIGO PY / PRODUCTO REAL',38)
+text(d,(55,108),'JEAN-REF-01 · Jean azul del reel',28)
+text(d,(55,166),'ID de referencia visual; no equivale a SKU o stock confirmado.',24)
+imagepanel(p,'fuente-1.jpg',(55,250,600,1130),(255,665,525,1190))
+imagepanel(p,'fuente-8.2.jpg',(650,250,1145,1130),(240,650,485,1190))
+text(d,(85,1160),'Frente / 1,0 s',26)
+text(d,(670,1160),'Tres cuartos posterior / 8,2 s',24)
+text(d,(55,1240),'Vistas reales ampliadas; no recuperan detalle del archivo.',24)
+text(d,(55,1295),'Faltan: espalda completa y detalles nítidos de cierre,',24)
+text(d,(55,1335),'costuras, etiquetas, medidas y composición.',24)
+text(d,(55,1395),'Verificar prenda y disponibilidad antes de cotizar.',24)
+p.save(r/'ficha-producto.jpg',quality=90)
+

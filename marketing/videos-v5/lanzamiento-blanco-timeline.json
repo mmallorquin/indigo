@@ -1,0 +1,90 @@
+[
+  {
+    "at": 0.0,
+    "source": "outfit-calle.mp4",
+    "from": 0.0,
+    "dur": 2.5,
+    "source_frames": [
+      0,
+      74
+    ],
+    "crop": "crop=432:600:180:250"
+  },
+  {
+    "at": 2.5,
+    "source": "prendas-tonos.mp4",
+    "from": 4.1,
+    "dur": 2.0,
+    "source_frames": [
+      123,
+      182
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 4.5,
+    "source": "prendas-tonos.mp4",
+    "from": 9.0,
+    "dur": 1.5,
+    "source_frames": [
+      270,
+      314
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 6.0,
+    "source": "jeans-percha.mp4",
+    "from": 5.5,
+    "dur": 2.5,
+    "source_frames": [
+      165,
+      239
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 8.5,
+    "source": "prendas-tonos.mp4",
+    "from": 16.1,
+    "dur": 2.5,
+    "source_frames": [
+      483,
+      557
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 11.0,
+    "source": "outfit-calle.mp4",
+    "from": 3.0,
+    "dur": 2.0,
+    "source_frames": [
+      90,
+      149
+    ],
+    "crop": "crop=432:600:180:250"
+  },
+  {
+    "at": 13.0,
+    "source": "prendas-tonos.mp4",
+    "from": 22.5,
+    "dur": 3.0,
+    "source_frames": [
+      675,
+      764
+    ],
+    "crop": "crop=720:1000:0:0"
+  },
+  {
+    "at": 16.0,
+    "source": "prendas-tonos.mp4",
+    "from": 9.5,
+    "dur": 4.0,
+    "source_frames": [
+      285,
+      404
+    ],
+    "crop": "crop=720:1000:0:0"
+  }
+]

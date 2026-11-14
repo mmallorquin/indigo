@@ -1,0 +1,286 @@
+{
+  "estado": "Pendiente de grabación real. Guiones propuestos, no transcripciones.",
+  "formato": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duracion_objetivo_s": [
+      25,
+      35
+    ]
+  },
+  "idioma": "Conservar el de la grabación enviada; no traducir",
+  "camara": "Cara visible; comprobar y ocultar ubicaciones o datos privados antes del render",
+  "paleta": {
+    "olivo": "#4F5533",
+    "oscuro": "#30371F",
+    "papel": "#F4F0E6",
+    "acento": "#C4AB79",
+    "tinta": "#20251B"
+  },
+  "tipografia": [
+    "Inter",
+    "Cormorant Garamond"
+  ],
+  "videos": [
+    {
+      "id": "11",
+      "titulo": "Tres combinaciones, un punto de partida",
+      "gancho": "No siempre hace falta cambiar todo el look.",
+      "guion_sugerido": "No siempre hace falta cambiar todo el look. Si no sabés por dónde empezar, mirá estas tres combinaciones de nuestro perfil: beige con negro, vino con violeta y marrón con marrón. La idea es elegir primero una prenda de base y después pensar qué tono querés sumar. Son referencias de publicaciones anteriores. Comentá cuál de estas combinaciones te gustaría ver de cerca.",
+      "recursos": [
+        "conjunto-beige.jpg",
+        "conjunto-uva.jpg",
+        "conjunto-marron.jpg"
+      ],
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/p/DZirs6Clrw8/",
+        "https://www.instagram.com/indigopy_/p/DZisj6QFh5H/",
+        "https://www.instagram.com/indigopy_/p/DZirEg3FlK3/"
+      ],
+      "beats": [
+        {
+          "cue_frase": "No siempre hace falta",
+          "tipo": "cold_open",
+          "visual": "Palabras cinéticas debajo del rostro.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "estas tres combinaciones",
+          "tipo": "tarjetas",
+          "visual": "Cámara arriba; tres fotos reales sobre hoja marfil.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "beige con negro",
+          "tipo": "lista_1",
+          "visual": "Resaltar beige + negro.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "vino con violeta",
+          "tipo": "lista_2",
+          "visual": "Resaltar vino + violeta.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "marrón con marrón",
+          "tipo": "lista_3",
+          "visual": "Resaltar marrón + marrón.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "una prenda de base",
+          "tipo": "diagrama",
+          "visual": "BASE → TONO DE APOYO, trazo SVG con longitud real.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "publicaciones anteriores",
+          "tipo": "nota",
+          "visual": "Referencias de inspiración, no inventario vigente.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "Comentá cuál",
+          "tipo": "cierre",
+          "visual": "Logo + un CTA: cuál combinación querés ver de cerca.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "titulo": "El detalle cambia la lectura",
+      "gancho": "Antes de quedarte sólo con el color, mirá el detalle.",
+      "guion_sugerido": "Antes de quedarte sólo con el color, mirá el detalle. En esta referencia, la blusa es sin mangas y tiene fruncido. En estas otras, el cuello alto es el protagonista. Cuando mirás una prenda por foto, fijate en el cuello, las mangas y los detalles visibles. Eso te da más información para imaginar tu combinación. Comentá qué detalle querés que mostremos de cerca.",
+      "recursos": [
+        "blusa.jpg",
+        "verde.jpg",
+        "chocolate.jpg"
+      ],
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/p/DYc8VybRql_/",
+        "https://www.instagram.com/indigopy_/p/DZ74Wm0RHDo/",
+        "https://www.instagram.com/indigopy_/p/DYc74FaR_lG/"
+      ],
+      "beats": [
+        {
+          "cue_frase": "mirá el detalle",
+          "tipo": "cold_open",
+          "visual": "Gancho breve, acercamiento moderado a la cámara.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "sin mangas",
+          "tipo": "producto",
+          "visual": "Blusa real y rótulo SIN MANGAS.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "tiene fruncido",
+          "tipo": "llamada",
+          "visual": "Acercamiento real y llamada SVG en la foto, fuera del rostro.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "el cuello alto",
+          "tipo": "diptico",
+          "visual": "Cuellos verde y chocolate en papel; cámara circular separada.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "el cuello, las mangas",
+          "tipo": "lista",
+          "visual": "CUELLO / MANGAS / DETALLES, uno por término hablado.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "más información",
+          "tipo": "comparacion",
+          "visual": "FOTO GENERAL → MIRADA DE CERCA, sin cifras inventadas.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "Comentá qué",
+          "tipo": "cierre",
+          "visual": "Logo + un CTA: qué detalle querés ver de cerca.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "titulo": "Una capa abre otra idea",
+      "gancho": "¿Querés pensar otra combinación? Empezá por una capa.",
+      "guion_sugerido": "¿Querés pensar otra combinación? Empezá por una capa. En nuestro perfil tenemos esta referencia de chalecos para combinar sobre una camisa. Y también este look con azul y crema, donde una capa tiene otro lugar en la composición. Son dos ideas distintas, no una regla para vestirte. Mirá la base, después la capa y al final cómo conversan los tonos. Comentá qué combinación querés que armemos en el próximo video.",
+      "recursos": [
+        "chaleco-a.jpg",
+        "azul-crema.jpg"
+      ],
+      "fuentes": [
+        "https://www.instagram.com/indigopy_/reel/DaszDt2xnFK/",
+        "https://www.instagram.com/indigopy_/p/DaeBh6olslD/"
+      ],
+      "beats": [
+        {
+          "cue_frase": "Empezá por una capa",
+          "tipo": "cold_open",
+          "visual": "Gancho en dos líneas y transición cúbica de 0,7 s.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "referencia de chalecos",
+          "tipo": "diagrama",
+          "visual": "Foto real + CAMISA + CHALECO como idea sugerida.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "azul y crema",
+          "tipo": "producto",
+          "visual": "Look real en tarjeta editorial, lejos de la cámara.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "dos ideas distintas",
+          "tipo": "comparacion",
+          "visual": "Comparar dos referencias sin crear un look falso.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "la base",
+          "tipo": "paso_1",
+          "visual": "BASE se revela al decirse.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "la capa",
+          "tipo": "paso_2",
+          "visual": "CAPA se conecta por trazo SVG.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "los tonos",
+          "tipo": "paso_3",
+          "visual": "TONOS y muestras aproximadas; ropa sin recolor.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        },
+        {
+          "cue_frase": "Comentá qué combinación",
+          "tipo": "cierre",
+          "visual": "Logo + un CTA: qué combinación querés en el próximo video.",
+          "word_start_index": null,
+          "word_end_index": null,
+          "cut_start_s": null,
+          "cut_end_s": null
+        }
+      ]
+    }
+  ]
+}
