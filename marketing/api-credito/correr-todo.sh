@@ -1,6 +1,6 @@
 #!/bin/bash
 # Un solo comando: pide la key si falta, muestra el costo, pide confirmacion y manda los 3 lotes.
-# Uso:  bash ~/vibe_coding/indigo-py-marketing/api-credito/correr-todo.sh
+# Uso:  bash ~/vibe_coding/indigo/marketing/api-credito/correr-todo.sh
 cd "$(dirname "$0")" || exit 1
 K="$HOME/.config/indigo/api_key"
 if [ -z "$ANTHROPIC_API_KEY" ] && [ ! -s "$K" ]; then

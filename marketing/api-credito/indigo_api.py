@@ -10,7 +10,7 @@ import argparse, base64, concurrent.futures as cf, json, os, pathlib, re, sys, t
 import urllib.error, urllib.request
 
 AQUI = pathlib.Path(__file__).resolve().parent
-RAIZ = AQUI.parent                      # carpeta indigo-py-marketing
+RAIZ = AQUI.parent                      # carpeta indigo/marketing
 OUT = AQUI / "salida"
 API = "https://api.anthropic.com/v1"
 MODELOS = {"haiku": "claude-haiku-5-5", "sonnet": "claude-sonnet-5-5", "opus": "claude-opus-5-5"}

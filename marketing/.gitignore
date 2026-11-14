@@ -30,3 +30,4 @@ coleccion-v8-editorial/work/python/
 tmp/
 # Resultados de la API (quedan en tu Mac y en Azure Storage)
 api-credito/salida/
+node_modules

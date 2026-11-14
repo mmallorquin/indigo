@@ -15,7 +15,7 @@ La key tiene que ser de la organización que tiene el crédito (Console → API 
 ## 2. Ver cuánto costaría (no gasta nada)
 
 ```
-cd ~/vibe_coding/indigo-py-marketing/api-credito
+cd ~/vibe_coding/indigo/marketing/api-credito
 python3 indigo_api.py plan todas
 ```
 

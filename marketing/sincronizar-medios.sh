@@ -8,8 +8,8 @@
 # Requiere Azure CLI en la Mac (brew install azure-cli). La primera vez abre el navegador para az login.
 set -euo pipefail
 ST=stindigo5dvav; RG=rg-indigo; C=medios
-# Carpeta con los videos. Hoy siguen en la carpeta vieja; cuando los mudemos, pasa a marketing/.
-DIR="${INDIGO_MEDIOS:-$HOME/vibe_coding/indigo-py-marketing}"
+# Carpeta con los videos y fotos (ignorados por git).
+DIR="${INDIGO_MEDIOS:-$HOME/vibe_coding/indigo/marketing}"
 
 command -v az >/dev/null || { echo "Falta Azure CLI. Instalala con: brew install azure-cli"; exit 1; }
 az account show -o none 2>/dev/null || az login -o none
