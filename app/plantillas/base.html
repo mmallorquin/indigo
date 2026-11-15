@@ -20,6 +20,7 @@
     {% block nav %}
     <nav>
       <a href="/" {% if request.url.path == '/' or request.url.path.startswith('/ficha') %}aria-current="page"{% endif %}>Catálogo</a>
+      <a href="/tienda" {% if request.url.path == '/tienda' %}aria-current="page"{% endif %}>Tienda</a>
       <a href="/probador/prendas" {% if request.url.path.startswith('/probador') %}aria-current="page"{% endif %}>Probador</a>
       <a href="/marca" {% if request.url.path == '/marca' %}aria-current="page"{% endif %}>Marca</a>
     </nav>
