@@ -171,6 +171,20 @@ async def probador(request: Request):
     )
 
 
+@app.get("/tienda", response_class=HTMLResponse)
+async def tienda(request: Request, tipo: str = ""):
+    todas = await run_in_threadpool(pb.prendas_visibles, almacen)
+    tipo = tipo if tipo in pb.PESTANAS else ""
+    prendas = [p for p in todas if not tipo or p["tipo"] == tipo]
+    presentes = {p["tipo"] for p in todas}
+    pestanas = {k: v for k, v in pb.PESTANAS.items() if k in presentes}
+    return plantillas.TemplateResponse(
+        request, "tienda.html",
+        {"prendas": prendas, "pestanas": pestanas, "tipo": tipo, "pb_tipos": pb.PESTANAS,
+         "son_ejemplos": bool(todas) and bool(todas[0].get("ejemplo"))},
+    )
+
+
 @app.get("/probador/modelo.jpg")
 async def foto_modelo():
     datos = await run_in_threadpool(almacen.leer, MODELO)

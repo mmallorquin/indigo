@@ -109,6 +109,8 @@ button:disabled { opacity: .55; cursor: wait; }
 /* Categorías */
 .pestanas { display: flex; gap: 18px; overflow-x: auto; margin-top: 2px; border-bottom: 1px solid var(--linea); }
 .pestanas button { flex: none; padding: 10px 0 8px; background: none; color: var(--suave); border: 0; border-bottom: 2px solid transparent; border-radius: 0; font-size: .72rem; opacity: .8; }
+.pestanas a { flex: none; padding: 10px 0 8px; color: var(--suave); border-bottom: 2px solid transparent; font-size: .72rem; text-decoration: none; }
+.pestanas a[aria-current="page"] { color: var(--texto); border-bottom-color: var(--arena); }
 .pestanas button[aria-selected="true"] { color: var(--texto); border-bottom-color: var(--arena); opacity: 1; }
 .pestanas button.con-prenda::after { content: " ●"; color: var(--acento); font-size: .6em; vertical-align: middle; }
 

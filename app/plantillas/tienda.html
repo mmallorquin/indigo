@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block titulo %}Tienda{% endblock %}
+{% block inicio %}/tienda{% endblock %}
+{% block cabecera %} baja{% endblock %}
+{% block nav %}<nav><a href="/probador">Probador</a><a href="{{ marca.contacto.instagram }}" rel="noopener">Instagram</a></nav>{% endblock %}
+{% block contenido %}
+<section class="tarjeta">
+  <p class="etiqueta">{{ marca.nombre }}</p>
+  <h1>Tienda</h1>
+  <p class="suave">Mirá las prendas y pedilas por WhatsApp. Precio, talle y disponibilidad te los confirmamos por consulta.</p>
+
+  {% if pestanas|length > 1 %}
+  <div class="pestanas" role="navigation" aria-label="Categorías">
+    <a href="/tienda" {% if not tipo %}aria-current="page"{% endif %}>Todas</a>
+    {% for clave, nombre in pestanas.items() %}
+    <a href="/tienda?tipo={{ clave }}" {% if tipo == clave %}aria-current="page"{% endif %}>{{ nombre }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if prendas %}
+  {% if son_ejemplos %}<p class="suave chica">Son prendas de ejemplo. Muy pronto vas a ver acá las de la tienda.</p>{% endif %}
+  <div class="grilla">
+    {% for p in prendas %}
+    <a href="/probador">
+      <img src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
+      <b>{{ p.nombre }}</b>
+      <span class="suave">{{ pb_tipos[p.tipo] }}</span>
+      <span class="suave">{{ p.precio if p.precio else "Consultanos por WhatsApp" }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="suave">Muy pronto vas a ver acá las prendas de la tienda.</p>
+  {% endif %}
+
+  <a class="boton" href="{{ marca.contacto.whatsapp_url }}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+</section>
+{% endblock %}
