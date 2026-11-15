@@ -15,3 +15,11 @@
 - Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` (las 3 stories, 20:30).
 - Skill nueva: `.claude/skills/story-marca`.
 - Sigue: piezas 2, 3, 5, 6 y 7 del plan (jean A, blusa B, pantalón C, Reel) cuando Marco cargue prendas reales.
+
+## 2026-11-15 (domingo, 3.ª corrida)
+- El plan ya está en main (#18, #19). Mergeé main en esta rama (sin conflictos): el PR #14 ahora solo toca `docs/campanas/`, `.claude/skills/` y `APRENDIZAJES.md`.
+- Las 4 prendas de /probador siguen con `ejemplo: true` y `catalogo.csv` solo tiene DEMO-JEAN: piezas 2, 3, 5, 6 y 7 bloqueadas. Gasto en /probador/probar: 0 (0 de 10 esta semana).
+- Ajustes por el plan nuevo: story_01 dice "una persona de Ciudad del Este" (§9); S1–S4 van también al estado de WhatsApp (§12), con su texto en `textos.json` y en los paquetes. Mismo código por story; en el registro, otra fila con red `whatsapp`.
+- Guardé `marca/piezas.json`: regenera las 4 stories idénticas con la skill.
+- Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` (Instagram + estado, 20:30). S3 espera la confirmación de Marco (pregunta 4).
+- Sigue: cuando haya jean A real, carrusel C1 (portada "Así queda puesto") y C1B (precio y talles del CSV, primera línea con el rango de talles).

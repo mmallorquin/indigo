@@ -17,3 +17,8 @@ Nada de acá puede aflojar las "Reglas que no se rompen" del prompt ni de `CLAUD
 - Si el plan no está en main, buscalo en las ramas `operador/estrategia-*` (`git fetch origin`): ahí estaba.
 - Aunque no haya prendas reales, las piezas "sin prenda" del plan (cómo pedir, talle) sí se pueden hacer: no dejar la corrida en cero.
 - En stories con sticker, dejá el espacio vacío: un aviso dibujado ("acá va el sticker") se termina publicando.
+
+## 2026-11-15 (productor, 3.ª corrida)
+- Si tu rama vieja quedó atrás de main, mergeá `origin/main` (después de `git fetch origin main`: `origin/main` local puede estar viejo) antes de evaluar qué toca el PR.
+- Guardá el JSON de entrada de cada pieza junto a los PNG: sin él, corregir una palabra obliga a reconstruir todo el texto.
+- El estado de WhatsApp no tiene sticker de enlace ni de preguntas: misma imagen, texto "Respondé este estado" y mismo código; en el registro va otra fila con red `whatsapp`.

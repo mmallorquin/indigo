@@ -1,39 +1,43 @@
 {
   "sku": "MARCA",
   "semana": "2026-W47",
-  "nota": "Stories sin prenda: no muestran producto. Plan de la semana (rama operador/estrategia-2026-11-15), piezas 1 y 4.",
+  "nota": "Stories sin prenda: no muestran producto. Plan de la semana (docs/estrategia/plan-semana.md), piezas 1 y 4. Fuente de diseño: piezas.json + skill story-marca.",
   "gancho": "Preguntá todo antes de transferir",
   "piezas": {
     "S1": {
       "archivo": "story_01.png",
       "dia": "lun 16/11 20:30",
-      "red": "Instagram (stories)",
-      "caption_instagram": "¿Te gustó una prenda? Escribinos por WhatsApp y preguntá todo antes de transferir. Te atiende una persona de Índigo. IND-MARCA-S1",
-      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 1 de 3. ¿Te gustó una prenda? Escribinos por WhatsApp. Te atiende una persona de Índigo, sin apuro. Preguntá todo antes de transferir. Botón Pedí por WhatsApp, número +595 973 434 868 y código IND-MARCA-S1."
+      "red": "Instagram (stories) + estado de WhatsApp",
+      "caption_instagram": "¿Te gustó una prenda? Escribinos por WhatsApp y preguntá todo antes de transferir. Te atiende una persona de Ciudad del Este, sin apuro. IND-MARCA-S1",
+      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 1 de 3. ¿Te gustó una prenda? Escribinos por WhatsApp. Te atiende una persona de Ciudad del Este, sin apuro. Preguntá todo antes de transferir. Botón Pedí por WhatsApp, número +595 973 434 868 y código IND-MARCA-S1.",
+      "caption_estado_whatsapp": "¿Te gustó una prenda? Respondé este estado y preguntá todo antes de transferir. Te atiende una persona de Ciudad del Este. IND-MARCA-S1"
     },
     "S2": {
       "archivo": "story_02.png",
       "dia": "lun 16/11 20:30",
-      "red": "Instagram (stories)",
+      "red": "Instagram (stories) + estado de WhatsApp",
       "caption_instagram": "Contanos qué talle usás y cómo te gusta que te quede: te ayudamos a elegir. IND-MARCA-S2",
-      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 2 de 3. Tu talle, sin vueltas. Contanos qué talle usás y cómo te gusta que te quede. Te ayudamos a elegir y te confirmamos si lo tenemos. Botón Pedí por WhatsApp, número y código IND-MARCA-S2."
+      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 2 de 3. Tu talle, sin vueltas. Contanos qué talle usás y cómo te gusta que te quede. Te ayudamos a elegir y te confirmamos si lo tenemos. Botón Pedí por WhatsApp, número y código IND-MARCA-S2.",
+      "caption_estado_whatsapp": "Contanos qué talle usás y cómo te gusta que te quede: respondé este estado y te ayudamos a elegir. IND-MARCA-S2"
     },
     "S3": {
       "archivo": "story_03.png",
       "dia": "lun 16/11 20:30",
-      "red": "Instagram (stories)",
+      "red": "Instagram (stories) + estado de WhatsApp",
       "caption_instagram": "Pagás por transferencia cuando ya está todo confirmado. Enviamos a todo Paraguay por transportadora: consultá costo y plazo para tu zona. IND-MARCA-S3",
-      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 3 de 3. Pagás por transferencia. Con prenda, talle y total confirmados, te pasamos los datos para transferir. Enviamos a todo Paraguay por transportadora. Costo y plazo para tu zona: consultá por WhatsApp. Botón Pedí por WhatsApp, número y código IND-MARCA-S3."
+      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Cómo pedir, 3 de 3. Pagás por transferencia. Con prenda, talle y total confirmados, te pasamos los datos para transferir. Enviamos a todo Paraguay por transportadora. Costo y plazo para tu zona: consultá por WhatsApp. Botón Pedí por WhatsApp, número y código IND-MARCA-S3.",
+      "caption_estado_whatsapp": "Pagás por transferencia cuando ya está todo confirmado. Enviamos a todo Paraguay por transportadora: para costo y plazo a tu zona, respondé este estado. IND-MARCA-S3"
     },
     "S4": {
       "archivo": "story_04.png",
       "dia": "jue 19/11 20:30",
-      "red": "Instagram (stories)",
+      "red": "Instagram (stories) + estado de WhatsApp",
       "caption_instagram": "¿Qué talle de jean usás? Contanos en la cajita o escribinos por WhatsApp. IND-MARCA-S4",
-      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Tu talle, sin vueltas. ¿Qué talle de jean usás? Contanos acá o escribinos. Te ayudamos con el talle. Botón Pedí por WhatsApp, número y código IND-MARCA-S4."
+      "alt": "Story verde olivo con el logo de Índigo Py. Dice: Tu talle, sin vueltas. ¿Qué talle de jean usás? Contanos acá o escribinos. Te ayudamos con el talle. Botón Pedí por WhatsApp, número y código IND-MARCA-S4.",
+      "caption_estado_whatsapp": "¿Qué talle de jean usás? Respondé este estado y te ayudamos con el talle. IND-MARCA-S4"
     }
   },
-  "caption_tiktok": "No aplica esta semana: el plan pone estas stories solo en Instagram. Si se suben a TikTok: \"¿Te gustó una prenda de Índigo? Escribinos por WhatsApp y preguntá todo antes de transferir. Te ayudamos con el talle. Link en el perfil.\"",
+  "caption_tiktok": "No aplica: el plan pone estas stories en Instagram y en el estado de WhatsApp, no en TikTok.",
   "hashtags": [
     "#IndigoPy",
     "#CiudadDelEste",
