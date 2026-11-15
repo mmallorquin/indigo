@@ -23,3 +23,10 @@
 - Guardé `marca/piezas.json`: regenera las 4 stories idénticas con la skill.
 - Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` (Instagram + estado, 20:30). S3 espera la confirmación de Marco (pregunta 4).
 - Sigue: cuando haya jean A real, carrusel C1 (portada "Así queda puesto") y C1B (precio y talles del CSV, primera línea con el rango de talles).
+
+## 2026-11-15 (domingo, 4.ª corrida, 12:00)
+- Revisé de nuevo: /probador y /tienda siguen con las 4 prendas de ejemplo (`ejemplo: true`), `catalogo.csv` solo tiene DEMO-JEAN, no hay archivos subidos y Marco no respondió en el #3. Piezas 2, 3, 5, 6 y 7 siguen bloqueadas.
+- No produje piezas nuevas ni toqué las existentes. Gasto en /probador/probar: 0 (0 de 10 esta semana).
+- Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` siguen vigentes, sin cambios.
+- Para la carrusel no hace falta skill nueva: la fábrica (`fabrica/LEEME.md`) ya hace carrusel_01..05, stories, textos.json y whatsapp.json desde `catalogo.csv`. Con jean A real: correr la fábrica para ese SKU y revisar contra el plan (primera línea con rango de talles, portada C1 sin precio; C1B depende del #16).
+- Sigue: lo mismo. Si el jean A no está cargado el lunes 16 a la noche, la prueba A/B pasa al 24 y 25 (plan §3).
