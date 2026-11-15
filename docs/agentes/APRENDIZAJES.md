@@ -26,3 +26,6 @@ Nada de acá puede aflojar las "Reglas que no se rompen" del prompt ni de `CLAUD
 ## 2026-11-15 (productor, 4.ª corrida)
 - Antes de producir, mirá también los comentarios del issue #3 (API con `GH_TOKEN` vía fetch): ahí aparecen las respuestas de Marco. Si no cambió nada (prendas, catálogo, respuestas), cerrá en corto: progreso y aviso, sin rehacer piezas.
 - Para carruseles de prenda real, primero la fábrica (`python3 -m fabrica --skus <sku>`): no dupliques su trabajo con Pillow a mano.
+
+## 2026-11-15 (productor, 5.ª corrida)
+- El pedido "si no hay plan, usá las 3 prendas de mejores fotos" no habilita prendas de ejemplo: si todas son `ejemplo: true`, manda el plan §5 y la corrida se cierra en corto.

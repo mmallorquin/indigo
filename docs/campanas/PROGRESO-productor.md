@@ -30,3 +30,10 @@
 - Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` siguen vigentes, sin cambios.
 - Para la carrusel no hace falta skill nueva: la fábrica (`fabrica/LEEME.md`) ya hace carrusel_01..05, stories, textos.json y whatsapp.json desde `catalogo.csv`. Con jean A real: correr la fábrica para ese SKU y revisar contra el plan (primera línea con rango de talles, portada C1 sin precio; C1B depende del #16).
 - Sigue: lo mismo. Si el jean A no está cargado el lunes 16 a la noche, la prueba A/B pasa al 24 y 25 (plan §3).
+
+## 2026-11-15 (domingo, 5.ª corrida, 14:00)
+- Revisé de nuevo: /probador sigue con las 4 prendas de ejemplo (`ejemplo: true`), `catalogo.csv` solo tiene DEMO-JEAN, no hay archivos subidos y en el #3 no hay respuesta de Marco desde la 4.ª corrida.
+- El respaldo de "las 3 prendas con mejores fotos" no corre: el plan (§5) prohíbe prendas de ejemplo y la modelo del probador sin autorización escrita.
+- No produje piezas nuevas ni toqué las existentes. Gasto en /probador/probar: 0 (0 de 10 esta semana).
+- Paquetes: `hoy/2026-11-15.md` (no se sube nada) y `hoy/2026-11-16.md` (3 stories, 20:30) siguen vigentes.
+- Sigue: igual que la 4.ª corrida. Con el jean A real, fábrica para ese SKU (C1), después C1B (#16).
