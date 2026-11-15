@@ -65,6 +65,7 @@ jobs:
           k=$(az keyvault secret show --vault-name "$KEY_VAULT" -n anthropic-api-key --query value -o tsv)
           echo "::add-mask::$k"
           echo "ANTHROPIC_API_KEY=$k" >> "$GITHUB_ENV"
+          echo "huella de la key: $(printf %s "$k" | sha256sum | cut -c1-12) (largo ${#k})"
 
       - uses: anthropics/claude-code-action@v1
         with:
