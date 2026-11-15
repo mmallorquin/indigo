@@ -2,7 +2,7 @@
 
 Acá va `registro.csv`, el archivo que carga Marco con lo que pasó con cada pieza publicada. El estratega lo lee cada semana para decidir qué repetir y qué cambiar.
 
-**Estado al 15/11/2026:** el archivo todavía no existe. Para empezar, creá `docs/resultados/registro.csv` con esta primera línea:
+**Estado al 15/11/2026:** el archivo todavía no existe y no hay ninguna pieza publicada. Lo va a crear el issue #15 (que también suma un comando para sacar el resumen). Si querés empezar antes, creá `docs/resultados/registro.csv` con esta primera línea:
 
 ```
 fecha,codigo,red,alcance,consultas,ventas,monto_gs
@@ -14,7 +14,7 @@ fecha,codigo,red,alcance,consultas,ventas,monto_gs
 |---|---|---|
 | `fecha` | El día que se publicó la pieza | AAAA-MM-DD |
 | `codigo` | El código de la pieza | `IND-<sku>-<pieza>` |
-| `red` | Dónde se publicó | `instagram` o `tiktok` |
+| `red` | Dónde se publicó | `instagram`, `tiktok` o `whatsapp` (estado de WhatsApp) |
 | `alcance` | Cuentas alcanzadas, según las estadísticas de la red | Número, sin puntos |
 | `consultas` | Chats de WhatsApp que llegaron por esa pieza | Número |
 | `ventas` | Pedidos **pagados** que salieron de esas consultas | Número |
@@ -28,7 +28,7 @@ Forma de una fila (los valores entre < > se reemplazan por los reales):
 
 ## Reglas para cargar
 
-- Una fila por pieza y por red. Si el mismo carrusel salió en Instagram y en TikTok, son dos filas.
+- Una fila por pieza y por red. Si el mismo carrusel salió en Instagram y en TikTok, son dos filas. Lo mismo si una story fue también al estado de WhatsApp: ahí el alcance son las vistas del estado y las consultas son las respuestas al estado.
 - El alcance y las consultas se anotan 72 horas después de publicar. Si más tarde entra una venta, se corrige esa fila; no se agrega otra.
 - Una consulta cuenta para la pieza cuyo código trae el primer mensaje ("Hola, vengo por IND-…"). Si no trae código, preguntá "¿qué publicación viste?". Si no se sabe, anotala con el código `IND-SINCODIGO-X`.
 - Una venta cuenta solo si está pagada.
