@@ -1,5 +1,17 @@
 # Progreso del estratega
 
+## Corrida del 15/11/2026 (tercera, a la par de la segunda)
+
+- Arrancó con el mismo pedido mientras la segunda todavía trabajaba. Mismo diagnóstico: sin `registro.csv`, sin prendas reales, sin comentarios nuevos de Marco.
+- No reescribí el plan. Sobre el de la segunda corrida sumé tres líneas: rango de talles en la primera línea de los textos (§14), qué mirar si la portada B trae consultas y no ventas, y la nota en "Cambió hoy".
+- `mercado.md`: §14 a §16 (9 búsquedas propias; el resto repetía lo de la segunda) y un link más en §1. Revisé con `curl` los links de §1 a §6 y los números de §10: coinciden.
+- Issues: al ir a crearlos ya existían el #15 y el #16. No dupliqué. Mi comentario en el #6 salió repetido y lo borré.
+- Aprendizajes para pasar a `docs/agentes/APRENDIZAJES.md` junto con los de abajo (sección `## 2026-11-15 (estratega, 3.ª corrida)`):
+  - Puede haber dos corridas del mismo agente a la vez: `git fetch` antes de escribir y antes del push; si la rama se movió, sumar encima solo lo que falta, sin forzar.
+  - Listar los issues justo antes de crear o comentar (no al principio): entre una cosa y la otra aparecieron el #15 y el #16.
+  - La herramienta de lectura web solo abre links que salieron de una búsqueda de la misma corrida; para revisar links de otra corrida, `curl` desde la terminal.
+  - Instagram no abre, pero las páginas "discover" de TikTok y las tiendas web de la competencia sí muestran textos, talles, precios y condiciones.
+
 ## Corrida del 15/11/2026 (segunda)
 
 **Qué encontré**

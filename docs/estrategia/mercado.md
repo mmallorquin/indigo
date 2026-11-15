@@ -1,10 +1,10 @@
 # Mercado — actualizado el 15/11/2026
 
-Dos corridas el mismo día. La primera hizo 10 búsquedas (§1 a §7). La segunda hizo 9, sin repetir temas (§8 a §13), y volvió a confirmar las fechas del Black Friday. Los estudios son globales o de la región: sirven como punto de partida, no como dato propio de Índigo. Instagram no se puede abrir desde acá, así que de las boutiques solo se lee la bio que muestra el buscador.
+Tres corridas el mismo día. La primera hizo 10 búsquedas (§1 a §7). La segunda hizo 9, sin repetir temas (§8 a §13), y volvió a confirmar las fechas del Black Friday. La tercera corrió a la par de la segunda, con otras 9 búsquedas: de ella se sumó solo lo que no estaba (§14 a §16), y volvió a abrir los links de §1 a §6 (todos responden y dicen lo anotado). Los estudios son globales o de la región: sirven como punto de partida, no como dato propio de Índigo. Instagram no se puede abrir desde acá, así que de las boutiques solo se lee la bio que muestra el buscador.
 
 ## 1. Black Friday de Ciudad del Este: jueves 19 a domingo 22 de noviembre
 - Lo organiza la Cámara de Comercio y Servicios de CDE. El Black Friday internacional es el viernes 27. Fechas confirmadas otra vez hoy en el sitio oficial y en Última Hora.
-- Links: [sitio oficial](https://blackfridayoficial.com.py/) · [XMarket](https://xmarket.com.py/blogs/news/black-friday-paraguay) · [Última Hora, 15/11](https://www.ultimahora.com/llega-una-nueva-edicion-del-black-friday-con-los-precios-mas-bajos) · [Prensa Mercosur](https://prensamercosur.org/2026/09/12/paraguay-black-friday-cde-2026-apunta-a-superar-los-us-360-millones-y-atraer-mas-de-300-000-visitantes/)
+- Links: [sitio oficial](https://blackfridayoficial.com.py/) · [Cámara de Diputados](https://diputados.gov.py/noticias/noticias/2523) · [XMarket](https://xmarket.com.py/blogs/news/black-friday-paraguay) · [Última Hora, 15/11](https://www.ultimahora.com/llega-una-nueva-edicion-del-black-friday-con-los-precios-mas-bajos) · [Prensa Mercosur](https://prensamercosur.org/2026/09/12/paraguay-black-friday-cde-2026-apunta-a-superar-los-us-360-millones-y-atraer-mas-de-300-000-visitantes/)
 - Una guía de Shoperly para vendedores de Paraguay dice que en esas fechas vende más quien explica bien la oferta, muestra el descuento real y responde rápido por WhatsApp que quien solo baja el precio; y que no hay que anunciar descuentos sin número ni inventar un precio de referencia. [Shoperly](https://www.shoperly.app/blog/black-friday-paraguay-2026) (ojo: vende una plataforma de tiendas).
 - **Qué se toma:** la prueba A/B va martes y miércoles, antes del ruido. De jueves a domingo no se nombra el Black Friday, porque Índigo no tiene descuento aprobado. Pregunta para Marco: ¿quiere una oferta real para el 27?
 
@@ -80,6 +80,26 @@ Dos corridas el mismo día. La primera hizo 10 búsquedas (§1 a §7). La segund
 - Para primavera-verano 2026/27 las notas hablan de telas livianas y translúcidas, encaje, camisas rayadas, siluetas y pantalones amplios.
 - Links: [Ohlalá](https://www.somosohlala.com/moda/lo-que-se-viene-en-primavera-verano-202627-las-tendencias-confirmadas-desde-las-pasarelas-internacionales-nid11092026) · [El Tribuno](https://www.eltribuno.com/espectaculos/2026-9-20-8-37-0-moda-primavera-verano-2026-2027-las-tendencias-colores-y-prendas-que-se-vienen) · [Examedia](https://examedia.com.ar/portada/post/88241708)
 - **Qué se toma:** si hay en stock, la blusa B es una camisa o blusa liviana y el pantalón C es amplio. En la pieza se nombra solo lo que se ve en la prenda real; la tela no se afirma sin comprobarla. Son notas de Argentina: tendencia, no demanda comprobada en CDE.
+
+---
+
+# Sumado por la tercera corrida
+
+## 14. Las tiendas de jeans de Paraguay abren sus textos con el rango de talles
+- En TikTok, Jeans Outlet PY (tiene un local en un shopping de CDE) pone en el texto de sus videos el rango de talles ("talles 52 al 64"), horarios, direcciones y "envíos a todo el país". Otra marca hace lo mismo ("del 36 al 46"), y Tienda Palma manda al link de la bio para "talles y cómo comprar". Usan #jeansparaguay y hashtags del corte (wide leg, baggy). Leído en el resumen del buscador: TikTok no deja abrir los videos desde acá.
+- Links: [Jeans Outlet en TikTok](https://www.tiktok.com/discover/jeans-outlet-paraguay) · [Tienda Palma en TikTok](https://www.tiktok.com/discover/tienda-palma-paraguay) · [jeans baratos en Paraguay, TikTok](https://www.tiktok.com/discover/donde-encontrar-jeans-baratos-paraguay)
+- Nice, una cadena paraguaya, muestra en la página de cada prenda una tabla de talles en centímetros (busto, cintura y cadera) y su política de cambios. [Un jean de Nice](https://www.niceshop.com.py/producto/wide-leg-jeans-cod-1250037)
+- **Qué se toma:** la primera línea del texto de cada pieza de prenda lleva el rango de talles, solo si está en `catalogo.csv`. Refuerza elegir como jean A el que tenga más talles. #jeansparaguay entra en los hashtags del jean. La tabla de medidas va cuando Marco mida la prenda; no se copia la de otra marca.
+
+## 15. En Paraguay se compra preguntando, y el precio filtra
+- Informe 2025 de la Cámara Paraguaya de Comercio Electrónico (Capace), contado por ABC Color el 14/10/2026: el 81 % de los encuestados compró online en el último año; quienes compran usan 2,5 canales en promedio y el 44 % nombra WhatsApp; el 49 % de quienes compran en tiendas paraguayas compró indumentaria. La nota dice que el precio sigue siendo un filtro muy decisivo.
+- Link: [ABC Color](https://www.abc.com.py/negocios/2026/10/14/el-negocio-de-la-comodidad-como-las-plataformas-cambiaron-el-habito-de-consumo-en-paraguay/)
+- **Qué se toma:** vender ropa por WhatsApp va con la costumbre del país, y que el precio filtre apoya la hipótesis de la prueba (§8). No cambia ninguna decisión. Es una encuesta nacional a gente que ya compra online: no dice nada de CDE ni de Índigo.
+
+## 16. Una boutique de CDE con web y botón de WhatsApp
+- Nosotras Boutique (Ciudad del Este) tiene una web con botón "Pedir por WhatsApp" y mensaje prellenado, envíos a todo el país y asesoría por chat. Su surtido es de fiesta: vestidos de noche, conjuntos, faldas.
+- Link: [nosotrasboutique.com](https://nosotrasboutique.com/)
+- **Qué se toma:** pedir por WhatsApp con mensaje prellenado no diferencia a Índigo: en CDE ya se usa. Diferencian el surtido (jeans y ropa de oficina, no fiesta) y el código de pieza en el mensaje, que dice qué publicación trajo cada consulta. Es la web, no sus publicaciones: las capturas de Marco siguen haciendo falta.
 
 ## Lo que no se tomó
 - Novedades de WhatsApp Business de 2026 (nombres de usuario, llamadas, cambios de precio de la API): no cambian nada para una tienda que atiende a mano desde la app.

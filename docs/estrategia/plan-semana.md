@@ -6,7 +6,7 @@ Actualizado el domingo 15/11. Los § remiten a `mercado.md`.
 
 - `docs/resultados/registro.csv` **no existe**: 0 piezas publicadas, 0 consultas, 0 ventas. Nada para calcular; todo es **hipótesis**.
 - La tienda sigue con 4 prendas de ejemplo: sin prendas reales solo salen las piezas del lunes y del jueves.
-- **Cambió hoy:** motivo del mensaje 3 (§9), más TikTok (§10), estado de WhatsApp (§12) y fecha de reserva para la prueba.
+- **Cambió hoy:** motivo del mensaje 3 (§9), más TikTok (§10), estado de WhatsApp (§12), rango de talles en la primera línea de los textos (§14) y fecha de reserva para la prueba.
 
 ## 1. Prendas a empujar
 
@@ -39,7 +39,7 @@ Una sola llamada a la acción: **Pedí por WhatsApp**, con el código de la piez
   - **Gana** la que tenga 5 consultas o más y al menos el doble que la otra → su gancho va en las portadas siguientes.
   - **Inconcluso** si entre las dos no llegan a 5 → falta alcance: se repite con la blusa B y un Reel.
   - **Empate** en otro caso → queda "Así queda puesto" y se prueba Reel contra carrusel.
-- **Límite:** dos días distintos y poca gente: es una pista, no una prueba.
+- **Límite:** dos días distintos y poca gente: es una pista, no una prueba. Si B trae consultas y no ventas, mirar primero el precio (§8).
 
 ## 4. Calendario
 
@@ -70,7 +70,7 @@ Una sola llamada a la acción: **Pedí por WhatsApp**, con el código de la piez
 | 6 | Pantalón C: carrusel | `IND-<sku>-C1` | Sin ganador: "Así queda puesto" |
 | 7 | Reel "Un jean, tres looks" | `IND-<sku>-R1` | Solo con clips de Marco, sin marca de agua de otra app (§11) |
 
-En todas: código en el texto y en el enlace. Dato que falta: "Consultá por WhatsApp". Sin escasez inventada, sin prendas de ejemplo y sin la modelo del probador hasta que Marco la autorice por escrito.
+En todas: código en el texto y en el enlace. En las de prenda, la primera línea del texto lleva el rango de talles, solo si está en `catalogo.csv` (§14). Dato que falta: "Consultá por WhatsApp". Sin escasez inventada, sin prendas de ejemplo y sin la modelo del probador hasta que Marco la autorice por escrito.
 
 ## 6. Lo que solo Marco puede dar
 
