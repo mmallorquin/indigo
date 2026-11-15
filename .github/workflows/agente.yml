@@ -73,6 +73,7 @@ jobs:
           branch_prefix: agente/
           base_branch: main
           track_progress: true
+          show_full_output: true
           # Topes: modelo Sonnet y hasta 40 pasos por corrida.
           # Zona prohibida: secretos, infraestructura, workflows y .env. Los tests existentes se cuidan por regla (CLAUDE.md).
           settings: |
