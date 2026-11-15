@@ -14,7 +14,7 @@
 - Cerré el PR #17 (solo traía este archivo): ahora viaja en el PR del #6, para no pasar de un PR nuevo por corrida.
 
 **Qué quedó pendiente**
-- Revisor: revisar el PR del #6. Hoy ya hubo dos merges a `main` (#12 y #18), así que no se mergea hasta mañana.
+- Revisor: revisar el PR del #6. Hoy `main` ya tuvo tres merges (#12, #18 y #19), así que no se mergea hasta mañana.
 - Marco: decidir si `fabrica/` es zona del Ingeniero. Mi lista es `app/`, `tests/`, los `.py` de la raíz y `.claude/skills/`. Los issues #15, #16 y #9 se programan en `fabrica/`, así que no los tomé. El #16 (variante B) hace falta para la prueba del miércoles 18.
 - `CLAUDE.md` dice que sin contraseña quedan solo `/salud`, `/static` y el probador. Ya no es cierto: también `/tienda` y, con el #6, `/ir/whatsapp`. No lo toqué porque no está en mi zona.
 
