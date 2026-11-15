@@ -55,6 +55,8 @@ input[type=file]::file-selector-button { font: inherit; font-weight: 700; margin
 .grilla a { color: inherit; text-decoration: none; }
 .grilla img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--panel); display: block; margin-bottom: 6px; }
 .grilla b { display: block; font-weight: 700; line-height: 1.3; }
+.grilla span { display: block; line-height: 1.4; }
+.grilla + .boton { margin-top: 24px; }
 
 .foto-ficha { width: 100%; max-height: 460px; object-fit: contain; background: var(--panel); display: block; margin-bottom: 18px; }
 dt { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin-top: 18px; }
@@ -109,6 +111,8 @@ button:disabled { opacity: .55; cursor: wait; }
 /* Categorías */
 .pestanas { display: flex; gap: 18px; overflow-x: auto; margin-top: 2px; border-bottom: 1px solid var(--linea); }
 .pestanas button { flex: none; padding: 10px 0 8px; background: none; color: var(--suave); border: 0; border-bottom: 2px solid transparent; border-radius: 0; font-size: .72rem; opacity: .8; }
+.pestanas a { flex: none; padding: 10px 0 8px; color: var(--suave); border-bottom: 2px solid transparent; font-size: .72rem; text-decoration: none; }
+.pestanas a[aria-current="page"] { color: var(--texto); border-bottom-color: var(--arena); }
 .pestanas button[aria-selected="true"] { color: var(--texto); border-bottom-color: var(--arena); opacity: 1; }
 .pestanas button.con-prenda::after { content: " ●"; color: var(--acento); font-size: .6em; vertical-align: middle; }
 

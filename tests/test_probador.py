@@ -381,3 +381,23 @@ def test_en_blob_lo_del_probador_no_se_mezcla_con_las_fichas():
     pb.borrar_prenda(blob, "p1")
     pb.borrar_prenda(blob, "p1")  # borrar dos veces no rompe
     assert pb.prendas(blob) == [] and blob.ficha("f1")["id"] == "f1"
+
+
+# --- Tienda pública ---
+
+def test_tienda_es_publica_filtra_y_no_inventa_precio(app_limpia):
+    r = app_limpia.cliente.get("/tienda")
+    assert r.status_code == 200
+    assert "Blusa lino" in r.text and "Jean recto" in r.text
+    assert "Consultanos por WhatsApp" in r.text
+    assert f"/probador/prenda/{app_limpia.ids['abajo']}.jpg" in r.text
+    assert 'href="/marca"' not in r.text and 'href="/probador/prendas"' not in r.text
+    abajo = app_limpia.cliente.get("/tienda?tipo=abajo").text
+    assert "Jean recto" in abajo and "Blusa lino" not in abajo
+    assert "Blusa lino" in app_limpia.cliente.get("/tienda?tipo=cualquiera").text
+
+
+def test_tienda_sin_prendas(app_limpia):
+    for id_ in app_limpia.ids.values():
+        app_limpia.cliente.post(f"/probador/prendas/{id_}/borrar", auth=AUTH, follow_redirects=False)
+    assert "Muy pronto" in app_limpia.cliente.get("/tienda").text
