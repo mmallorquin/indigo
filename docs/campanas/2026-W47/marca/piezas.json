@@ -1,0 +1,31 @@
+[
+  {
+    "archivo": "story_01.png",
+    "etiqueta": "Cómo pedir · 1 de 3",
+    "titulo": "¿Te gustó una prenda?",
+    "cuerpo": "Escribinos por WhatsApp.\nTe atiende una persona de Ciudad del Este, sin apuro. Preguntá todo antes de transferir.",
+    "codigo": "IND-MARCA-S1"
+  },
+  {
+    "archivo": "story_02.png",
+    "etiqueta": "Cómo pedir · 2 de 3",
+    "titulo": "Tu talle, sin vueltas",
+    "cuerpo": "Contanos qué talle usás y cómo te gusta que te quede.\nTe ayudamos a elegir y te confirmamos si lo tenemos.",
+    "codigo": "IND-MARCA-S2"
+  },
+  {
+    "archivo": "story_03.png",
+    "etiqueta": "Cómo pedir · 3 de 3",
+    "titulo": "Pagás por transferencia",
+    "cuerpo": "Con prenda, talle y total confirmados, te pasamos los datos para transferir.\nEnviamos a todo Paraguay por transportadora. Costo y plazo para tu zona: consultá por WhatsApp.",
+    "codigo": "IND-MARCA-S3"
+  },
+  {
+    "archivo": "story_04.png",
+    "etiqueta": "Tu talle, sin vueltas",
+    "titulo": "¿Qué talle de jean usás?",
+    "cuerpo": "Contanos acá o escribinos. Te ayudamos con el talle.",
+    "codigo": "IND-MARCA-S4",
+    "hueco_sticker": true
+  }
+]

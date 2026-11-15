@@ -1,0 +1,26 @@
+{
+  "sku": "MARCA",
+  "numero": "+595 973 434 868",
+  "enlaces": {
+    "S1": {
+      "codigo": "IND-MARCA-S1",
+      "archivo": "story_01.png",
+      "url": "https://wa.me/595973434868?text=Hola%2C%20vengo%20por%20IND-MARCA-S1"
+    },
+    "S2": {
+      "codigo": "IND-MARCA-S2",
+      "archivo": "story_02.png",
+      "url": "https://wa.me/595973434868?text=Hola%2C%20vengo%20por%20IND-MARCA-S2"
+    },
+    "S3": {
+      "codigo": "IND-MARCA-S3",
+      "archivo": "story_03.png",
+      "url": "https://wa.me/595973434868?text=Hola%2C%20vengo%20por%20IND-MARCA-S3"
+    },
+    "S4": {
+      "codigo": "IND-MARCA-S4",
+      "archivo": "story_04.png",
+      "url": "https://wa.me/595973434868?text=Hola%2C%20vengo%20por%20IND-MARCA-S4"
+    }
+  }
+}
