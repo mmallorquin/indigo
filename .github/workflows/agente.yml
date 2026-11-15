@@ -26,7 +26,7 @@ permissions:
 
 # Un agente por vez: si llegan dos pedidos, el segundo espera
 concurrency:
-  group: agente
+  group: agente-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 env:
@@ -39,7 +39,7 @@ jobs:
   agente:
     if: >-
       (github.event_name == 'issues' && github.event.label.name == 'agente') ||
-      (github.event_name != 'issues' && contains(github.event.comment.body, '@claude'))
+      (github.event_name != 'issues' && github.event.comment.user.type != 'Bot' && contains(github.event.comment.body, '@claude'))
     runs-on: ubuntu-latest
     timeout-minutes: 30 # tope de tiempo: corta un agente que se trabe
     steps:
