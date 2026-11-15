@@ -52,3 +52,17 @@ APP_PASSWORD=prueba uvicorn app.main:app --reload --port 8080   # usa ANTHROPIC_
 # o con Docker:
 docker build -t indigo . && docker run --rm -p 8080:8080 --env-file .env -e APP_PASSWORD=prueba indigo
 ```
+
+## Agentes (GitHub Actions)
+
+`.github/workflows/agente.yml` corre Claude Code cuando un issue recibe la etiqueta `agente` o alguien escribe `@claude`.
+La API key sale del Key Vault (identidad `id-indigo-github`), nunca de un archivo. Reglas para el agente:
+
+- Nunca subir a `main`: trabajar en la rama que crea la action y abrir un PR. Marco revisa y aprueba.
+- No tocar: `secretos.py`, `infra/`, `.github/`, `.env*`. Si la tarea lo necesita, decirlo en el PR y no hacerlo.
+- No borrar ni debilitar tests existentes, en especial el de privacidad del probador y los de `Topes`.
+- Todo camino que genere imágenes pasa por `Topes.reservar`. No subir los topes.
+- Datos del negocio: solo los de `marca.toml`. Si falta precio, talle, stock o condición, mostrar "Consultanos por WhatsApp", nunca inventar.
+- Una tarea por PR. En la descripción: qué cambió, cómo probarlo y el concepto aplicado en 2–3 líneas.
+- `marketing/` no entra en la imagen Docker; no depender de archivos de ahí en la app.
+

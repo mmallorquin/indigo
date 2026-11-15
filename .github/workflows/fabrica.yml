@@ -1,0 +1,140 @@
+# Fábrica de piezas: convierte las prendas del catálogo en carrusel, stories y Reel.
+#
+# Se corre a mano: GitHub → Actions → fabrica → Run workflow (también desde la app del celular).
+# Antes, cargá fotos y catalogo.csv en ~/vibe_coding/indigo/marketing/fabrica-entrada/
+# y corré:  bash ~/vibe_coding/indigo/marketing/sincronizar-medios.sh subir
+#
+# Avisos: comenta en el issue "Fábrica: avisos y mejoras" al empezar y al terminar
+# (GitHub te avisa por mail y en la app). Las piezas quedan en:
+#   - Storage stindigo5dvav, contenedor "piezas", carpeta <fecha>-run<N>
+#   - y como archivo .zip descargable en la página de la corrida (14 días)
+# Nada se publica solo.
+name: fabrica
+
+on:
+  workflow_dispatch:
+    inputs:
+      skus:
+        description: "SKUs separados por coma (vacío = todos los listos)"
+        required: false
+        default: ""
+      tope_usd:
+        description: "Tope de gasto de esta corrida en USD"
+        required: false
+        default: "8"
+
+permissions:
+  contents: read
+  issues: write
+  id-token: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+env:
+  AZURE_CLIENT_ID: 9144fa74-7c9f-4165-bfaf-735d2b2bc2b6 # id-indigo-github (no es un secreto)
+  AZURE_TENANT_ID: fa9ff835-1d15-4b70-97be-ccb9691110e4
+  AZURE_SUBSCRIPTION_ID: fcbcdd9b-0601-4100-81be-515a342776d9
+  RG: rg-indigo
+  KEY_VAULT: kv-indigo-5dvav
+  STORAGE: stindigo5dvav
+  # Para la vista "así queda puesto" (Fábrica 2). Pasa por los topes del probador.
+  FABRICA_APP_URL: https://ca-indigo.blueisland-7a834e07.brazilsouth.azurecontainerapps.io
+  # Corte del crédito de US$ 59: no se inician llamadas nuevas después de esta hora.
+  # Borrá esta línea después del domingo para que siga funcionando con tu saldo normal.
+  FABRICA_CORTE: "2026-11-15T20:00:00-03:00"
+  GH_TOKEN: ${{ github.token }}
+  AVISOS: "Fábrica: avisos y mejoras"
+
+jobs:
+  fabricar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar el issue de avisos
+        run: |
+          n=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$AVISOS\" in:title" --json number -q '.[0].number')
+          echo "ISSUE_AVISOS=$n" >> "$GITHUB_ENV"
+          echo "URL_CORRIDA=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" >> "$GITHUB_ENV"
+
+      - name: ¿La fábrica ya está programada?
+        run: |
+          if [ ! -d fabrica ]; then
+            msg="La fábrica todavía no está en main: falta mergear el PR del issue 'Fábrica 1'. No se gastó nada."
+            echo "$msg"
+            [ -n "$ISSUE_AVISOS" ] && gh issue comment "$ISSUE_AVISOS" --body "⏸️ $msg"
+            exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: |
+          pip install -r requirements-dev.txt
+          command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)
+
+      - name: Entrar a Azure (OIDC, sin contraseña)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Traer la API key y el acceso al Storage
+        run: |
+          k=$(az keyvault secret show --vault-name "$KEY_VAULT" -n anthropic-api-key --query value -o tsv)
+          echo "::add-mask::$k"; echo "ANTHROPIC_API_KEY=$k" >> "$GITHUB_ENV"
+          s=$(az storage account keys list -n "$STORAGE" -g "$RG" --query '[0].value' -o tsv)
+          echo "::add-mask::$s"; echo "STORAGE_KEY=$s" >> "$GITHUB_ENV"
+
+      - name: Aviso de inicio
+        if: env.ISSUE_AVISOS != ''
+        run: |
+          gh issue comment "$ISSUE_AVISOS" --body "▶️ Arrancó la fábrica (corrida #$GITHUB_RUN_NUMBER). SKUs: \`${{ inputs.skus || 'todos los listos' }}\` · tope US\$ ${{ inputs.tope_usd }}. Seguila acá: $URL_CORRIDA"
+
+      - name: Bajar fotos y catálogo del Storage
+        run: |
+          az storage blob download-batch --account-name "$STORAGE" --account-key "$STORAGE_KEY" \
+            -s medios -d marketing --pattern 'fabrica-entrada/*' --overwrite true -o none
+          test -f marketing/fabrica-entrada/catalogo.csv || { echo "Falta catalogo.csv en el Storage"; exit 1; }
+
+      - name: Fabricar
+        run: |
+          python -m fabrica --entrada marketing/fabrica-entrada --salida salida/piezas \
+            --skus "${{ inputs.skus }}" --tope-usd "${{ inputs.tope_usd }}"
+
+      - name: Guardar las piezas en el Storage
+        if: always()
+        run: |
+          [ -d salida/piezas ] || exit 0
+          DEST="$(date +%F)-run$GITHUB_RUN_NUMBER"
+          echo "DEST=$DEST" >> "$GITHUB_ENV"
+          az storage container create --account-name "$STORAGE" --account-key "$STORAGE_KEY" -n piezas -o none
+          az storage blob upload-batch --account-name "$STORAGE" --account-key "$STORAGE_KEY" \
+            -d piezas --destination-path "$DEST" -s salida/piezas -o none
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: piezas-${{ github.run_number }}
+          path: salida/piezas
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Aviso final
+        if: always() && env.ISSUE_AVISOS != ''
+        run: |
+          {
+            if [ "${{ job.status }}" = "success" ]; then echo "✅ Terminó la fábrica (corrida #$GITHUB_RUN_NUMBER)."; else echo "❌ La fábrica se detuvo (corrida #$GITHUB_RUN_NUMBER). Revisá el paso que falló: $URL_CORRIDA"; fi
+            echo
+            [ -n "${DEST:-}" ] && echo "Piezas: Storage \`$STORAGE\` → contenedor \`piezas\` → \`$DEST\`, y el .zip en $URL_CORRIDA"
+            echo
+            [ -f salida/piezas/resumen.md ] && cat salida/piezas/resumen.md
+            echo
+            echo "Para mejorar algo, respondé acá con \`@claude\` y lo que querés cambiar."
+          } > aviso.md
+          gh issue comment "$ISSUE_AVISOS" --body-file aviso.md

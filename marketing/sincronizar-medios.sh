@@ -21,6 +21,9 @@ EXCL_PATH=$(cd "$DIR" && find . \( -name node_modules -o -name .git -o -name .ca
 
 case "${1:-}" in
   subir)
+    # Azure CLI baja un azcopy para Mac Intel; en Apple Silicon usamos el de Homebrew (nativo)
+    command -v azcopy >/dev/null || { echo "Falta azcopy. Instalalo con: brew install azcopy"; exit 1; }
+    mkdir -p "$HOME/.azure/bin" && ln -sf "$(command -v azcopy)" "$HOME/.azure/bin/azcopy"
     az storage blob sync --account-name "$ST" --account-key "$KEY" -c "$C" -s "$DIR" \
       --delete-destination false --exclude-pattern '.DS_Store;*.pyc' --exclude-path "$EXCL_PATH"
     ;;

@@ -1,0 +1,96 @@
+# Mejora semanal de la fábrica: el analista (Opus) lee cómo salieron las últimas
+# corridas y lo que comentaste, y propone 3 mejoras en el issue de avisos.
+# No cambia código. Vos elegís respondiendo "@claude implementá la mejora 2":
+# eso dispara agente.yml, que la programa y abre un PR para que lo apruebes.
+#
+# Corre solo los lunes 09:17 (hora de Paraguay) y también a mano desde Actions.
+name: mejora-semanal
+
+on:
+  schedule:
+    - cron: "17 12 * * 1" # lunes 12:17 UTC = 09:17 en Paraguay
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  id-token: write
+  actions: read
+
+concurrency:
+  group: mejora-semanal
+  cancel-in-progress: false
+
+env:
+  AZURE_CLIENT_ID: 9144fa74-7c9f-4165-bfaf-735d2b2bc2b6 # id-indigo-github (no es un secreto)
+  AZURE_TENANT_ID: fa9ff835-1d15-4b70-97be-ccb9691110e4
+  AZURE_SUBSCRIPTION_ID: fcbcdd9b-0601-4100-81be-515a342776d9
+  RG: rg-indigo
+  KEY_VAULT: kv-indigo-5dvav
+  STORAGE: stindigo5dvav
+  GH_TOKEN: ${{ github.token }}
+  AVISOS: "Fábrica: avisos y mejoras"
+
+jobs:
+  analizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Buscar el issue de avisos
+        run: |
+          n=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "\"$AVISOS\" in:title" --json number -q '.[0].number')
+          [ -n "$n" ] || { echo "No existe el issue de avisos"; exit 1; }
+          echo "ISSUE_AVISOS=$n" >> "$GITHUB_ENV"
+
+      - name: Entrar a Azure (OIDC, sin contraseña)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Traer la API key y los resultados de las últimas corridas
+        run: |
+          k=$(az keyvault secret show --vault-name "$KEY_VAULT" -n anthropic-api-key --query value -o tsv)
+          echo "::add-mask::$k"; echo "ANTHROPIC_API_KEY=$k" >> "$GITHUB_ENV"
+          s=$(az storage account keys list -n "$STORAGE" -g "$RG" --query '[0].value' -o tsv)
+          echo "::add-mask::$s"
+          mkdir -p revision
+          if az storage container exists --account-name "$STORAGE" --account-key "$s" -n piezas --query exists -o tsv | grep -q true; then
+            for p in '*/resumen.md' '*/gasto.json' '*/*/revision.json' '*/*/textos.json'; do
+              az storage blob download-batch --account-name "$STORAGE" --account-key "$s" \
+                -s piezas -d revision --pattern "$p" -o none || true
+            done
+          fi
+          gh issue view "$ISSUE_AVISOS" --comments > revision/comentarios.txt
+          ls -R revision | head -50
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ env.ANTHROPIC_API_KEY }}
+          prompt: |
+            Sos el analista de la fábrica de piezas de Indigo, una boutique nueva de Ciudad del Este que todavía no tiene ventas.
+            Objetivo: que las piezas (carrusel, stories, Reel) consigan consultas por WhatsApp y las primeras ventas, sin gastar de más.
+
+            Leé, en este orden:
+            1. CLAUDE.md y marca.toml.
+            2. revision/comentarios.txt: avisos de corridas anteriores y, sobre todo, lo que escribió Marco. Lo que él pidió pesa más que tu criterio.
+            3. revision/: resumen.md, gasto.json, revision.json y textos.json de las corridas (cada carpeta es <fecha>-run<N>).
+            4. El código de fabrica/ si existe.
+
+            Proponé exactamente 3 mejoras al sistema, ordenadas por impacto esperado en consultas o en calidad. No repitas una mejora que ya se haya implementado o descartado en los comentarios.
+            Para cada una: problema observado (con evidencia concreta: corrida, SKU, archivo o comentario), cambio propuesto, costo estimado por corrida en USD, y cómo vamos a saber si funcionó.
+            Si todavía no hay corridas, decilo y proponé mejoras a partir del código y de los comentarios.
+
+            Escribí la propuesta en español de Paraguay, con voseo, en menos de 300 palabras, en el archivo propuesta.md.
+            Publicala con: gh issue comment ${{ env.ISSUE_AVISOS }} --body-file propuesta.md
+            Terminá la propuesta con esta línea: "Para implementar una, respondé: @claude implementá la mejora 1 (o 2 o 3)".
+            No modifiques ningún otro archivo ni abras PR.
+          claude_args: |
+            --model claude-opus-5-5
+            --max-turns 15
+            --allowedTools "Read,Glob,Grep,Write,Bash(gh issue comment:*),Bash(ls:*),Bash(cat:*)"

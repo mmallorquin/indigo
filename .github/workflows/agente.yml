@@ -1,0 +1,93 @@
+# Agente desarrollador: programa una tarea y abre un PR. Nunca sube a main.
+#
+# Cómo se activa:
+#   - Ponés la etiqueta "agente" a un issue → lo programa y abre un PR.
+#   - Escribís "@claude ..." en un comentario de un issue o PR → responde o corrige.
+#     (Comentarios sobre líneas de código del PR no: Azure solo confía en la rama main.)
+# Solo personas con permiso de escritura en el repo pueden activarlo.
+#
+# La API key NO está en GitHub: se lee del Key Vault de Azure con la identidad
+# id-indigo-github (OIDC, sin contraseña). Por eso hace falta correr una vez
+# infra/conectar_agentes.sh, que le da permiso de lectura de secretos.
+name: agente
+
+on:
+  issues:
+    types: [labeled]
+  issue_comment: # incluye comentarios en la conversación de un PR
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  id-token: write # OIDC para Azure y para la app de Claude
+  actions: read
+
+# Un agente por vez: si llegan dos pedidos, el segundo espera
+concurrency:
+  group: agente
+  cancel-in-progress: false
+
+env:
+  AZURE_CLIENT_ID: 9144fa74-7c9f-4165-bfaf-735d2b2bc2b6 # id-indigo-github (no es un secreto)
+  AZURE_TENANT_ID: fa9ff835-1d15-4b70-97be-ccb9691110e4
+  AZURE_SUBSCRIPTION_ID: fcbcdd9b-0601-4100-81be-515a342776d9
+  KEY_VAULT: kv-indigo-5dvav
+
+jobs:
+  agente:
+    if: >-
+      (github.event_name == 'issues' && github.event.label.name == 'agente') ||
+      (github.event_name != 'issues' && contains(github.event.comment.body, '@claude'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 # tope de tiempo: corta un agente que se trabe
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+
+      - name: Entrar a Azure (OIDC, sin contraseña)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Traer la API key del Key Vault
+        run: |
+          k=$(az keyvault secret show --vault-name "$KEY_VAULT" -n anthropic-api-key --query value -o tsv)
+          echo "::add-mask::$k"
+          echo "ANTHROPIC_API_KEY=$k" >> "$GITHUB_ENV"
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ env.ANTHROPIC_API_KEY }}
+          label_trigger: agente
+          branch_prefix: agente/
+          base_branch: main
+          track_progress: true
+          # Topes: modelo Sonnet y hasta 40 pasos por corrida.
+          # Zona prohibida: secretos, infraestructura, workflows y .env. Los tests existentes se cuidan por regla (CLAUDE.md).
+          settings: |
+            {
+              "permissions": {
+                "deny": [
+                  "Edit(secretos.py)", "Write(secretos.py)",
+                  "Edit(infra/**)", "Write(infra/**)",
+                  "Edit(.github/**)", "Write(.github/**)",
+                  "Edit(.env*)", "Write(.env*)"
+                ]
+              }
+            }
+          claude_args: |
+            --model claude-sonnet-5-5
+            --max-turns 40
+            --allowedTools "Bash(pytest:*),Bash(python -m pytest:*),Bash(pip install:*)"
+            --append-system-prompt "Seguí CLAUDE.md al pie de la letra, sobre todo la sección Agentes. Cambios chicos y enfocados en lo que pide el issue. Corré pytest -q antes de terminar; si falla, arreglalo o explicá por qué en el PR. Todo lo que ve la clienta, en español de Paraguay con voseo. Nunca inventes precio, talle, stock, tela, envío ni condiciones de cambio."
