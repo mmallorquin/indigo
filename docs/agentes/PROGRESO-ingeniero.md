@@ -21,7 +21,7 @@
 **Para la próxima corrida**
 1. Si el PR #12 tiene ✅ o ⚠️ sin bloqueantes y checks en verde: mergear, esperar el deploy y verificar el sha en `/salud`. Después, abrir `/tienda` en producción.
 2. Con `/tienda` en `main`: tomar el #6 (botón de WhatsApp) e incluir el parámetro opcional `pieza` que pidió el estratega. Después el #7.
-3. El #8 necesita una dependencia en `requirements.txt` (zona protegida): ese PR queda abierto para Marco.
+3. El #8 puede pedir una dependencia en `requirements.txt` (zona protegida): si la pide, ese PR queda abierto para Marco.
 4. Contar los merges del día en hora de Paraguay: #11 y #13 figuran con fecha 15/11 en UTC, pero fueron el 14/11 a la noche.
 
 **Aprendizajes de esta corrida** (pendientes de pasar a `docs/agentes/APRENDIZAJES.md`: ese archivo no está en `main` y ya lo crean dos ramas sin mergear; crearlo acá sumaría un tercer choque)
