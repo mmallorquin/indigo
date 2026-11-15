@@ -12,3 +12,8 @@ Nada de acá puede aflojar las "Reglas que no se rompen" del prompt ni de `CLAUD
 ## 2026-11-15 (productor)
 - Antes de producir, revisá `ejemplo` en el JSON `#datos` de /probador (la API /probador/prendas pide contraseña). Si todas las prendas son de ejemplo, no hay producto real: no se hacen piezas.
 - /probador/modelo.jpg es una persona real: no se usa en piezas hasta que Marco lo autorice por escrito.
+
+## 2026-11-15 (productor, 2.ª corrida)
+- Si el plan no está en main, buscalo en las ramas `operador/estrategia-*` (`git fetch origin`): ahí estaba.
+- Aunque no haya prendas reales, las piezas "sin prenda" del plan (cómo pedir, talle) sí se pueden hacer: no dejar la corrida en cero.
+- En stories con sticker, dejá el espacio vacío: un aviso dibujado ("acá va el sticker") se termina publicando.
