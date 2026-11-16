@@ -34,6 +34,15 @@
   const clave = () => ORDEN.map((t) => puesto.get(t)).filter(Boolean).join(",");
   const base = () => miFotoUrl || fotoModelo;
 
+  // Desde la tienda se llega con ?prenda=<id>: la rueda arranca en esa prenda, lista para fijar.
+  // No se fija sola: fijar pide una foto generada, y eso lo decide la persona con su toque.
+  const pedida = new URLSearchParams(location.search).get("prenda");
+  const inicial = datos.prendas.find((p) => p.id === pedida);
+  if (inicial) {
+    categoria = inicial.tipo;
+    posicion[categoria] = enRueda().indexOf(inicial);
+  }
+
   // ---------- La rueda ----------
 
   // Distancia de cada carta al centro, dando la vuelta: con 5 cartas va de -2 a 2.

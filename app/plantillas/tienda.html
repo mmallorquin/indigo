@@ -23,12 +23,13 @@
   <div class="grilla">
     {% for p in prendas %}
     <div>
-      <a href="/probador">
+      <a href="/probador?prenda={{ p.id }}">
         <img src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
         <b>{{ p.nombre }}</b>
         <span class="suave">{{ pb_tipos[p.tipo] }}</span>
         <span class="suave">{{ p.precio if p.precio else "Consultanos por WhatsApp" }}</span>
       </a>
+      <a class="boton secundario" href="/probador?prenda={{ p.id }}">Probátela</a>
       {# Una prenda de ejemplo no se puede pedir: para esas queda el botón de consulta de abajo #}
       {% if not p.ejemplo %}<a class="boton" href="/ir/whatsapp/{{ p.id }}" target="_blank" rel="noopener nofollow">Pedir por WhatsApp</a>{% endif %}
     </div>
