@@ -22,12 +22,16 @@
   {% if son_ejemplos %}<p class="suave chica">Son prendas de ejemplo. Muy pronto vas a ver acá las de la tienda.</p>{% endif %}
   <div class="grilla">
     {% for p in prendas %}
-    <a href="/probador">
-      <img src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
-      <b>{{ p.nombre }}</b>
-      <span class="suave">{{ pb_tipos[p.tipo] }}</span>
-      <span class="suave">{{ p.precio if p.precio else "Consultanos por WhatsApp" }}</span>
-    </a>
+    <div>
+      <a href="/probador">
+        <img src="/probador/prenda/{{ p.id }}.jpg" alt="{{ p.nombre }}" loading="lazy">
+        <b>{{ p.nombre }}</b>
+        <span class="suave">{{ pb_tipos[p.tipo] }}</span>
+        <span class="suave">{{ p.precio if p.precio else "Consultanos por WhatsApp" }}</span>
+      </a>
+      {# Una prenda de ejemplo no se puede pedir: para esas queda el botón de consulta de abajo #}
+      {% if not p.ejemplo %}<a class="boton" href="/ir/whatsapp/{{ p.id }}" target="_blank" rel="noopener nofollow">Pedir por WhatsApp</a>{% endif %}
+    </div>
     {% endfor %}
   </div>
   {% else %}
