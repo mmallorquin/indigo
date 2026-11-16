@@ -58,7 +58,9 @@ input[type=file]::file-selector-button { font: inherit; font-weight: 700; margin
 .grilla span { display: block; line-height: 1.4; }
 .grilla + .boton { margin-top: 24px; }
 .grilla > div { display: flex; flex-direction: column; gap: 8px; }
-.grilla .boton { margin-top: auto; padding: 12px 6px; text-align: center; color: var(--sobre-acento); font-size: .7rem; letter-spacing: .06em; }
+.grilla .boton { padding: 12px 6px; text-align: center; color: var(--sobre-acento); font-size: .7rem; letter-spacing: .06em; }
+.grilla > div > a:first-child + .boton { margin-top: auto; }
+.grilla .secundario { color: var(--acento); }
 
 .foto-ficha { width: 100%; max-height: 460px; object-fit: contain; background: var(--panel); display: block; margin-bottom: 18px; }
 dt { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin-top: 18px; }
