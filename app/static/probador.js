@@ -190,13 +190,12 @@
     $("usar-modelo").disabled = ocupado;
     $("velo").hidden = !ocupado;
 
-    // El mensaje de WhatsApp nombra solo prendas reales de la tienda, nunca las de ejemplo.
-    const nombres = ids.map((id) => prendaPorId[id]).filter((p) => !p.ejemplo).map((p) => p.nombre);
-    const texto = nombres.length
-      ? `Hola ${datos.marca}, me probé en el probador: ${nombres.join(", ")}. ¿Me pasan precio y talles?`
-      : `Hola ${datos.marca}, estuve mirando el probador. ¿Me cuentan qué tienen disponible?`;
-    $("la-quiero").href = `${datos.whatsapp}?text=${encodeURIComponent(texto)}`;
-    $("la-quiero").textContent = nombres.length ? "Lo quiero: consultar por WhatsApp" : "Consultar por WhatsApp";
+    // El pedido nombra solo prendas reales de la tienda, nunca las de ejemplo.
+    // Pasa por /ir/whatsapp, que anota el clic (sin datos de la persona) y arma el mensaje.
+    const reales = ids.filter((id) => !prendaPorId[id].ejemplo);
+    const texto = `Hola ${datos.marca}, estuve mirando el probador. ¿Me cuentan qué tienen disponible?`;
+    $("la-quiero").href = reales.length ? `/ir/whatsapp/${reales.join(",")}` : `${datos.whatsapp}?text=${encodeURIComponent(texto)}`;
+    $("la-quiero").textContent = reales.length ? "Pedir por WhatsApp" : "Consultar por WhatsApp";
   }
 
   function ver(url, generada) {

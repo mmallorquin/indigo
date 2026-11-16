@@ -4,7 +4,8 @@ Variables de entorno:
 - APP_PASSWORD (obligatoria): contraseña para entrar. Sin ella la app no procesa nada.
 - ANTHROPIC_API_KEY / ANTHROPIC_CHAT_MODEL: el modelo que usa el agente.
 - KEY_VAULT_URL (en Azure): de ahí salen ANTHROPIC_API_KEY y APP_PASSWORD (ver secretos.py).
-- Rutas sin contraseña: /salud, /static y el probador público (/probador, /probador/probar y sus imágenes).
+- Rutas sin contraseña: /salud, /static, /tienda, /ir/whatsapp/<id> y el probador público (/probador,
+  /probador/probar y sus imágenes).
 - FLUX_ENDPOINT: recurso de IA de Azure que genera las fotos del probador. Sin esto, el probador queda en pausa.
 - PROBADOR_IA=0 lo apaga sin desplegar. PROBADOR_TOPE_DIA y PROBADOR_TOPE_IP limitan el gasto (40 y 8).
 - AZURE_STORAGE_ACCOUNT (opcional): si está, guarda fotos y fichas en Blob Storage.
@@ -14,12 +15,15 @@ Variables de entorno:
 import asyncio
 import hashlib
 import json
+import logging
 import os
+import re
 import secrets
 import sys
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
@@ -183,6 +187,38 @@ async def tienda(request: Request, tipo: str = ""):
         {"prendas": prendas, "pestanas": pestanas, "tipo": tipo, "pb_tipos": pb.PESTANAS,
          "son_ejemplos": bool(todas) and bool(todas[0].get("ejemplo"))},
     )
+
+
+# Clics a WhatsApp: se anotan en el log sin ningún dato de la persona (ni IP, ni teléfono).
+clics = logging.getLogger("indigo.clics")
+clics.setLevel(logging.INFO)
+clics.addHandler(logging.StreamHandler())  # uvicorn solo muestra sus propios logs
+PIEZA = re.compile(r"IND(-[A-Za-z0-9]+){2,6}")  # código de una pieza de la fábrica: IND-<sku>-<pieza>
+
+
+@app.get("/ir/whatsapp/{ids}")
+async def ir_whatsapp(ids: str, pieza: str = ""):
+    """Anota el clic y lleva al WhatsApp de la tienda con el mensaje ya escrito.
+
+    `ids` es una prenda o varias separadas por coma (el conjunto del probador). `pieza` es opcional:
+    el código de la publicación de donde vino la clienta. Si viene mal escrito se ignora y no se anota.
+    """
+    catalogo = {p["id"]: p for p in await run_in_threadpool(pb.prendas, almacen)}
+    pedidas = list(dict.fromkeys(ids.split(",")))
+    if len(pedidas) > 4 or any(i not in catalogo for i in pedidas):
+        raise HTTPException(404, "No existe esa prenda")
+    pieza = pieza if len(pieza) <= 40 and PIEZA.fullmatch(pieza) else ""
+    # El mensaje nombra solo prendas reales de la tienda, nunca las de ejemplo.
+    nombres = [catalogo[i]["nombre"] for i in pedidas if not catalogo[i].get("ejemplo")]
+    if nombres:
+        pedido = f"me interesa{'n' if len(nombres) > 1 else ''} {', '.join(nombres)}. ¿Tienen en mi talle?"
+    else:
+        pedido = "estuve mirando la tienda. ¿Me cuentan qué tienen disponible?"
+    mensaje = f"Hola, vengo por {pieza}. {pedido[0].upper()}{pedido[1:]}" if pieza else f"Hola Indigo, {pedido}"
+    clics.info("clic_whatsapp fecha=%s prendas=%s pieza=%s", datetime.now(timezone.utc).isoformat(timespec="seconds"),
+               ",".join(pedidas), pieza or "-")
+    return RedirectResponse(f"{MARCA['contacto']['whatsapp_url']}?text={quote(mensaje)}", status_code=302,
+                            headers={"Cache-Control": "no-store"})
 
 
 @app.get("/probador/modelo.jpg")
